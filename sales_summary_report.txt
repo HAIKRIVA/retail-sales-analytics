@@ -1,0 +1,44 @@
+======================================================================
+           ENTERPRISE RETAIL EXECUTIVE PERFORMANCE REPORT           
+======================================================================
+  Total Gross Revenue:       $140,849.38
+  Total Net Profit:          $58,914.36  (Gross Margin: 41.8%)
+  Total Transactions:        1,201
+  Total Units Sold:          2,087
+  Average Order Value (AOV): $117.28
+  Avg Discount Applied:      5.2%
+  Order Return Rate:         12.7%
+  Customer CSAT Rating:      4.64 / 5.0
+  Unique Customer Base:      340
+  Top Category:              Electronics
+  Top Product:               Smartphone
+----------------------------------------------------------------------
+  CATEGORY PERFORMANCE & MARGINS:
+    - Electronics             : Rev $ 64,697.08 | Profit $21,914.34 (33.9% margin)
+    - Home & Kitchen          : Rev $ 27,295.53 | Profit $10,696.33 (39.2% margin)
+    - Beauty & Personal Care  : Rev $ 18,988.83 | Profit $10,746.58 (56.6% margin)
+    - Clothing & Apparel      : Rev $ 17,510.13 | Profit $ 9,566.52 (54.6% margin)
+    - Books & Stationery      : Rev $  7,467.86 | Profit $ 4,038.80 (54.1% margin)
+    - Groceries & Gourmet     : Rev $  4,889.95 | Profit $ 1,951.79 (39.9% margin)
+----------------------------------------------------------------------
+  RFM CUSTOMER SEGMENTS:
+    - Champions             :    0 customers ($      0.00)
+    - Loyal Customers       :    0 customers ($      0.00)
+    - Potential Loyalists   :    1 customers ($    133.55)
+    - At Risk               :  152 customers ($112,996.41)
+    - Lost / Dormant        :  187 customers ($ 27,719.42)
+----------------------------------------------------------------------
+  PAYMENT CHANNEL BREAKDOWN:
+    - Debit Card            : $ 23,210.49  ( 186 orders,  16.5%)
+    - Credit Card           : $ 66,505.39  ( 524 orders,  47.2%)
+    - UPI / Digital Wallet  : $ 37,555.29  ( 362 orders,  26.7%)
+    - Cash                  : $ 13,578.21  ( 129 orders,   9.6%)
+----------------------------------------------------------------------
+  TOP 5 BEST-SELLING PRODUCTS:
+    1. Smartphone                : Rev $ 39,962.68 | Profit $11,863.99 (67 sold)
+    2. Smart Watch               : Rev $ 10,718.35 | Profit $4,063.49 (63 sold)
+    3. Air Fryer                 : Rev $  8,355.05 | Profit $2,850.50 (81 sold)
+    4. Stainless Steel Cookware Set: Rev $  8,076.28 | Profit $3,348.33 (59 sold)
+    5. Organic Perfume           : Rev $  6,373.55 | Profit $3,872.93 (96 sold)
+======================================================================
+Report generated on: 2026-11-02 10:01:46

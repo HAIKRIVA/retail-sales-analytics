@@ -1,0 +1,50 @@
+{
+  "Electronics": {
+    "display_name": "Electronics",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 65000.0,
+    "is_active": true
+  },
+  "Clothing & Apparel": {
+    "display_name": "Clothing & Apparel",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 20000.0,
+    "is_active": true
+  },
+  "Home & Kitchen": {
+    "display_name": "Home & Kitchen",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 30000.0,
+    "is_active": true
+  },
+  "Beauty & Personal Care": {
+    "display_name": "Beauty & Personal Care",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 22000.0,
+    "is_active": true
+  },
+  "Groceries & Gourmet": {
+    "display_name": "Groceries & Gourmet",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 6000.0,
+    "is_active": true
+  },
+  "Books & Stationery": {
+    "display_name": "Books & Stationery",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 9000.0,
+    "is_active": true
+  }
+}

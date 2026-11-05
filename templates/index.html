@@ -1,0 +1,1818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enterprise Retail Intelligence & Sales Dashboard</title>
+  <!-- Chart.js 4.4 -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #0B0F19;
+      --card-bg: #151D2F;
+      --card-border: #232F47;
+      --text: #F8FAFC;
+      --text-muted: #94A3B8;
+      --accent-cyan: #38BDF8;
+      --accent-purple: #A855F7;
+      --accent-green: #34D399;
+      --accent-amber: #FBBF24;
+      --accent-rose: #F43F5E;
+      --primary: #4F46E5;
+      --primary-hover: #4338CA;
+      --table-stripe: rgba(35, 47, 71, 0.4);
+    }
+
+    [data-theme="light"] {
+      --bg: #F1F5F9;
+      --card-bg: #FFFFFF;
+      --card-border: #E2E8F0;
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --accent-cyan: #0284C7;
+      --accent-purple: #9333EA;
+      --accent-green: #059669;
+      --accent-amber: #D97706;
+      --accent-rose: #E11D48;
+      --primary: #4F46E5;
+      --primary-hover: #4338CA;
+      --table-stripe: #F8FAFC;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      transition: background-color 0.2s ease, border-color 0.2s ease;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Top Navigation Header */
+    header {
+      background-color: var(--card-bg);
+      border-bottom: 1px solid var(--card-border);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      padding: 0.75rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 0.85rem;
+    }
+
+    .brand-icon {
+      background: linear-gradient(135deg, var(--accent-cyan), var(--primary));
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      color: #fff;
+      box-shadow: 0 4px 14px rgba(56, 189, 248, 0.3);
+    }
+
+    .brand-title {
+      font-size: 1.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+
+    .brand-title span {
+      color: var(--accent-cyan);
+    }
+
+    .brand-sub {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+      flex-wrap: wrap;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: rgba(52, 211, 153, 0.12);
+      border: 1px solid rgba(52, 211, 153, 0.35);
+      color: var(--accent-green);
+      padding: 0.35rem 0.75rem;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .badge-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background-color: var(--accent-green);
+      box-shadow: 0 0 8px var(--accent-green);
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      padding: 0.5rem 0.9rem;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s ease;
+      text-decoration: none;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+    }
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+    }
+
+    .btn-simulate {
+      background: linear-gradient(135deg, #10B981, #059669);
+      color: #fff;
+    }
+    .btn-simulate:hover {
+      background: linear-gradient(135deg, #059669, #047857);
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.4);
+    }
+
+    .btn-config {
+      background: linear-gradient(135deg, #A855F7, #7C3AED);
+      color: #fff;
+    }
+    .btn-config:hover {
+      background: linear-gradient(135deg, #9333EA, #6D28D9);
+      box-shadow: 0 4px 12px rgba(168, 85, 247, 0.35);
+    }
+
+    .btn-secondary {
+      background: var(--card-bg);
+      color: var(--text);
+      border: 1px solid var(--card-border);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.05);
+      border-color: var(--text-muted);
+    }
+
+    /* Tab Navigation */
+    .tab-bar {
+      background: var(--card-bg);
+      border-bottom: 1px solid var(--card-border);
+      padding: 0 2rem;
+      display: flex;
+      gap: 1.5rem;
+      overflow-x: auto;
+    }
+
+    .tab-btn {
+      background: none;
+      border: none;
+      color: var(--text-muted);
+      padding: 0.85rem 0.25rem;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      position: relative;
+      white-space: nowrap;
+    }
+    .tab-btn:hover {
+      color: var(--text);
+    }
+    .tab-btn.active {
+      color: var(--accent-cyan);
+    }
+    .tab-btn.active::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0;
+      width: 100%;
+      height: 2.5px;
+      background: var(--accent-cyan);
+      border-radius: 2px 2px 0 0;
+    }
+
+    /* Main Container */
+    main {
+      flex: 1;
+      padding: 1.5rem 2rem;
+      max-width: 1680px;
+      margin: 0 auto;
+      width: 100%;
+    }
+
+    /* Filter Bar */
+    .filter-bar {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .filter-group {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      flex-wrap: wrap;
+    }
+
+    .filter-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+
+    .filter-item label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .filter-select {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 0.45rem 0.8rem;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      outline: none;
+      min-width: 140px;
+      cursor: pointer;
+    }
+    .filter-select:focus {
+      border-color: var(--accent-cyan);
+    }
+
+    /* Executive KPI Grid (5 Cards) */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .kpi-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.15rem;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 3px;
+    }
+    .kpi-blue::before { background: var(--accent-cyan); }
+    .kpi-green::before { background: var(--accent-green); }
+    .kpi-purple::before { background: var(--accent-purple); }
+    .kpi-amber::before { background: var(--accent-amber); }
+    .kpi-rose::before { background: var(--accent-rose); }
+
+    .kpi-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.35rem;
+    }
+
+    .kpi-title {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .kpi-icon {
+      width: 30px;
+      height: 30px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+    }
+    .kpi-blue .kpi-icon { background: rgba(56, 189, 248, 0.15); color: var(--accent-cyan); }
+    .kpi-green .kpi-icon { background: rgba(52, 211, 153, 0.15); color: var(--accent-green); }
+    .kpi-purple .kpi-icon { background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); }
+    .kpi-amber .kpi-icon { background: rgba(251, 191, 36, 0.15); color: var(--accent-amber); }
+    .kpi-rose .kpi-icon { background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); }
+
+    .kpi-value {
+      font-size: 1.55rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.2rem;
+    }
+
+    .kpi-sub {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.35rem;
+    }
+
+    .kpi-delta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.2rem;
+      padding: 1px 5px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 700;
+    }
+    .kpi-delta-up { background: rgba(52, 211, 153, 0.15); color: var(--accent-green); }
+    .kpi-delta-warn { background: rgba(251, 191, 36, 0.15); color: var(--accent-amber); }
+
+    /* Tab Content Layouts */
+    .tab-pane {
+      display: none;
+    }
+    .tab-pane.active {
+      display: block;
+    }
+
+    /* Charts Grid */
+    .charts-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .chart-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      min-height: 330px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .chart-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.85rem;
+    }
+
+    .chart-title {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .chart-body {
+      position: relative;
+      flex: 1;
+      width: 100%;
+      height: 250px;
+    }
+
+    /* Category Management Cards Grid */
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .cat-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      position: relative;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .cat-card.inactive {
+      opacity: 0.6;
+      border-style: dashed;
+    }
+
+    .cat-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .cat-title-group {
+      display: flex;
+      align-items: center;
+      gap: 0.65rem;
+    }
+
+    .cat-badge-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: 8px;
+      background: rgba(168, 85, 247, 0.15);
+      color: var(--accent-purple);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+    }
+
+    .cat-input-title {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 0.35rem 0.6rem;
+      border-radius: 6px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      width: 180px;
+    }
+
+    .toggle-switch {
+      position: relative;
+      display: inline-block;
+      width: 44px;
+      height: 24px;
+    }
+    .toggle-switch input { opacity: 0; width: 0; height: 0; }
+    .slider {
+      position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0;
+      background-color: #334155; transition: .3s; border-radius: 24px;
+    }
+    .slider:before {
+      position: absolute; content: ""; height: 18px; width: 18px; left: 3px; bottom: 3px;
+      background-color: white; transition: .3s; border-radius: 50%;
+    }
+    input:checked + .slider { background-color: var(--accent-green); }
+    input:checked + .slider:before { transform: translateX(20px); }
+
+    .cat-stats-row {
+      display: flex;
+      justify-content: space-between;
+      background: var(--bg);
+      padding: 0.6rem 0.85rem;
+      border-radius: 8px;
+      font-size: 0.75rem;
+    }
+    .cat-stat-item {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .cat-stat-item span:first-child { color: var(--text-muted); font-size: 0.7rem; }
+    .cat-stat-item span:last-child { font-weight: 700; color: var(--text); }
+
+    .cat-controls-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .cat-control-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8rem;
+    }
+
+    .cat-control-label {
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .cat-control-inputs {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .cat-range {
+      width: 110px;
+      accent-color: var(--accent-cyan);
+      cursor: pointer;
+    }
+
+    .cat-num-input {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 0.25rem 0.5rem;
+      border-radius: 6px;
+      width: 65px;
+      text-align: right;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+
+    /* Table Section */
+    .table-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .table-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .search-box {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      color: var(--text);
+      padding: 0.45rem 0.85rem;
+      border-radius: 6px;
+      font-size: 0.82rem;
+      outline: none;
+      min-width: 240px;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      max-height: 500px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.82rem;
+    }
+
+    thead th {
+      background: var(--bg);
+      color: var(--text-muted);
+      padding: 0.75rem 0.85rem;
+      font-weight: 600;
+      border-bottom: 1px solid var(--card-border);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      white-space: nowrap;
+    }
+
+    tbody td {
+      padding: 0.75rem 0.85rem;
+      border-bottom: 1px solid var(--card-border);
+      white-space: nowrap;
+    }
+
+    tbody tr:hover {
+      background: var(--table-stripe);
+    }
+
+    /* Notification Toast */
+    #toast {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      background: #10B981;
+      color: white;
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      font-size: 0.85rem;
+      font-weight: 600;
+      display: none;
+      z-index: 999;
+      animation: fadeIn 0.3s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Modals */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      backdrop-filter: blur(8px);
+      z-index: 100;
+      justify-content: center;
+      align-items: center;
+      padding: 1.5rem;
+    }
+
+    .modal-content {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 14px;
+      max-width: 1050px;
+      width: 100%;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .modal-header {
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-body {
+      padding: 1.5rem;
+      overflow-y: auto;
+      text-align: center;
+    }
+
+    .modal-close {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.25rem;
+      cursor: pointer;
+    }
+    .modal-close:hover { color: var(--text); }
+
+    footer {
+      border-top: 1px solid var(--card-border);
+      padding: 1rem 2rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      background: var(--card-bg);
+    }
+  </style>
+</head>
+<body data-theme="dark">
+
+  <!-- Top Navigation -->
+  <header>
+    <div class="brand">
+      <div class="brand-icon">
+        <i class="fa-solid fa-chart-line"></i>
+      </div>
+      <div>
+        <div class="brand-title">Retail<span>Pulse</span> Enterprise</div>
+        <div class="brand-sub">Commercial Analytics, Margins & Editable Category Planning</div>
+      </div>
+    </div>
+
+    <div class="header-actions">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        <span id="record-count-badge">Loaded 1,200 Records</span>
+      </div>
+
+      <button class="btn btn-config" onclick="switchTab('tab-category-editor', document.getElementById('btn-tab-categories'))">
+        <i class="fa-solid fa-sliders"></i> Category Options
+      </button>
+
+      <button class="btn btn-simulate" onclick="simulateLiveSale()">
+        <i class="fa-solid fa-bolt"></i> Simulate Live Sale
+      </button>
+
+      <button class="btn btn-secondary" onclick="toggleTheme()" title="Toggle Dark/Light Mode">
+        <i class="fa-solid fa-circle-half-stroke"></i>
+      </button>
+
+      <button class="btn btn-secondary" onclick="openModal('matplotlib-modal')">
+        <i class="fa-solid fa-image"></i> Matplotlib View
+      </button>
+
+      <button class="btn btn-secondary" onclick="openModal('upload-modal')">
+        <i class="fa-solid fa-upload"></i> Upload CSV
+      </button>
+
+      <a href="/api/export-report" class="btn btn-secondary" download>
+        <i class="fa-solid fa-file-lines"></i> Report (.txt)
+      </a>
+
+      <button class="btn btn-primary" onclick="exportFilteredCSV()">
+        <i class="fa-solid fa-download"></i> Export CSV
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <div class="tab-bar">
+    <button class="tab-btn active" id="btn-tab-overview" onclick="switchTab('tab-overview', this)">
+      <i class="fa-solid fa-gauge-high"></i> Executive Overview
+    </button>
+    <button class="tab-btn" id="btn-tab-categories" onclick="switchTab('tab-category-editor', this)">
+      <i class="fa-solid fa-pen-to-square" style="color: var(--accent-purple);"></i> Edit Categories & Pricing
+    </button>
+    <button class="tab-btn" onclick="switchTab('tab-margins', this)">
+      <i class="fa-solid fa-sack-dollar"></i> Profit & Margins
+    </button>
+    <button class="tab-btn" onclick="switchTab('tab-customers', this)">
+      <i class="fa-solid fa-users-viewfinder"></i> RFM Customers
+    </button>
+    <button class="tab-btn" onclick="switchTab('tab-timing', this)">
+      <i class="fa-solid fa-clock"></i> Shopping Patterns
+    </button>
+    <button class="tab-btn" onclick="switchTab('tab-explorer', this)">
+      <i class="fa-solid fa-table"></i> Data Explorer
+    </button>
+  </div>
+
+  <main>
+    <!-- Filter Controls Bar -->
+    <div class="filter-bar">
+      <div class="filter-group">
+        <div class="filter-item">
+          <label><i class="fa-solid fa-filter"></i> Category</label>
+          <select id="filter-category" class="filter-select" onchange="fetchData()">
+            <option value="All">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Clothing & Apparel">Clothing & Apparel</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+            <option value="Beauty & Personal Care">Beauty & Personal Care</option>
+            <option value="Groceries & Gourmet">Groceries & Gourmet</option>
+            <option value="Books & Stationery">Books & Stationery</option>
+          </select>
+        </div>
+
+        <div class="filter-item">
+          <label><i class="fa-solid fa-city"></i> City / Region</label>
+          <select id="filter-city" class="filter-select" onchange="fetchData()">
+            <option value="All">All Cities</option>
+            <option value="New York">New York</option>
+            <option value="Los Angeles">Los Angeles</option>
+            <option value="Chicago">Chicago</option>
+            <option value="Houston">Houston</option>
+            <option value="San Francisco">San Francisco</option>
+            <option value="Miami">Miami</option>
+            <option value="Seattle">Seattle</option>
+            <option value="Austin">Austin</option>
+          </select>
+        </div>
+
+        <div class="filter-item">
+          <label><i class="fa-solid fa-calendar"></i> Period</label>
+          <select id="filter-period" class="filter-select" onchange="fetchData()">
+            <option value="All">Full Year 2025</option>
+            <option value="Q1">Q1 (Jan - Mar)</option>
+            <option value="Q2">Q2 (Apr - Jun)</option>
+            <option value="Q3">Q3 (Jul - Sep)</option>
+            <option value="Q4">Q4 (Oct - Dec)</option>
+          </select>
+        </div>
+      </div>
+
+      <button class="btn btn-secondary" onclick="resetFilters()">
+        <i class="fa-solid fa-rotate-left"></i> Reset Filters
+      </button>
+    </div>
+
+    <!-- Executive KPI Grid (5 Enterprise Cards) -->
+    <div class="kpi-grid">
+      <div class="kpi-card kpi-blue">
+        <div class="kpi-header">
+          <span class="kpi-title">Gross Revenue</span>
+          <div class="kpi-icon"><i class="fa-solid fa-dollar-sign"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-revenue">$0.00</div>
+        <div class="kpi-sub">
+          <span class="kpi-delta kpi-delta-up"><i class="fa-solid fa-arrow-trend-up"></i> Live Model</span>
+          <span id="kpi-units">0 units sold</span>
+        </div>
+      </div>
+
+      <div class="kpi-card kpi-green">
+        <div class="kpi-header">
+          <span class="kpi-title">Net Profit</span>
+          <div class="kpi-icon"><i class="fa-solid fa-sack-dollar"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-profit">$0.00</div>
+        <div class="kpi-sub">
+          <span class="kpi-delta kpi-delta-up" id="kpi-margin-badge">0% Margin</span>
+          <span id="kpi-discount-sub">Avg Disc: 0%</span>
+        </div>
+      </div>
+
+      <div class="kpi-card kpi-purple">
+        <div class="kpi-header">
+          <span class="kpi-title">Avg Order Value (AOV)</span>
+          <div class="kpi-icon"><i class="fa-solid fa-receipt"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-aov">$0.00</div>
+        <div class="kpi-sub">
+          <span id="kpi-transactions-count">0 Transactions</span>
+        </div>
+      </div>
+
+      <div class="kpi-card kpi-amber">
+        <div class="kpi-header">
+          <span class="kpi-title">Customer CSAT</span>
+          <div class="kpi-icon"><i class="fa-solid fa-star"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-rating">0.0 / 5.0</div>
+        <div class="kpi-sub">
+          <span id="kpi-return-rate" style="color: var(--accent-rose); font-weight: 600;">Return: 0%</span>
+          <span id="kpi-customers-count">0 Unique</span>
+        </div>
+      </div>
+
+      <div class="kpi-card kpi-rose">
+        <div class="kpi-header">
+          <span class="kpi-title">Top Category</span>
+          <div class="kpi-icon"><i class="fa-solid fa-trophy"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-top-category" style="font-size: 1.25rem;">-</div>
+        <div class="kpi-sub" id="kpi-top-product">Top Prod: -</div>
+      </div>
+    </div>
+
+    <!-- TAB: CATEGORY EDITING & SCENARIO PLANNING -->
+    <div id="tab-category-editor" class="tab-pane">
+      <div class="table-card" style="margin-bottom: 1.25rem;">
+        <div class="table-header">
+          <div>
+            <div class="chart-title"><i class="fa-solid fa-sliders" style="color: var(--accent-purple);"></i> Editable Category Options & Pricing Strategy</div>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-top: 4px;">
+              Adjust price markups, supplier costs, discounts, revenue quotas, or toggle active status. All changes <strong>instantly recalculate the entire dashboard</strong> and Matplotlib charts.
+            </p>
+          </div>
+          <div style="display: flex; gap: 0.65rem; flex-wrap: wrap;">
+            <button class="btn btn-secondary" onclick="applyPreset('inflation')"><i class="fa-solid fa-arrow-trend-up"></i> +10% Price Inflation</button>
+            <button class="btn btn-secondary" onclick="applyPreset('discount')"><i class="fa-solid fa-tags"></i> 10% Holiday Discount</button>
+            <button class="btn btn-secondary" onclick="resetCategoryConfig()"><i class="fa-solid fa-rotate-left"></i> Reset Defaults</button>
+            <button class="btn btn-primary" onclick="saveCategoryConfig()"><i class="fa-solid fa-floppy-disk"></i> Apply & Save to Dashboard</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Category Cards Grid -->
+      <div class="cat-grid" id="cat-cards-container">
+        <!-- Rendered dynamically via JavaScript -->
+        <div style="color: var(--text-muted); padding: 1.5rem;">Loading editable category configurations...</div>
+      </div>
+    </div>
+
+    <!-- TAB 1: EXECUTIVE OVERVIEW -->
+    <div id="tab-overview" class="tab-pane active">
+      <div class="charts-grid">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-chart-line" style="color: var(--accent-cyan);"></i> Revenue Trend vs Monthly Target Benchmark</div>
+            <button class="btn btn-secondary" onclick="downloadChart('monthlyChart', 'Monthly_Trend.png')" style="padding: 2px 8px; font-size: 0.75rem;"><i class="fa-solid fa-camera"></i></button>
+          </div>
+          <div class="chart-body"><canvas id="monthlyChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-chart-pie" style="color: var(--accent-purple);"></i> Payment Channels Market Share</div>
+            <button class="btn btn-secondary" onclick="downloadChart('paymentChart', 'Payment_Share.png')" style="padding: 2px 8px; font-size: 0.75rem;"><i class="fa-solid fa-camera"></i></button>
+          </div>
+          <div class="chart-body"><canvas id="paymentChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-city" style="color: var(--accent-green);"></i> Regional Metropolitan Sales</div>
+            <button class="btn btn-secondary" onclick="downloadChart('cityChart', 'City_Sales.png')" style="padding: 2px 8px; font-size: 0.75rem;"><i class="fa-solid fa-camera"></i></button>
+          </div>
+          <div class="chart-body"><canvas id="cityChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-medal" style="color: var(--accent-amber);"></i> Top 5 Revenue-Generating Products</div>
+            <button class="btn btn-secondary" onclick="downloadChart('topProductsChart', 'Top_Products.png')" style="padding: 2px 8px; font-size: 0.75rem;"><i class="fa-solid fa-camera"></i></button>
+          </div>
+          <div class="chart-body"><canvas id="topProductsChart"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: PROFIT & MARGINS -->
+    <div id="tab-margins" class="tab-pane">
+      <div class="charts-grid">
+        <div class="chart-card" style="grid-column: span 2;">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-scale-balanced" style="color: var(--accent-green);"></i> Category Revenue vs. Net Profit Comparison</div>
+            <button class="btn btn-secondary" onclick="downloadChart('profitChart', 'Category_Profit.png')" style="padding: 2px 8px; font-size: 0.75rem;"><i class="fa-solid fa-camera"></i></button>
+          </div>
+          <div class="chart-body" style="height: 290px;"><canvas id="profitChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-percent" style="color: var(--accent-amber);"></i> Category Profit Margin %</div>
+          </div>
+          <div class="chart-body"><canvas id="marginChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-truck-ramp-box" style="color: var(--accent-rose);"></i> Fulfillment & Order Status Distribution</div>
+          </div>
+          <div class="chart-body"><canvas id="statusChart"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: RFM CUSTOMER INTELLIGENCE -->
+    <div id="tab-customers" class="tab-pane">
+      <div class="charts-grid">
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-users-between-lines" style="color: var(--accent-purple);"></i> Customer RFM Segmentation Breakdown</div>
+            <button class="btn btn-secondary" onclick="downloadChart('rfmChart', 'RFM_Segments.png')" style="padding: 2px 8px; font-size: 0.75rem;"><i class="fa-solid fa-camera"></i></button>
+          </div>
+          <div class="chart-body"><canvas id="rfmChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-coins" style="color: var(--accent-cyan);"></i> RFM Segment Revenue Contribution</div>
+          </div>
+          <div class="chart-body"><canvas id="rfmRevChart"></canvas></div>
+        </div>
+
+        <div class="chart-card" style="grid-column: span 2;">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-user-group" style="color: var(--accent-cyan);"></i> Customer Demographics by Age Group & Volume</div>
+          </div>
+          <div class="chart-body" style="height: 280px;"><canvas id="ageChart"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 4: SHOPPING PATTERNS & TIMING -->
+    <div id="tab-timing" class="tab-pane">
+      <div class="charts-grid">
+        <div class="chart-card" style="grid-column: span 2;">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-calendar-week" style="color: var(--accent-amber);"></i> Day-of-Week Shopping Heat (Mon - Sun)</div>
+            <button class="btn btn-secondary" onclick="downloadChart('dowChart', 'Day_Of_Week.png')" style="padding: 2px 8px; font-size: 0.75rem;"><i class="fa-solid fa-camera"></i></button>
+          </div>
+          <div class="chart-body" style="height: 290px;"><canvas id="dowChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <div class="chart-title"><i class="fa-solid fa-arrow-trend-up" style="color: var(--accent-green);"></i> Month-over-Month (MoM) Growth %</div>
+          </div>
+          <div class="chart-body"><canvas id="momChart"></canvas></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 5: DATA EXPLORER & LIVE TABLE -->
+    <div id="tab-explorer" class="tab-pane">
+      <div class="table-card">
+        <div class="table-header">
+          <div class="chart-title"><i class="fa-solid fa-database" style="color: var(--accent-cyan);"></i> Live Retail Sales Transaction Ledger</div>
+          <div style="display: flex; gap: 0.75rem; align-items: center;">
+            <input type="text" id="tableSearch" class="search-box" placeholder="Search by Product, City, Txn ID..." onkeyup="filterTableLive()">
+            <button class="btn btn-primary" onclick="exportFilteredCSV()"><i class="fa-solid fa-file-csv"></i> Download CSV</button>
+          </div>
+        </div>
+        <div class="table-container">
+          <table id="transactionsTable">
+            <thead>
+              <tr>
+                <th>Txn ID</th>
+                <th>Date & Time</th>
+                <th>Customer</th>
+                <th>City</th>
+                <th>Category</th>
+                <th>Product</th>
+                <th>Qty</th>
+                <th>Unit Price</th>
+                <th>Discount</th>
+                <th>Total ($)</th>
+                <th>Net Profit ($)</th>
+                <th>Status</th>
+                <th>Rating</th>
+              </tr>
+            </thead>
+            <tbody id="transactions-tbody">
+              <tr><td colspan="13" style="text-align: center; color: var(--text-muted);">Loading transactions...</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Live Simulation Toast -->
+  <div id="toast">
+    <i class="fa-solid fa-circle-check"></i> <span id="toast-msg">Updated!</span>
+  </div>
+
+  <!-- Matplotlib Preview Modal -->
+  <div id="matplotlib-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="chart-title"><i class="fa-solid fa-image"></i> Publication-Quality Matplotlib Dashboard (300 DPI)</div>
+        <button class="modal-close" onclick="closeModal('matplotlib-modal')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img id="matplotlib-img" src="/static/retail_sales_dashboard.png?v=3" alt="Matplotlib Dashboard" style="width: 100%; border-radius: 8px; box-shadow: 0 4px 20px rgba(0,0,0,0.5);">
+      </div>
+    </div>
+  </div>
+
+  <!-- Upload CSV Modal -->
+  <div id="upload-modal" class="modal-overlay">
+    <div class="modal-content" style="max-width: 500px;">
+      <div class="modal-header">
+        <div class="chart-title"><i class="fa-solid fa-upload"></i> Upload Custom Retail Sales CSV</div>
+        <button class="modal-close" onclick="closeModal('upload-modal')">&times;</button>
+      </div>
+      <div class="modal-body" style="text-align: left;">
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+          Upload your retail CSV file with standard columns (<code>Transaction_ID, Date, Product_Category, Total_Amount, etc.</code>).
+        </p>
+        <form id="uploadForm" enctype="multipart/form-data">
+          <input type="file" id="csvFileInput" name="file" accept=".csv" required style="margin-bottom: 1rem; width: 100%; color: var(--text);">
+          <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
+            <button type="button" class="btn btn-secondary" onclick="closeModal('upload-modal')">Cancel</button>
+            <button type="submit" class="btn btn-primary">Upload & Process</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Enterprise Retail Intelligence Dashboard &bull; Python 3, Flask, Chart.js & Matplotlib &bull; 2026
+  </footer>
+
+  <!-- Application Logic -->
+  <script>
+    let charts = {};
+    let allTransactions = [];
+    let currentCategoryConfig = {};
+    let currentCategoryStats = {};
+
+    const CATEGORY_ICONS = {
+      "Electronics": "fa-laptop",
+      "Clothing & Apparel": "fa-shirt",
+      "Home & Kitchen": "fa-blender",
+      "Beauty & Personal Care": "fa-spa",
+      "Groceries & Gourmet": "fa-apple-whole",
+      "Books & Stationery": "fa-book"
+    };
+
+    function switchTab(tabId, el) {
+      document.querySelectorAll('.tab-pane').forEach(p => p.classList.remove('active'));
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.getElementById(tabId).classList.add('active');
+      if (el) el.classList.add('active');
+      window.dispatchEvent(new Event('resize'));
+    }
+
+    function toggleTheme() {
+      const current = document.body.getAttribute('data-theme');
+      const next = current === 'dark' ? 'light' : 'dark';
+      document.body.setAttribute('data-theme', next);
+      Chart.defaults.color = next === 'dark' ? '#94A3B8' : '#64748B';
+      fetchData();
+    }
+
+    function openModal(id) { 
+      if (id === 'matplotlib-modal') {
+        // Cache bust to ensure updated image is displayed
+        document.getElementById('matplotlib-img').src = '/static/retail_sales_dashboard.png?t=' + new Date().getTime();
+      }
+      document.getElementById(id).style.display = 'flex'; 
+    }
+    function closeModal(id) { document.getElementById(id).style.display = 'none'; }
+
+    function resetFilters() {
+      document.getElementById('filter-category').value = 'All';
+      document.getElementById('filter-city').value = 'All';
+      document.getElementById('filter-period').value = 'All';
+      fetchData();
+    }
+
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-msg').innerText = msg;
+      toast.style.display = 'block';
+      setTimeout(() => { toast.style.display = 'none'; }, 3500);
+    }
+
+    async function simulateLiveSale() {
+      try {
+        const res = await fetch('/api/simulate-sale', { method: 'POST' });
+        const result = await res.json();
+        if (result.success) {
+          const t = result.transaction;
+          showToast(`⚡ Live Sale: ${t.Product_Name} ($${t.Total_Amount.toFixed(2)}) in ${t.City}`);
+          fetchData();
+          fetchCategoryConfig();
+        }
+      } catch (e) {
+        console.error("Simulation error:", e);
+      }
+    }
+
+    function downloadChart(canvasId, filename) {
+      const canvas = document.getElementById(canvasId);
+      const link = document.createElement('a');
+      link.download = filename;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    }
+
+    function exportFilteredCSV() {
+      const cat = document.getElementById('filter-category').value;
+      const city = document.getElementById('filter-city').value;
+      window.location.href = `/api/export-csv?category=${encodeURIComponent(cat)}&city=${encodeURIComponent(city)}`;
+    }
+
+    // Chart.js Theme Defaults
+    Chart.defaults.font.family = "'Inter', sans-serif";
+    Chart.defaults.plugins.tooltip.backgroundColor = '#151D2F';
+    Chart.defaults.plugins.tooltip.borderColor = '#232F47';
+    Chart.defaults.plugins.tooltip.borderWidth = 1;
+    Chart.defaults.plugins.tooltip.titleColor = '#F8FAFC';
+    Chart.defaults.plugins.tooltip.bodyColor = '#CBD5E1';
+
+    async function fetchData() {
+      const cat = document.getElementById('filter-category').value;
+      const city = document.getElementById('filter-city').value;
+      const period = document.getElementById('filter-period').value;
+
+      try {
+        const res = await fetch(`/api/metrics?category=${encodeURIComponent(cat)}&city=${encodeURIComponent(city)}&period=${encodeURIComponent(period)}`);
+        const data = await res.json();
+        updateKPIs(data.kpis);
+        renderCharts(data);
+        allTransactions = data.recent_transactions;
+        renderTransactions(allTransactions);
+        document.getElementById('record-count-badge').innerText = `Active ${data.kpis.total_transactions.toLocaleString()} Records`;
+      } catch (err) {
+        console.error("Error fetching data:", err);
+      }
+    }
+
+    async function fetchCategoryConfig() {
+      try {
+        const res = await fetch('/api/categories/config');
+        const data = await res.json();
+        currentCategoryConfig = data.config;
+        currentCategoryStats = data.stats;
+        renderCategoryCards();
+      } catch (err) {
+        console.error("Error loading category config:", err);
+      }
+    }
+
+    function renderCategoryCards() {
+      const container = document.getElementById('cat-cards-container');
+      container.innerHTML = '';
+
+      for (const [catName, cfg] of Object.entries(currentCategoryConfig)) {
+        const stats = currentCategoryStats[catName] || { revenue: 0, profit: 0, margin_pct: 0, units: 0 };
+        const icon = CATEGORY_ICONS[catName] || 'fa-tag';
+        const isActive = cfg.is_active !== false;
+
+        const card = document.createElement('div');
+        card.className = `cat-card ${isActive ? '' : 'inactive'}`;
+        card.id = `card-cat-${catName.replace(/[^a-zA-Z0-9]/g, '_')}`;
+
+        card.innerHTML = `
+          <div class="cat-card-header">
+            <div class="cat-title-group">
+              <div class="cat-badge-icon"><i class="fa-solid ${icon}"></i></div>
+              <div>
+                <input type="text" class="cat-input-title" id="name-${catName}" value="${cfg.display_name || catName}" title="Edit Display Name">
+                <div style="font-size: 0.68rem; color: var(--text-muted); margin-top: 2px;">Key: ${catName}</div>
+              </div>
+            </div>
+            <label class="toggle-switch" title="Toggle Category Active / Inactive">
+              <input type="checkbox" id="active-${catName}" ${isActive ? 'checked' : ''} onchange="toggleCategoryActive('${catName}', this.checked)">
+              <span class="slider"></span>
+            </label>
+          </div>
+
+          <div class="cat-stats-row">
+            <div class="cat-stat-item">
+              <span>Current Rev</span>
+              <span>$${stats.revenue.toLocaleString()}</span>
+            </div>
+            <div class="cat-stat-item">
+              <span>Net Profit</span>
+              <span style="color: var(--accent-green);">$${stats.profit.toLocaleString()}</span>
+            </div>
+            <div class="cat-stat-item">
+              <span>Margin</span>
+              <span style="color: var(--accent-amber);">${stats.margin_pct}%</span>
+            </div>
+            <div class="cat-stat-item">
+              <span>Units</span>
+              <span>${stats.units}</span>
+            </div>
+          </div>
+
+          <div class="cat-controls-list">
+            <div class="cat-control-row">
+              <span class="cat-control-label"><i class="fa-solid fa-tag"></i> Price Markup / Markdown</span>
+              <div class="cat-control-inputs">
+                <input type="range" class="cat-range" min="-30" max="50" step="1" value="${cfg.price_markup_pct || 0}" 
+                  oninput="syncInput('${catName}', 'price', this.value)">
+                <input type="number" class="cat-num-input" id="price-num-${catName}" value="${cfg.price_markup_pct || 0}" 
+                  onchange="syncRange('${catName}', 'price', this.value)"> <span style="font-size: 0.75rem;">%</span>
+              </div>
+            </div>
+
+            <div class="cat-control-row">
+              <span class="cat-control-label"><i class="fa-solid fa-coins"></i> Supplier Cost Adjustment</span>
+              <div class="cat-control-inputs">
+                <input type="range" class="cat-range" min="-30" max="50" step="1" value="${cfg.cost_markup_pct || 0}" 
+                  oninput="syncInput('${catName}', 'cost', this.value)">
+                <input type="number" class="cat-num-input" id="cost-num-${catName}" value="${cfg.cost_markup_pct || 0}" 
+                  onchange="syncRange('${catName}', 'cost', this.value)"> <span style="font-size: 0.75rem;">%</span>
+              </div>
+            </div>
+
+            <div class="cat-control-row">
+              <span class="cat-control-label"><i class="fa-solid fa-percent"></i> Promo Discount Override</span>
+              <div class="cat-control-inputs">
+                <input type="range" class="cat-range" min="0" max="30" step="1" value="${cfg.discount_pct || 5}" 
+                  oninput="syncInput('${catName}', 'disc', this.value)">
+                <input type="number" class="cat-num-input" id="disc-num-${catName}" value="${cfg.discount_pct || 5}" 
+                  onchange="syncRange('${catName}', 'disc', this.value)"> <span style="font-size: 0.75rem;">%</span>
+              </div>
+            </div>
+
+            <div class="cat-control-row">
+              <span class="cat-control-label"><i class="fa-solid fa-bullseye"></i> Target Revenue Quota ($)</span>
+              <div class="cat-control-inputs">
+                <input type="number" class="cat-num-input" style="width: 100px;" id="target-num-${catName}" value="${cfg.target_revenue || 10000}" step="1000">
+              </div>
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      }
+    }
+
+    function syncInput(cat, type, val) {
+      document.getElementById(`${type}-num-${cat}`).value = val;
+    }
+
+    function syncRange(cat, type, val) {
+      const inputs = document.querySelectorAll(`#card-cat-${cat.replace(/[^a-zA-Z0-9]/g, '_')} input[type="range"]`);
+      // Find matching range
+      if (type === 'price') inputs[0].value = val;
+      if (type === 'cost') inputs[1].value = val;
+      if (type === 'disc') inputs[2].value = val;
+    }
+
+    function toggleCategoryActive(cat, isChecked) {
+      const card = document.getElementById(`card-cat-${cat.replace(/[^a-zA-Z0-9]/g, '_')}`);
+      if (isChecked) {
+        card.classList.remove('inactive');
+      } else {
+        card.classList.add('inactive');
+      }
+    }
+
+    async function saveCategoryConfig() {
+      const updatedConfig = {};
+
+      for (const catName of Object.keys(currentCategoryConfig)) {
+        const dispName = document.getElementById(`name-${catName}`).value.trim() || catName;
+        const isActive = document.getElementById(`active-${catName}`).checked;
+        const priceMarkup = parseFloat(document.getElementById(`price-num-${catName}`).value) || 0.0;
+        const costMarkup = parseFloat(document.getElementById(`cost-num-${catName}`).value) || 0.0;
+        const discountPct = parseFloat(document.getElementById(`disc-num-${catName}`).value) || 0.0;
+        const targetRev = parseFloat(document.getElementById(`target-num-${catName}`).value) || 10000.0;
+
+        updatedConfig[catName] = {
+          display_name: dispName,
+          price_markup_pct: priceMarkup,
+          cost_markup_pct: costMarkup,
+          discount_pct: discountPct,
+          target_revenue: targetRev,
+          is_active: isActive
+        };
+      }
+
+      try {
+        const res = await fetch('/api/categories/config', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(updatedConfig)
+        });
+        const result = await res.json();
+        if (result.success) {
+          showToast('✨ Category options saved! Dashboard recalculated.');
+          fetchData();
+          fetchCategoryConfig();
+        } else {
+          alert('Error saving configuration: ' + result.error);
+        }
+      } catch (err) {
+        console.error("Save config error:", err);
+      }
+    }
+
+    async function resetCategoryConfig() {
+      if (!confirm("Reset all category prices, costs, and discounts back to default baseline?")) return;
+      try {
+        const res = await fetch('/api/categories/reset', { method: 'POST' });
+        const result = await res.json();
+        if (result.success) {
+          showToast('🔄 Category options reset to baseline.');
+          fetchData();
+          fetchCategoryConfig();
+        }
+      } catch (err) {
+        console.error("Reset config error:", err);
+      }
+    }
+
+    function applyPreset(preset) {
+      for (const catName of Object.keys(currentCategoryConfig)) {
+        if (preset === 'inflation') {
+          document.getElementById(`price-num-${catName}`).value = 10;
+          syncRange(catName, 'price', 10);
+        } else if (preset === 'discount') {
+          document.getElementById(`disc-num-${catName}`).value = 10;
+          syncRange(catName, 'disc', 10);
+        }
+      }
+      showToast(`Preset "${preset}" applied to fields. Click "Apply & Save" to recalculate.`);
+    }
+
+    function updateKPIs(kpis) {
+      document.getElementById('kpi-revenue').innerText = `$${kpis.total_revenue.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+      document.getElementById('kpi-units').innerText = `${kpis.total_units.toLocaleString()} units sold`;
+      document.getElementById('kpi-profit').innerText = `$${kpis.total_profit.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+      document.getElementById('kpi-margin-badge').innerText = `${kpis.profit_margin_pct}% Margin`;
+      document.getElementById('kpi-discount-sub').innerText = `Avg Disc: ${kpis.avg_discount_pct}%`;
+      document.getElementById('kpi-aov').innerText = `$${kpis.avg_order_value.toFixed(2)}`;
+      document.getElementById('kpi-transactions-count').innerText = `${kpis.total_transactions.toLocaleString()} Orders`;
+      document.getElementById('kpi-rating').innerText = `${kpis.avg_rating} / 5.0`;
+      document.getElementById('kpi-return-rate').innerText = `Return: ${kpis.return_rate_pct}%`;
+      document.getElementById('kpi-customers-count').innerText = `${kpis.unique_customers.toLocaleString()} Users`;
+      document.getElementById('kpi-top-category').innerText = kpis.top_category;
+      document.getElementById('kpi-top-product').innerText = `Top: ${kpis.top_product}`;
+    }
+
+    function renderCharts(data) {
+      // 1. Monthly Revenue & Target Benchmark
+      if (charts.monthly) charts.monthly.destroy();
+      const ctxMonthly = document.getElementById('monthlyChart').getContext('2d');
+      charts.monthly = new Chart(ctxMonthly, {
+        type: 'line',
+        data: {
+          labels: data.monthly.months,
+          datasets: [
+            {
+              label: 'Actual Revenue ($)',
+              data: data.monthly.revenues,
+              borderColor: '#38BDF8',
+              backgroundColor: 'rgba(56, 189, 248, 0.15)',
+              borderWidth: 2.5,
+              fill: true,
+              tension: 0.35,
+              pointRadius: 4
+            },
+            {
+              label: 'Target Benchmark ($)',
+              data: data.monthly.targets,
+              borderColor: '#FBBF24',
+              borderDash: [5, 5],
+              borderWidth: 1.8,
+              fill: false,
+              pointRadius: 0
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top', labels: { boxWidth: 12 } } },
+          scales: {
+            x: { grid: { color: 'rgba(35, 47, 71, 0.4)' } },
+            y: { grid: { color: 'rgba(35, 47, 71, 0.4)' }, ticks: { callback: v => '$' + (v/1000).toFixed(0) + 'k' } }
+          }
+        }
+      });
+
+      // 2. Payment Method Share
+      if (charts.payment) charts.payment.destroy();
+      const ctxPay = document.getElementById('paymentChart').getContext('2d');
+      charts.payment = new Chart(ctxPay, {
+        type: 'doughnut',
+        data: {
+          labels: data.payments.methods,
+          datasets: [{
+            data: data.payments.revenues,
+            backgroundColor: ['#38BDF8', '#A855F7', '#FBBF24', '#34D399'],
+            borderWidth: 2,
+            borderColor: '#151D2F'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: '72%',
+          plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 11 } } } }
+        }
+      });
+
+      // 3. City Sales
+      if (charts.city) charts.city.destroy();
+      const ctxCity = document.getElementById('cityChart').getContext('2d');
+      charts.city = new Chart(ctxCity, {
+        type: 'bar',
+        data: {
+          labels: data.cities.cities,
+          datasets: [{
+            label: 'Revenue ($)',
+            data: data.cities.revenues,
+            backgroundColor: '#34D399',
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: 'rgba(35, 47, 71, 0.4)' }, ticks: { callback: v => '$' + (v/1000).toFixed(0) + 'k' } },
+            y: { grid: { display: false } }
+          }
+        }
+      });
+
+      // 4. Top Products
+      if (charts.topProducts) charts.topProducts.destroy();
+      const ctxTop = document.getElementById('topProductsChart').getContext('2d');
+      charts.topProducts = new Chart(ctxTop, {
+        type: 'bar',
+        data: {
+          labels: data.top_products.products.map(p => p.length > 18 ? p.substring(0, 16) + '..' : p),
+          datasets: [{
+            label: 'Revenue ($)',
+            data: data.top_products.revenues,
+            backgroundColor: '#A855F7',
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: 'rgba(35, 47, 71, 0.4)' }, ticks: { callback: v => '$' + (v/1000).toFixed(0) + 'k' } },
+            y: { grid: { display: false } }
+          }
+        }
+      });
+
+      // 5. Profit & Margins Comparison
+      if (charts.profit) charts.profit.destroy();
+      const ctxProf = document.getElementById('profitChart').getContext('2d');
+      charts.profit = new Chart(ctxProf, {
+        type: 'bar',
+        data: {
+          labels: data.categories.categories,
+          datasets: [
+            { label: 'Revenue ($)', data: data.categories.revenues, backgroundColor: '#38BDF8', borderRadius: 4 },
+            { label: 'Net Profit ($)', data: data.categories.profits, backgroundColor: '#34D399', borderRadius: 4 }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { position: 'top' } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { grid: { color: 'rgba(35, 47, 71, 0.4)' }, ticks: { callback: v => '$' + (v/1000).toFixed(0) + 'k' } }
+          }
+        }
+      });
+
+      // 6. Margin % Polar/Bar
+      if (charts.margin) charts.margin.destroy();
+      const ctxMrg = document.getElementById('marginChart').getContext('2d');
+      charts.margin = new Chart(ctxMrg, {
+        type: 'bar',
+        data: {
+          labels: data.categories.categories.map(c => c.split(' ')[0]),
+          datasets: [{
+            label: 'Margin %',
+            data: data.categories.margins,
+            backgroundColor: '#FBBF24',
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { ticks: { callback: v => v + '%' }, grid: { color: 'rgba(35, 47, 71, 0.4)' } }
+          }
+        }
+      });
+
+      // 7. Order Status Fulfillment
+      if (charts.status) charts.status.destroy();
+      const ctxStatus = document.getElementById('statusChart').getContext('2d');
+      charts.status = new Chart(ctxStatus, {
+        type: 'doughnut',
+        data: {
+          labels: data.status_dist.labels,
+          datasets: [{
+            data: data.status_dist.counts,
+            backgroundColor: ['#10B981', '#F43F5E', '#94A3B8'],
+            borderWidth: 2,
+            borderColor: '#151D2F'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: '65%',
+          plugins: { legend: { position: 'bottom' } }
+        }
+      });
+
+      // 8. RFM Segments Count
+      if (charts.rfm) charts.rfm.destroy();
+      const ctxRfm = document.getElementById('rfmChart').getContext('2d');
+      charts.rfm = new Chart(ctxRfm, {
+        type: 'doughnut',
+        data: {
+          labels: data.rfm.labels,
+          datasets: [{
+            data: data.rfm.counts,
+            backgroundColor: ['#38BDF8', '#34D399', '#A855F7', '#FBBF24', '#F43F5E'],
+            borderWidth: 2,
+            borderColor: '#151D2F'
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          cutout: '65%',
+          plugins: { legend: { position: 'bottom' } }
+        }
+      });
+
+      // 9. RFM Revenue Contribution
+      if (charts.rfmRev) charts.rfmRev.destroy();
+      const ctxRfmRev = document.getElementById('rfmRevChart').getContext('2d');
+      charts.rfmRev = new Chart(ctxRfmRev, {
+        type: 'bar',
+        data: {
+          labels: data.rfm.labels,
+          datasets: [{
+            label: 'Segment Spend ($)',
+            data: data.rfm.revenues,
+            backgroundColor: '#A855F7',
+            borderRadius: 4
+          }]
+        },
+        options: {
+          indexAxis: 'y',
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { color: 'rgba(35, 47, 71, 0.4)' }, ticks: { callback: v => '$' + (v/1000).toFixed(0) + 'k' } },
+            y: { grid: { display: false } }
+          }
+        }
+      });
+
+      // 10. Demographics by Age
+      if (charts.age) charts.age.destroy();
+      const ctxAge = document.getElementById('ageChart').getContext('2d');
+      charts.age = new Chart(ctxAge, {
+        type: 'bar',
+        data: {
+          labels: data.age_groups.groups,
+          datasets: [
+            { label: 'Revenue ($)', data: data.age_groups.revenues, backgroundColor: '#38BDF8', borderRadius: 4, yAxisID: 'y' },
+            { label: 'Orders', data: data.age_groups.counts, backgroundColor: '#FBBF24', borderRadius: 4, yAxisID: 'y1' }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: { grid: { display: false } },
+            y: { type: 'linear', position: 'left', grid: { color: 'rgba(35, 47, 71, 0.4)' }, ticks: { callback: v => '$' + (v/1000).toFixed(0) + 'k' } },
+            y1: { type: 'linear', position: 'right', grid: { drawOnChartArea: false } }
+          }
+        }
+      });
+
+      // 11. Day of Week Pattern
+      if (charts.dow) charts.dow.destroy();
+      const ctxDow = document.getElementById('dowChart').getContext('2d');
+      charts.dow = new Chart(ctxDow, {
+        type: 'bar',
+        data: {
+          labels: data.dow.days,
+          datasets: [
+            { label: 'Revenue ($)', data: data.dow.revenues, backgroundColor: '#FBBF24', borderRadius: 4, yAxisID: 'y' },
+            { label: 'Orders', data: data.dow.orders, backgroundColor: '#38BDF8', borderRadius: 4, yAxisID: 'y1' }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            x: { grid: { display: false } },
+            y: { type: 'linear', position: 'left', grid: { color: 'rgba(35, 47, 71, 0.4)' }, ticks: { callback: v => '$' + (v/1000).toFixed(0) + 'k' } },
+            y1: { type: 'linear', position: 'right', grid: { drawOnChartArea: false } }
+          }
+        }
+      });
+
+      // 12. MoM Growth
+      if (charts.mom) charts.mom.destroy();
+      const ctxMom = document.getElementById('momChart').getContext('2d');
+      charts.mom = new Chart(ctxMom, {
+        type: 'line',
+        data: {
+          labels: data.monthly.months,
+          datasets: [{
+            label: 'MoM Growth %',
+            data: data.monthly.mom_growth,
+            borderColor: '#34D399',
+            backgroundColor: 'rgba(52, 211, 153, 0.1)',
+            borderWidth: 2,
+            tension: 0.3,
+            fill: true,
+            pointRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: {
+            x: { grid: { display: false } },
+            y: { ticks: { callback: v => v + '%' }, grid: { color: 'rgba(35, 47, 71, 0.4)' } }
+          }
+        }
+      });
+    }
+
+    function renderTransactions(transactions) {
+      const tbody = document.getElementById('transactions-tbody');
+      if (!transactions || transactions.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="13" style="text-align: center; color: var(--text-muted);">No matching transactions found.</td></tr>';
+        return;
+      }
+      tbody.innerHTML = transactions.map(t => {
+        const statusBadge = t.Order_Status === 'Delivered' 
+          ? '<span style="background: rgba(52, 211, 153, 0.15); color: var(--accent-green); padding: 2px 6px; border-radius: 4px; font-size: 0.72rem; font-weight: 600;">Delivered</span>'
+          : t.Order_Status === 'Returned'
+          ? '<span style="background: rgba(244, 63, 94, 0.15); color: var(--accent-rose); padding: 2px 6px; border-radius: 4px; font-size: 0.72rem; font-weight: 600;">Returned</span>'
+          : '<span style="background: rgba(148, 163, 184, 0.15); color: var(--text-muted); padding: 2px 6px; border-radius: 4px; font-size: 0.72rem; font-weight: 600;">Cancelled</span>';
+
+        return `
+          <tr>
+            <td><code style="color: var(--accent-cyan); font-weight: 600;">${t.Transaction_ID}</code></td>
+            <td>${t.Date_Str} ${t.Time}</td>
+            <td>${t.Customer_ID} (${t.Gender})</td>
+            <td>${t.City}</td>
+            <td><span style="background: rgba(168, 85, 247, 0.15); color: var(--accent-purple); padding: 2px 6px; border-radius: 4px; font-size: 0.72rem;">${t.Product_Category}</span></td>
+            <td>${t.Product_Name}</td>
+            <td>${t.Quantity}</td>
+            <td>$${t.Price_Per_Unit.toFixed(2)}</td>
+            <td>${t.Discount_Pct}%</td>
+            <td style="font-weight: 700;">$${t.Total_Amount.toFixed(2)}</td>
+            <td style="font-weight: 700; color: var(--accent-green);">$${t.Net_Profit.toFixed(2)}</td>
+            <td>${statusBadge}</td>
+            <td>${'★'.repeat(t.Rating)}${'☆'.repeat(5 - t.Rating)}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function filterTableLive() {
+      const q = document.getElementById('tableSearch').value.toLowerCase();
+      const filtered = allTransactions.filter(t => 
+        t.Transaction_ID.toLowerCase().includes(q) ||
+        t.Customer_ID.toLowerCase().includes(q) ||
+        t.Product_Name.toLowerCase().includes(q) ||
+        t.City.toLowerCase().includes(q) ||
+        t.Product_Category.toLowerCase().includes(q)
+      );
+      renderTransactions(filtered);
+    }
+
+    // CSV File Upload
+    document.getElementById('uploadForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const fileInput = document.getElementById('csvFileInput');
+      if (!fileInput.files.length) return;
+
+      const formData = new FormData();
+      formData.append('file', fileInput.files[0]);
+
+      try {
+        const res = await fetch('/api/upload', { method: 'POST', body: formData });
+        const result = await res.json();
+        if (result.success) {
+          alert('Dataset uploaded and processed successfully!');
+          closeModal('upload-modal');
+          fetchData();
+          fetchCategoryConfig();
+        } else {
+          alert('Upload failed: ' + result.error);
+        }
+      } catch (err) {
+        alert('Error uploading file: ' + err);
+      }
+    });
+
+    // Initial load
+    fetchData();
+    fetchCategoryConfig();
+  </script>
+</body>
+</html>

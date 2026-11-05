@@ -1,0 +1,1202 @@
+Transaction_ID,Date,Time,Customer_ID,Gender,Age_Group,City,Product_Category,Product_Name,Quantity,Price_Per_Unit,Cost_Per_Unit,Discount_Pct,Total_Amount,Cost_Total,Net_Profit,Payment_Method,Order_Status,Rating
+TXN-10208,2025-01-01,10:28,CUST-1056,Female,26-35,Seattle,Books & Stationery,Productivity Planner,1,20.75,7.67,0.0,20.75,7.67,13.08,Debit Card,Delivered,5
+TXN-10936,2025-01-02,10:51,CUST-1202,Female,18-25,Seattle,Home & Kitchen,Blender,2,49.82,28.82,0.0,99.64,57.64,42.00,Credit Card,Cancelled,5
+TXN-10998,2025-01-02,11:01,CUST-1271,Male,26-35,San Francisco,Home & Kitchen,Ceramic Dinnerware Set,1,64.58,33.68,0.0,64.58,33.68,30.90,UPI / Digital Wallet,Delivered,5
+TXN-10136,2025-01-02,18:19,CUST-1115,Female,51+,Chicago,Beauty & Personal Care,Moisturizer Cream,1,21.87,7.94,0.0,21.87,7.94,13.93,UPI / Digital Wallet,Delivered,5
+TXN-10506,2025-01-02,20:41,CUST-1233,Male,26-35,Los Angeles,Books & Stationery,Hardcover Journal,3,16.45,5.94,0.0,49.35,17.82,31.53,Credit Card,Delivered,4
+TXN-10231,2025-01-03,10:12,CUST-1197,Male,26-35,New York,Books & Stationery,Calligraphy Pen Set,2,29.01,13.31,5.0,55.12,26.62,28.50,Credit Card,Delivered,5
+TXN-10255,2025-01-03,13:45,CUST-1131,Female,26-35,San Francisco,Clothing & Apparel,Denim Jacket,1,72.92,31.66,15.0,61.98,31.66,30.32,Credit Card,Delivered,5
+TXN-10772,2025-01-03,14:01,CUST-1140,Female,18-25,Los Angeles,Beauty & Personal Care,Electric Toothbrush,2,58.92,27.94,5.0,111.95,55.88,56.07,Credit Card,Delivered,5
+TXN-10591,2025-01-03,14:55,CUST-1223,Male,18-25,Miami,Books & Stationery,Bestseller Fiction Book,1,21.31,10.86,0.0,21.31,10.86,10.45,Credit Card,Cancelled,4
+TXN-11190,2025-01-03,17:36,CUST-1251,Male,18-25,Miami,Electronics,Bluetooth Speaker,1,58.11,31.26,5.0,55.20,31.26,23.94,UPI / Digital Wallet,Delivered,5
+TXN-10883,2025-01-04,10:12,CUST-1260,Female,36-50,Los Angeles,Home & Kitchen,Coffee Maker,1,87.57,48.22,0.0,87.57,48.22,39.35,Debit Card,Delivered,5
+TXN-10590,2025-01-04,11:42,CUST-1250,Female,26-35,San Francisco,Home & Kitchen,Coffee Maker,1,84.80,47.64,15.0,72.08,47.64,24.44,Debit Card,Delivered,5
+TXN-11079,2025-01-04,16:39,CUST-1331,Female,18-25,San Francisco,Electronics,Wireless Headphones,1,118.82,69.88,0.0,118.82,69.88,48.94,UPI / Digital Wallet,Delivered,5
+TXN-10261,2025-01-04,17:39,CUST-1274,Female,36-50,Los Angeles,Electronics,Laptop Stand,1,35.24,16.19,15.0,29.95,16.19,13.76,UPI / Digital Wallet,Delivered,4
+TXN-10557,2025-01-04,17:50,CUST-1137,Male,26-35,San Francisco,Electronics,Wireless Headphones,1,117.23,73.26,5.0,111.37,73.26,38.11,Credit Card,Returned,5
+TXN-10629,2025-01-05,11:06,CUST-1288,Male,26-35,Austin,Home & Kitchen,Blender,1,48.63,27.83,0.0,48.63,27.83,20.80,UPI / Digital Wallet,Cancelled,5
+TXN-10257,2025-01-05,11:22,CUST-1333,Female,36-50,Miami,Beauty & Personal Care,Electric Toothbrush,2,61.94,28.19,20.0,99.10,56.38,42.72,Credit Card,Delivered,5
+TXN-10235,2025-01-05,13:42,CUST-1323,Female,26-35,Los Angeles,Electronics,Laptop Stand,2,35.06,16.12,0.0,70.12,32.24,37.88,Credit Card,Delivered,5
+TXN-11188,2025-01-05,19:09,CUST-1092,Male,18-25,New York,Beauty & Personal Care,Hair Dryer,1,49.41,24.53,20.0,39.53,24.53,15.00,Cash,Delivered,5
+TXN-10447,2025-01-05,19:25,CUST-1199,Male,26-35,Chicago,Home & Kitchen,Stainless Steel Cookware Set,1,135.41,81.55,0.0,135.41,81.55,53.86,Debit Card,Returned,4
+TXN-10696,2025-01-06,12:47,CUST-1302,Female,18-25,New York,Groceries & Gourmet,Green Tea Box,3,14.45,8.14,0.0,43.35,24.42,18.93,Credit Card,Delivered,5
+TXN-10323,2025-01-06,17:40,CUST-1309,Female,36-50,Houston,Beauty & Personal Care,Skincare Serum Set,1,44.30,15.56,0.0,44.30,15.56,28.74,Cash,Cancelled,4
+TXN-10413,2025-01-07,13:22,CUST-1191,Male,26-35,Seattle,Home & Kitchen,Blender,2,51.50,27.31,0.0,103.00,54.62,48.38,Debit Card,Returned,4
+TXN-10593,2025-01-07,18:15,CUST-1257,Female,26-35,Austin,Electronics,Laptop Stand,2,35.92,15.93,0.0,71.84,31.86,39.98,Debit Card,Delivered,5
+TXN-10315,2025-01-07,20:13,CUST-1037,Male,51+,Miami,Books & Stationery,Productivity Planner,1,20.69,7.65,5.0,19.66,7.65,12.01,Credit Card,Delivered,4
+TXN-11186,2025-01-08,11:57,CUST-1125,Female,36-50,New York,Electronics,Wireless Headphones,2,118.89,71.76,5.0,225.89,143.52,82.37,Cash,Cancelled,5
+TXN-10995,2025-01-08,15:48,CUST-1219,Male,51+,San Francisco,Groceries & Gourmet,Organic Olive Oil,2,24.17,14.86,0.0,48.34,29.72,18.62,Credit Card,Cancelled,5
+TXN-10015,2025-01-08,21:59,CUST-1277,Female,51+,Chicago,Clothing & Apparel,Cotton T-Shirt,3,24.81,8.49,15.0,63.27,25.47,37.80,Credit Card,Cancelled,5
+TXN-11151,2025-01-09,10:33,CUST-1002,Male,18-25,Austin,Beauty & Personal Care,Organic Perfume,3,69.63,25.40,5.0,198.45,76.20,122.25,UPI / Digital Wallet,Delivered,5
+TXN-10367,2025-01-09,11:56,CUST-1332,Male,36-50,Austin,Beauty & Personal Care,Organic Perfume,1,72.66,25.43,10.0,65.39,25.43,39.96,Cash,Delivered,5
+TXN-10996,2025-01-09,18:41,CUST-1069,Female,26-35,Los Angeles,Beauty & Personal Care,Organic Perfume,1,68.43,26.70,15.0,58.17,26.70,31.47,Credit Card,Delivered,5
+TXN-10010,2025-01-10,11:23,CUST-1251,Male,51+,Austin,Home & Kitchen,Coffee Maker,4,81.99,49.09,0.0,327.96,196.36,131.60,UPI / Digital Wallet,Delivered,5
+TXN-10893,2025-01-10,13:56,CUST-1241,Female,26-35,San Francisco,Electronics,Bluetooth Speaker,1,61.20,32.24,0.0,61.20,32.24,28.96,Credit Card,Delivered,4
+TXN-10980,2025-01-10,19:39,CUST-1129,Female,51+,Houston,Electronics,Wireless Headphones,1,116.76,71.32,5.0,110.92,71.32,39.60,UPI / Digital Wallet,Delivered,5
+TXN-10200,2025-01-10,22:50,CUST-1279,Female,18-25,Miami,Books & Stationery,Calligraphy Pen Set,1,27.95,13.22,5.0,26.55,13.22,13.33,Credit Card,Delivered,5
+TXN-10752,2025-01-11,18:50,CUST-1321,Male,26-35,San Francisco,Electronics,Smartphone,3,657.17,419.00,15.0,1675.78,1257.00,418.78,Cash,Delivered,4
+TXN-11099,2025-01-12,14:08,CUST-1303,Male,36-50,Chicago,Clothing & Apparel,Running Shoes,1,90.22,43.12,0.0,90.22,43.12,47.10,UPI / Digital Wallet,Delivered,4
+TXN-10880,2025-01-12,18:51,CUST-1059,Male,18-25,Los Angeles,Electronics,Smartphone,1,627.87,416.81,10.0,565.08,416.81,148.27,Credit Card,Delivered,4
+TXN-10780,2025-01-12,18:56,CUST-1190,Male,18-25,Miami,Books & Stationery,Productivity Planner,3,20.08,7.66,0.0,60.24,22.98,37.26,UPI / Digital Wallet,Delivered,5
+TXN-10164,2025-01-12,19:41,CUST-1059,Female,26-35,Chicago,Electronics,Laptop Stand,2,35.84,16.41,5.0,68.10,32.82,35.28,UPI / Digital Wallet,Returned,5
+TXN-10258,2025-01-13,19:52,CUST-1145,Female,18-25,Houston,Home & Kitchen,Ceramic Dinnerware Set,1,66.57,33.89,15.0,56.58,33.89,22.69,Credit Card,Delivered,5
+TXN-10400,2025-01-13,21:29,CUST-1299,Male,18-25,New York,Clothing & Apparel,Formal Shirt,2,38.99,18.40,10.0,70.18,36.80,33.38,Debit Card,Delivered,5
+TXN-10815,2025-01-14,13:56,CUST-1015,Female,18-25,Chicago,Beauty & Personal Care,Skincare Serum Set,1,45.85,15.66,5.0,43.56,15.66,27.90,Debit Card,Delivered,5
+TXN-10559,2025-01-14,16:55,CUST-1072,Female,36-50,Austin,Groceries & Gourmet,Premium Dark Chocolate,1,12.43,6.60,0.0,12.43,6.60,5.83,Credit Card,Delivered,5
+TXN-10159,2025-01-14,20:29,CUST-1282,Male,18-25,Seattle,Books & Stationery,Bestseller Fiction Book,2,21.89,10.86,10.0,39.40,21.72,17.68,Credit Card,Delivered,5
+TXN-10656,2025-01-15,12:52,CUST-1053,Female,36-50,Chicago,Electronics,Smartphone,2,629.47,415.54,0.0,1258.94,831.08,427.86,Debit Card,Delivered,4
+TXN-10962,2025-01-16,13:23,CUST-1243,Female,36-50,Houston,Electronics,Smart Watch,1,176.19,107.39,20.0,140.95,107.39,33.56,Credit Card,Delivered,5
+TXN-10187,2025-01-16,13:27,CUST-1061,Female,18-25,Austin,Home & Kitchen,Ceramic Dinnerware Set,2,62.73,34.43,0.0,125.46,68.86,56.60,Debit Card,Delivered,5
+TXN-10850,2025-01-16,16:59,CUST-1228,Male,18-25,Chicago,Groceries & Gourmet,Organic Olive Oil,1,24.59,14.83,0.0,24.59,14.83,9.76,Credit Card,Delivered,5
+TXN-11100,2025-01-17,12:07,CUST-1147,Female,36-50,Austin,Electronics,Gaming Mouse,4,44.51,22.53,5.0,169.14,90.12,79.02,Credit Card,Delivered,5
+TXN-10619,2025-01-17,16:11,CUST-1329,Male,26-35,San Francisco,Groceries & Gourmet,Artisan Coffee Beans,2,17.30,10.20,15.0,29.41,20.40,9.01,UPI / Digital Wallet,Returned,4
+TXN-10105,2025-01-17,16:43,CUST-1291,Female,26-35,Seattle,Beauty & Personal Care,Hair Dryer,2,49.49,25.39,5.0,94.03,50.78,43.25,Cash,Delivered,4
+TXN-10209,2025-01-18,13:20,CUST-1038,Female,51+,Los Angeles,Home & Kitchen,Air Fryer,1,106.25,66.65,10.0,95.62,66.65,28.97,Debit Card,Delivered,5
+TXN-10446,2025-01-18,19:42,CUST-1311,Male,36-50,Miami,Electronics,Laptop Stand,1,36.17,16.16,0.0,36.17,16.16,20.01,UPI / Digital Wallet,Delivered,4
+TXN-11170,2025-01-19,12:02,CUST-1037,Female,26-35,Los Angeles,Clothing & Apparel,Running Shoes,1,91.98,42.41,5.0,87.38,42.41,44.97,Cash,Delivered,5
+TXN-10902,2025-01-19,12:37,CUST-1302,Female,18-25,Chicago,Beauty & Personal Care,Skincare Serum Set,3,44.46,15.60,5.0,126.71,46.80,79.91,Credit Card,Delivered,5
+TXN-11030,2025-01-19,17:54,CUST-1131,Male,36-50,Miami,Books & Stationery,Calligraphy Pen Set,4,27.17,13.03,0.0,108.68,52.12,56.56,Credit Card,Cancelled,4
+TXN-10260,2025-01-20,11:03,CUST-1170,Female,26-35,Seattle,Clothing & Apparel,Running Shoes,1,90.42,42.19,0.0,90.42,42.19,48.23,Credit Card,Returned,5
+TXN-10026,2025-01-20,11:27,CUST-1136,Female,36-50,Houston,Home & Kitchen,Stainless Steel Cookware Set,1,139.29,82.32,15.0,118.40,82.32,36.08,Credit Card,Delivered,5
+TXN-11023,2025-01-20,13:40,CUST-1175,Female,26-35,Miami,Electronics,Smart Watch,1,176.24,107.62,10.0,158.62,107.62,51.00,UPI / Digital Wallet,Delivered,5
+TXN-10722,2025-01-20,14:59,CUST-1162,Female,26-35,New York,Books & Stationery,Calligraphy Pen Set,3,27.31,13.05,5.0,77.83,39.15,38.68,Debit Card,Delivered,5
+TXN-10322,2025-01-20,17:36,CUST-1154,Female,36-50,Seattle,Beauty & Personal Care,Skincare Serum Set,1,46.01,16.40,15.0,39.11,16.40,22.71,Debit Card,Delivered,4
+TXN-11059,2025-01-20,19:51,CUST-1065,Female,26-35,San Francisco,Electronics,Gaming Mouse,3,45.69,21.64,0.0,137.07,64.92,72.15,Credit Card,Delivered,4
+TXN-10920,2025-01-20,20:48,CUST-1195,Female,36-50,Los Angeles,Electronics,Bluetooth Speaker,1,58.81,31.22,10.0,52.93,31.22,21.71,Credit Card,Cancelled,5
+TXN-11075,2025-01-21,10:51,CUST-1004,Female,36-50,Houston,Home & Kitchen,Stainless Steel Cookware Set,3,141.56,80.41,0.0,424.68,241.23,183.45,Debit Card,Delivered,4
+TXN-10767,2025-01-21,11:31,CUST-1145,Male,18-25,San Francisco,Beauty & Personal Care,Hair Dryer,1,48.20,25.15,0.0,48.20,25.15,23.05,Credit Card,Delivered,5
+TXN-10411,2025-01-21,11:35,CUST-1246,Female,26-35,Miami,Electronics,Smart Watch,1,173.16,105.74,0.0,173.16,105.74,67.42,UPI / Digital Wallet,Delivered,4
+TXN-10965,2025-01-21,16:52,CUST-1043,Male,26-35,San Francisco,Clothing & Apparel,Cotton T-Shirt,1,25.79,8.67,0.0,25.79,8.67,17.12,Debit Card,Delivered,5
+TXN-10904,2025-01-22,14:06,CUST-1058,Male,36-50,Houston,Books & Stationery,Bestseller Fiction Book,2,21.47,11.05,10.0,38.65,22.10,16.55,Credit Card,Delivered,5
+TXN-10988,2025-01-22,15:23,CUST-1245,Female,18-25,Houston,Beauty & Personal Care,Moisturizer Cream,4,21.31,7.84,15.0,72.45,31.36,41.09,UPI / Digital Wallet,Delivered,5
+TXN-10919,2025-01-22,17:02,CUST-1304,Female,26-35,Los Angeles,Beauty & Personal Care,Hair Dryer,1,49.41,24.63,10.0,44.47,24.63,19.84,Debit Card,Cancelled,1
+TXN-10423,2025-01-23,10:42,CUST-1130,Male,18-25,Chicago,Electronics,Wireless Headphones,1,122.71,73.81,15.0,104.30,73.81,30.49,Credit Card,Delivered,4
+TXN-10389,2025-01-24,16:21,CUST-1110,Female,51+,Chicago,Electronics,Wireless Headphones,1,117.83,73.11,0.0,117.83,73.11,44.72,Credit Card,Delivered,4
+TXN-10004,2025-01-24,17:49,CUST-1036,Female,26-35,Miami,Home & Kitchen,Air Fryer,1,113.13,69.50,0.0,113.13,69.50,43.63,UPI / Digital Wallet,Delivered,5
+TXN-10190,2025-01-24,20:04,CUST-1265,Female,26-35,Miami,Beauty & Personal Care,Hair Dryer,1,51.09,24.72,0.0,51.09,24.72,26.37,Credit Card,Delivered,5
+TXN-10560,2025-01-24,21:47,CUST-1185,Female,51+,Miami,Home & Kitchen,Blender,2,48.93,27.97,10.0,88.07,55.94,32.13,Cash,Delivered,4
+TXN-10507,2025-01-25,13:26,CUST-1115,Non-Binary,18-25,New York,Groceries & Gourmet,Mixed Nuts Pack,1,19.71,11.92,15.0,16.75,11.92,4.83,UPI / Digital Wallet,Delivered,4
+TXN-10490,2025-01-25,20:19,CUST-1216,Male,26-35,Los Angeles,Home & Kitchen,Coffee Maker,1,82.84,48.69,5.0,78.70,48.69,30.01,UPI / Digital Wallet,Cancelled,4
+TXN-11131,2025-01-26,09:41,CUST-1004,Female,26-35,New York,Books & Stationery,Calligraphy Pen Set,5,28.69,12.84,0.0,143.45,64.20,79.25,Credit Card,Delivered,4
+TXN-10339,2025-01-26,12:28,CUST-1323,Male,51+,New York,Beauty & Personal Care,Hair Dryer,1,51.09,24.68,0.0,51.09,24.68,26.41,UPI / Digital Wallet,Cancelled,5
+TXN-11111,2025-01-26,15:36,CUST-1147,Male,51+,San Francisco,Home & Kitchen,Coffee Maker,1,83.19,47.06,0.0,83.19,47.06,36.13,Cash,Cancelled,4
+TXN-10021,2025-01-27,11:27,CUST-1129,Male,26-35,Austin,Home & Kitchen,Air Fryer,2,105.63,69.11,0.0,211.26,138.22,73.04,Credit Card,Delivered,4
+TXN-10496,2025-01-27,12:48,CUST-1062,Female,26-35,San Francisco,Groceries & Gourmet,Green Tea Box,1,14.68,8.00,15.0,12.48,8.00,4.48,Credit Card,Cancelled,5
+TXN-10792,2025-01-27,13:40,CUST-1275,Male,26-35,Houston,Electronics,Smartphone,1,648.87,418.54,0.0,648.87,418.54,230.33,Credit Card,Returned,4
+TXN-10976,2025-01-27,15:37,CUST-1340,Male,26-35,Seattle,Clothing & Apparel,Hoodie,1,55.71,23.69,0.0,55.71,23.69,32.02,UPI / Digital Wallet,Delivered,5
+TXN-10960,2025-01-27,20:19,CUST-1208,Female,18-25,Houston,Home & Kitchen,Air Fryer,3,112.85,68.22,0.0,338.55,204.66,133.89,Credit Card,Delivered,5
+TXN-11088,2025-01-28,16:11,CUST-1204,Female,26-35,Austin,Electronics,Wireless Headphones,2,117.75,72.23,15.0,200.18,144.46,55.72,UPI / Digital Wallet,Delivered,5
+TXN-10845,2025-01-28,17:22,CUST-1313,Male,18-25,Chicago,Groceries & Gourmet,Organic Olive Oil,1,24.53,14.61,0.0,24.53,14.61,9.92,UPI / Digital Wallet,Delivered,4
+TXN-11167,2025-01-28,18:08,CUST-1226,Female,26-35,New York,Clothing & Apparel,Denim Jacket,1,72.20,31.18,0.0,72.20,31.18,41.02,Cash,Delivered,4
+TXN-10621,2025-01-28,18:41,CUST-1085,Female,26-35,Miami,Beauty & Personal Care,Electric Toothbrush,1,58.90,27.34,10.0,53.01,27.34,25.67,UPI / Digital Wallet,Delivered,5
+TXN-10245,2025-01-28,18:54,CUST-1187,Female,36-50,Austin,Beauty & Personal Care,Hair Dryer,1,50.24,25.18,5.0,47.73,25.18,22.55,Credit Card,Delivered,5
+TXN-10229,2025-01-28,19:09,CUST-1212,Female,36-50,Chicago,Clothing & Apparel,Cotton T-Shirt,3,24.69,8.75,20.0,59.26,26.25,33.01,Debit Card,Cancelled,5
+TXN-11113,2025-01-29,19:42,CUST-1211,Female,36-50,Los Angeles,Books & Stationery,Hardcover Journal,1,16.17,6.06,10.0,14.55,6.06,8.49,Debit Card,Cancelled,4
+TXN-10201,2025-01-30,18:30,CUST-1144,Female,36-50,Houston,Groceries & Gourmet,Premium Dark Chocolate,5,12.26,6.69,0.0,61.30,33.45,27.85,Cash,Delivered,4
+TXN-10295,2025-01-31,12:16,CUST-1084,Female,26-35,San Francisco,Beauty & Personal Care,Skincare Serum Set,1,44.82,15.84,5.0,42.58,15.84,26.74,Credit Card,Delivered,5
+TXN-10990,2025-01-31,14:39,CUST-1122,Male,26-35,Seattle,Books & Stationery,Productivity Planner,1,19.51,7.51,0.0,19.51,7.51,12.00,Credit Card,Delivered,4
+TXN-10894,2025-01-31,15:14,CUST-1187,Male,26-35,San Francisco,Books & Stationery,Hardcover Journal,1,15.78,6.12,0.0,15.78,6.12,9.66,Credit Card,Delivered,4
+TXN-10440,2025-01-31,15:23,CUST-1321,Female,36-50,Seattle,Beauty & Personal Care,Electric Toothbrush,2,58.75,28.41,10.0,105.75,56.82,48.93,Credit Card,Delivered,4
+TXN-11102,2025-01-31,18:51,CUST-1285,Female,26-35,Houston,Groceries & Gourmet,Organic Olive Oil,3,23.11,14.57,10.0,62.40,43.71,18.69,Debit Card,Delivered,5
+TXN-10804,2025-01-31,19:32,CUST-1271,Male,26-35,Miami,Home & Kitchen,Air Fryer,4,110.58,70.02,15.0,375.97,280.08,95.89,UPI / Digital Wallet,Delivered,4
+TXN-11130,2025-02-01,12:38,CUST-1350,Female,26-35,Chicago,Groceries & Gourmet,Green Tea Box,1,15.37,7.86,0.0,15.37,7.86,7.51,Credit Card,Delivered,5
+TXN-10727,2025-02-01,16:20,CUST-1210,Female,36-50,New York,Home & Kitchen,Stainless Steel Cookware Set,1,139.01,81.48,0.0,139.01,81.48,57.53,Credit Card,Delivered,5
+TXN-10601,2025-02-01,18:44,CUST-1290,Male,26-35,Austin,Clothing & Apparel,Formal Shirt,1,39.98,18.04,0.0,39.98,18.04,21.94,Debit Card,Returned,5
+TXN-10074,2025-02-01,22:54,CUST-1016,Female,18-25,Los Angeles,Beauty & Personal Care,Organic Perfume,3,71.04,25.98,0.0,213.12,77.94,135.18,Credit Card,Delivered,5
+TXN-10012,2025-02-02,13:37,CUST-1116,Male,36-50,Los Angeles,Groceries & Gourmet,Artisan Coffee Beans,2,18.13,9.70,0.0,36.26,19.40,16.86,Credit Card,Delivered,5
+TXN-11107,2025-02-02,15:53,CUST-1300,Female,26-35,Los Angeles,Clothing & Apparel,Formal Shirt,1,38.46,17.52,0.0,38.46,17.52,20.94,UPI / Digital Wallet,Delivered,4
+TXN-10299,2025-02-02,20:30,CUST-1049,Male,18-25,San Francisco,Groceries & Gourmet,Organic Olive Oil,2,23.09,14.91,0.0,46.18,29.82,16.36,Cash,Returned,5
+TXN-10505,2025-02-03,11:59,CUST-1066,Non-Binary,36-50,New York,Groceries & Gourmet,Artisan Coffee Beans,1,18.55,10.14,10.0,16.70,10.14,6.56,UPI / Digital Wallet,Delivered,5
+TXN-10812,2025-02-03,14:54,CUST-1159,Female,51+,Austin,Books & Stationery,Calligraphy Pen Set,2,27.39,13.16,10.0,49.30,26.32,22.98,UPI / Digital Wallet,Delivered,5
+TXN-10672,2025-02-03,18:00,CUST-1148,Female,36-50,New York,Beauty & Personal Care,Skincare Serum Set,1,43.98,16.31,0.0,43.98,16.31,27.67,Credit Card,Delivered,5
+TXN-10795,2025-02-03,18:43,CUST-1092,Female,18-25,Chicago,Home & Kitchen,Air Fryer,2,113.74,67.77,5.0,216.11,135.54,80.57,Credit Card,Delivered,5
+TXN-10781,2025-02-03,19:13,CUST-1151,Non-Binary,26-35,Chicago,Groceries & Gourmet,Mixed Nuts Pack,1,19.93,12.13,0.0,19.93,12.13,7.80,Credit Card,Delivered,4
+TXN-10954,2025-02-04,13:12,CUST-1246,Female,26-35,San Francisco,Home & Kitchen,Ceramic Dinnerware Set,1,63.26,35.00,10.0,56.93,35.00,21.93,UPI / Digital Wallet,Delivered,5
+TXN-10790,2025-02-04,13:34,CUST-1260,Male,18-25,San Francisco,Books & Stationery,Hardcover Journal,2,16.60,5.84,0.0,33.20,11.68,21.52,Cash,Delivered,5
+TXN-11143,2025-02-04,16:24,CUST-1032,Female,26-35,Houston,Clothing & Apparel,Denim Jacket,1,73.53,32.41,0.0,73.53,32.41,41.12,Debit Card,Delivered,5
+TXN-10438,2025-02-04,16:33,CUST-1140,Female,26-35,San Francisco,Beauty & Personal Care,Organic Perfume,2,68.37,26.46,0.0,136.74,52.92,83.82,Credit Card,Returned,5
+TXN-11145,2025-02-04,19:22,CUST-1264,Female,26-35,Seattle,Clothing & Apparel,Running Shoes,4,88.23,43.05,0.0,352.92,172.20,180.72,Debit Card,Delivered,5
+TXN-11076,2025-02-05,12:20,CUST-1163,Male,26-35,Chicago,Home & Kitchen,Blender,2,48.14,27.50,5.0,91.47,55.00,36.47,Credit Card,Returned,5
+TXN-10661,2025-02-05,13:10,CUST-1097,Male,18-25,Los Angeles,Books & Stationery,Calligraphy Pen Set,1,29.01,13.06,0.0,29.01,13.06,15.95,Debit Card,Delivered,5
+TXN-10863,2025-02-05,19:38,CUST-1226,Female,26-35,Los Angeles,Groceries & Gourmet,Premium Dark Chocolate,4,12.05,6.36,0.0,48.20,25.44,22.76,UPI / Digital Wallet,Delivered,4
+TXN-10881,2025-02-06,11:40,CUST-1317,Male,51+,Houston,Beauty & Personal Care,Hair Dryer,1,51.14,24.41,10.0,46.03,24.41,21.62,Credit Card,Delivered,5
+TXN-10762,2025-02-06,13:42,CUST-1274,Female,18-25,Miami,Books & Stationery,Hardcover Journal,2,15.64,6.04,0.0,31.28,12.08,19.20,UPI / Digital Wallet,Returned,4
+TXN-10859,2025-02-06,17:07,CUST-1115,Female,26-35,Seattle,Clothing & Apparel,Formal Shirt,1,38.61,18.04,10.0,34.75,18.04,16.71,Debit Card,Delivered,5
+TXN-10992,2025-02-06,17:08,CUST-1024,Female,26-35,New York,Clothing & Apparel,Running Shoes,2,93.31,42.19,10.0,167.96,84.38,83.58,Credit Card,Delivered,4
+TXN-11155,2025-02-07,09:41,CUST-1048,Non-Binary,18-25,Houston,Beauty & Personal Care,Hair Dryer,1,49.20,24.38,10.0,44.28,24.38,19.90,Credit Card,Delivered,5
+TXN-10985,2025-02-08,15:47,CUST-1187,Male,26-35,Chicago,Home & Kitchen,Blender,1,48.09,28.81,10.0,43.28,28.81,14.47,Debit Card,Delivered,5
+TXN-10405,2025-02-09,11:17,CUST-1148,Female,51+,New York,Electronics,Laptop Stand,1,34.01,15.66,20.0,27.21,15.66,11.55,UPI / Digital Wallet,Delivered,5
+TXN-10923,2025-02-09,12:31,CUST-1080,Female,18-25,Seattle,Clothing & Apparel,Denim Jacket,2,74.32,32.47,0.0,148.64,64.94,83.70,Credit Card,Cancelled,5
+TXN-10273,2025-02-09,15:17,CUST-1118,Female,26-35,Houston,Clothing & Apparel,Cotton T-Shirt,2,24.37,8.43,0.0,48.74,16.86,31.88,Credit Card,Cancelled,5
+TXN-10268,2025-02-09,17:57,CUST-1321,Male,26-35,Houston,Electronics,Gaming Mouse,2,45.47,22.41,10.0,81.85,44.82,37.03,UPI / Digital Wallet,Cancelled,5
+TXN-10977,2025-02-10,13:15,CUST-1220,Male,26-35,San Francisco,Beauty & Personal Care,Skincare Serum Set,2,43.56,16.41,0.0,87.12,32.82,54.30,Cash,Delivered,4
+TXN-11177,2025-02-10,13:21,CUST-1026,Female,36-50,San Francisco,Clothing & Apparel,Cotton T-Shirt,2,25.81,8.42,5.0,49.04,16.84,32.20,Credit Card,Cancelled,5
+TXN-10290,2025-02-10,17:42,CUST-1062,Male,26-35,Miami,Beauty & Personal Care,Moisturizer Cream,4,21.13,8.17,10.0,76.07,32.68,43.39,Cash,Delivered,5
+TXN-10710,2025-02-10,20:59,CUST-1333,Male,26-35,Los Angeles,Clothing & Apparel,Hoodie,1,55.02,24.11,0.0,55.02,24.11,30.91,Credit Card,Cancelled,5
+TXN-10553,2025-02-11,15:12,CUST-1301,Male,36-50,Seattle,Beauty & Personal Care,Electric Toothbrush,1,61.58,27.58,20.0,49.26,27.58,21.68,Debit Card,Delivered,5
+TXN-10132,2025-02-11,15:33,CUST-1306,Male,18-25,Houston,Books & Stationery,Calligraphy Pen Set,1,27.05,13.05,5.0,25.70,13.05,12.65,Credit Card,Cancelled,5
+TXN-11045,2025-02-11,17:52,CUST-1039,Male,26-35,Seattle,Groceries & Gourmet,Premium Dark Chocolate,1,12.31,6.63,15.0,10.46,6.63,3.83,Credit Card,Delivered,5
+TXN-10467,2025-02-11,18:01,CUST-1300,Female,36-50,Los Angeles,Electronics,Laptop Stand,1,35.45,15.69,0.0,35.45,15.69,19.76,Credit Card,Cancelled,4
+TXN-10448,2025-02-11,18:31,CUST-1141,Male,36-50,Los Angeles,Beauty & Personal Care,Organic Perfume,1,72.39,25.74,15.0,61.53,25.74,35.79,UPI / Digital Wallet,Delivered,5
+TXN-10502,2025-02-11,18:41,CUST-1276,Female,36-50,Los Angeles,Books & Stationery,Hardcover Journal,3,16.05,6.14,0.0,48.15,18.42,29.73,Debit Card,Delivered,5
+TXN-10017,2025-02-11,19:04,CUST-1261,Male,18-25,Houston,Groceries & Gourmet,Organic Olive Oil,1,24.34,14.76,15.0,20.69,14.76,5.93,Credit Card,Delivered,4
+TXN-10384,2025-02-11,19:48,CUST-1175,Male,26-35,Seattle,Home & Kitchen,Coffee Maker,1,82.80,46.67,0.0,82.80,46.67,36.13,Credit Card,Delivered,4
+TXN-11020,2025-02-12,15:02,CUST-1129,Male,36-50,Miami,Beauty & Personal Care,Hair Dryer,1,51.78,25.20,15.0,44.01,25.20,18.81,Credit Card,Returned,4
+TXN-10399,2025-02-12,16:00,CUST-1124,Female,36-50,Los Angeles,Books & Stationery,Productivity Planner,1,20.72,7.33,5.0,19.68,7.33,12.35,Credit Card,Cancelled,4
+TXN-11114,2025-02-12,21:01,CUST-1058,Male,26-35,Seattle,Books & Stationery,Calligraphy Pen Set,3,28.96,13.01,15.0,73.85,39.03,34.82,Credit Card,Delivered,5
+TXN-10088,2025-02-13,15:11,CUST-1176,Female,26-35,Miami,Electronics,Smartphone,1,660.80,432.37,5.0,627.76,432.37,195.39,Credit Card,Delivered,5
+TXN-10585,2025-02-13,18:35,CUST-1030,Female,36-50,Austin,Beauty & Personal Care,Skincare Serum Set,1,46.66,15.93,10.0,41.99,15.93,26.06,UPI / Digital Wallet,Delivered,5
+TXN-10926,2025-02-14,16:42,CUST-1083,Male,18-25,Chicago,Clothing & Apparel,Formal Shirt,2,40.51,18.05,0.0,81.02,36.10,44.92,Credit Card,Delivered,5
+TXN-10107,2025-02-14,18:54,CUST-1228,Male,51+,Chicago,Home & Kitchen,Stainless Steel Cookware Set,1,142.35,80.24,0.0,142.35,80.24,62.11,UPI / Digital Wallet,Delivered,5
+TXN-10341,2025-02-16,11:28,CUST-1064,Female,26-35,Chicago,Books & Stationery,Calligraphy Pen Set,2,27.07,13.16,20.0,43.31,26.32,16.99,Debit Card,Delivered,5
+TXN-10643,2025-02-17,11:27,CUST-1105,Male,18-25,Los Angeles,Electronics,Laptop Stand,2,35.76,15.67,5.0,67.94,31.34,36.60,UPI / Digital Wallet,Cancelled,5
+TXN-10529,2025-02-17,12:43,CUST-1156,Male,26-35,Los Angeles,Groceries & Gourmet,Artisan Coffee Beans,1,17.33,10.11,0.0,17.33,10.11,7.22,Credit Card,Delivered,5
+TXN-11152,2025-02-17,13:58,CUST-1197,Male,36-50,Los Angeles,Books & Stationery,Bestseller Fiction Book,1,22.70,10.86,0.0,22.70,10.86,11.84,Debit Card,Delivered,5
+TXN-10239,2025-02-17,14:21,CUST-1138,Male,26-35,Austin,Clothing & Apparel,Denim Jacket,1,74.40,32.89,0.0,74.40,32.89,41.51,Debit Card,Delivered,5
+TXN-10620,2025-02-17,15:08,CUST-1140,Male,26-35,Los Angeles,Books & Stationery,Bestseller Fiction Book,1,21.82,10.71,10.0,19.64,10.71,8.93,Credit Card,Returned,4
+TXN-10805,2025-02-17,21:49,CUST-1290,Male,51+,Austin,Electronics,Gaming Mouse,3,43.77,22.02,5.0,124.74,66.06,58.68,Debit Card,Returned,4
+TXN-10940,2025-02-18,12:26,CUST-1064,Female,36-50,Los Angeles,Clothing & Apparel,Cotton T-Shirt,1,24.92,8.33,0.0,24.92,8.33,16.59,Credit Card,Returned,5
+TXN-10277,2025-02-19,12:57,CUST-1311,Male,51+,Austin,Groceries & Gourmet,Green Tea Box,1,14.45,8.14,0.0,14.45,8.14,6.31,UPI / Digital Wallet,Delivered,4
+TXN-10003,2025-02-19,14:22,CUST-1195,Female,26-35,Seattle,Groceries & Gourmet,Premium Dark Chocolate,1,12.29,6.59,20.0,9.83,6.59,3.24,UPI / Digital Wallet,Delivered,5
+TXN-10817,2025-02-19,15:47,CUST-1343,Male,36-50,Los Angeles,Groceries & Gourmet,Artisan Coffee Beans,3,17.46,10.01,0.0,52.38,30.03,22.35,Credit Card,Delivered,5
+TXN-10978,2025-02-19,18:18,CUST-1186,Male,18-25,Los Angeles,Home & Kitchen,Ceramic Dinnerware Set,1,66.00,34.28,0.0,66.00,34.28,31.72,Credit Card,Delivered,4
+TXN-10599,2025-02-20,10:34,CUST-1229,Female,18-25,Chicago,Groceries & Gourmet,Premium Dark Chocolate,2,11.81,6.49,5.0,22.44,12.98,9.46,UPI / Digital Wallet,Delivered,4
+TXN-10014,2025-02-20,10:46,CUST-1331,Female,36-50,San Francisco,Home & Kitchen,Air Fryer,1,107.79,66.74,0.0,107.79,66.74,41.05,Credit Card,Delivered,5
+TXN-10524,2025-02-20,11:23,CUST-1117,Female,26-35,San Francisco,Electronics,Gaming Mouse,1,43.92,21.60,0.0,43.92,21.60,22.32,Credit Card,Delivered,5
+TXN-10638,2025-02-20,22:51,CUST-1318,Male,26-35,Los Angeles,Electronics,Wireless Headphones,1,121.44,72.50,0.0,121.44,72.50,48.94,Debit Card,Delivered,4
+TXN-11178,2025-02-21,18:45,CUST-1253,Male,51+,Miami,Clothing & Apparel,Cotton T-Shirt,4,24.93,8.53,10.0,89.75,34.12,55.63,UPI / Digital Wallet,Delivered,5
+TXN-10217,2025-02-21,18:55,CUST-1289,Female,26-35,Austin,Groceries & Gourmet,Premium Dark Chocolate,2,12.36,6.41,5.0,23.48,12.82,10.66,Credit Card,Returned,5
+TXN-10941,2025-02-21,19:26,CUST-1119,Female,36-50,Seattle,Books & Stationery,Productivity Planner,1,19.91,7.61,5.0,18.91,7.61,11.30,Credit Card,Cancelled,5
+TXN-11066,2025-02-22,13:10,CUST-1294,Female,51+,Austin,Home & Kitchen,Air Fryer,1,111.62,69.70,10.0,100.46,69.70,30.76,Credit Card,Delivered,5
+TXN-10355,2025-02-22,15:42,CUST-1024,Female,26-35,Houston,Books & Stationery,Calligraphy Pen Set,2,26.93,13.20,0.0,53.86,26.40,27.46,Credit Card,Cancelled,5
+TXN-10171,2025-02-22,17:41,CUST-1218,Female,51+,Los Angeles,Clothing & Apparel,Running Shoes,1,92.70,40.82,15.0,78.80,40.82,37.98,Debit Card,Delivered,5
+TXN-10188,2025-02-22,19:43,CUST-1131,Female,26-35,Houston,Books & Stationery,Hardcover Journal,1,15.65,6.00,15.0,13.30,6.00,7.30,Cash,Delivered,4
+TXN-10784,2025-02-23,11:16,CUST-1064,Male,18-25,Houston,Groceries & Gourmet,Organic Olive Oil,2,24.43,14.88,0.0,48.86,29.76,19.10,Credit Card,Delivered,5
+TXN-10515,2025-02-23,15:50,CUST-1084,Female,36-50,Houston,Electronics,Bluetooth Speaker,1,58.65,31.05,0.0,58.65,31.05,27.60,Cash,Delivered,4
+TXN-10830,2025-02-23,19:17,CUST-1327,Non-Binary,18-25,San Francisco,Books & Stationery,Calligraphy Pen Set,1,28.91,13.11,5.0,27.46,13.11,14.35,Credit Card,Cancelled,5
+TXN-10335,2025-02-24,11:01,CUST-1097,Female,36-50,New York,Groceries & Gourmet,Green Tea Box,1,14.72,8.03,0.0,14.72,8.03,6.69,UPI / Digital Wallet,Cancelled,4
+TXN-10461,2025-02-24,18:09,CUST-1303,Male,18-25,San Francisco,Electronics,Wireless Headphones,1,119.62,72.90,5.0,113.64,72.90,40.74,Cash,Cancelled,5
+TXN-10430,2025-02-25,11:31,CUST-1233,Female,18-25,Los Angeles,Beauty & Personal Care,Electric Toothbrush,1,60.62,27.39,0.0,60.62,27.39,33.23,Credit Card,Delivered,5
+TXN-11070,2025-02-25,13:20,CUST-1233,Female,36-50,Seattle,Clothing & Apparel,Denim Jacket,2,73.30,31.37,0.0,146.60,62.74,83.86,UPI / Digital Wallet,Delivered,4
+TXN-10917,2025-02-25,15:58,CUST-1259,Male,18-25,Los Angeles,Electronics,Laptop Stand,1,36.26,15.75,10.0,32.63,15.75,16.88,Credit Card,Delivered,5
+TXN-10630,2025-02-25,20:59,CUST-1093,Female,36-50,Austin,Beauty & Personal Care,Organic Perfume,1,68.32,25.73,20.0,54.66,25.73,28.93,Credit Card,Cancelled,5
+TXN-10616,2025-02-26,10:22,CUST-1069,Female,36-50,Seattle,Home & Kitchen,Coffee Maker,3,83.60,46.98,20.0,200.64,140.94,59.70,Credit Card,Delivered,5
+TXN-10433,2025-02-26,16:31,CUST-1250,Male,26-35,Austin,Books & Stationery,Productivity Planner,1,19.96,7.66,0.0,19.96,7.66,12.30,UPI / Digital Wallet,Delivered,5
+TXN-10001,2025-02-27,09:17,CUST-1328,Female,18-25,Seattle,Clothing & Apparel,Cotton T-Shirt,2,24.28,8.30,5.0,46.13,16.60,29.53,Credit Card,Delivered,5
+TXN-10340,2025-02-27,12:37,CUST-1257,Male,18-25,Houston,Books & Stationery,Bestseller Fiction Book,1,21.81,10.88,0.0,21.81,10.88,10.93,Credit Card,Delivered,4
+TXN-10241,2025-02-27,19:28,CUST-1250,Non-Binary,36-50,Houston,Electronics,Wireless Headphones,2,117.71,71.20,5.0,223.65,142.40,81.25,Credit Card,Delivered,5
+TXN-10816,2025-02-27,21:29,CUST-1034,Female,51+,Austin,Beauty & Personal Care,Moisturizer Cream,3,21.90,8.17,0.0,65.70,24.51,41.19,Credit Card,Delivered,4
+TXN-10915,2025-02-27,22:34,CUST-1215,Male,36-50,Chicago,Electronics,Gaming Mouse,4,43.57,21.35,5.0,165.57,85.40,80.17,Debit Card,Cancelled,5
+TXN-10687,2025-02-28,10:47,CUST-1129,Female,26-35,Miami,Electronics,Bluetooth Speaker,3,61.26,32.20,15.0,156.21,96.60,59.61,Credit Card,Delivered,5
+TXN-10388,2025-02-28,15:51,CUST-1055,Female,51+,Seattle,Groceries & Gourmet,Artisan Coffee Beans,1,17.37,9.82,10.0,15.63,9.82,5.81,UPI / Digital Wallet,Delivered,5
+TXN-10073,2025-02-28,18:30,CUST-1270,Male,51+,New York,Beauty & Personal Care,Hair Dryer,1,50.05,24.41,15.0,42.54,24.41,18.13,UPI / Digital Wallet,Delivered,5
+TXN-10562,2025-03-01,15:34,CUST-1229,Non-Binary,18-25,Seattle,Clothing & Apparel,Cotton T-Shirt,2,24.42,8.63,0.0,48.84,17.26,31.58,Cash,Delivered,4
+TXN-10163,2025-03-01,18:46,CUST-1044,Female,36-50,Austin,Clothing & Apparel,Running Shoes,1,88.65,41.89,0.0,88.65,41.89,46.76,UPI / Digital Wallet,Delivered,5
+TXN-10721,2025-03-01,21:51,CUST-1343,Female,36-50,San Francisco,Electronics,Laptop Stand,1,35.82,16.22,5.0,34.03,16.22,17.81,UPI / Digital Wallet,Delivered,4
+TXN-10968,2025-03-02,11:28,CUST-1301,Male,26-35,Houston,Clothing & Apparel,Cotton T-Shirt,1,25.45,8.39,0.0,25.45,8.39,17.06,Credit Card,Delivered,4
+TXN-11135,2025-03-02,12:18,CUST-1096,Female,26-35,Seattle,Clothing & Apparel,Formal Shirt,2,39.77,18.41,0.0,79.54,36.82,42.72,Credit Card,Delivered,5
+TXN-11199,2025-03-02,14:00,CUST-1104,Female,36-50,Seattle,Groceries & Gourmet,Organic Olive Oil,1,23.74,15.05,10.0,21.37,15.05,6.32,Debit Card,Returned,5
+TXN-10592,2025-03-02,14:35,CUST-1137,Female,51+,Seattle,Beauty & Personal Care,Electric Toothbrush,3,59.16,28.44,5.0,168.61,85.32,83.29,Debit Card,Delivered,5
+TXN-10392,2025-03-02,21:06,CUST-1099,Female,18-25,Houston,Groceries & Gourmet,Premium Dark Chocolate,1,12.35,6.69,0.0,12.35,6.69,5.66,Debit Card,Cancelled,5
+TXN-11041,2025-03-02,21:57,CUST-1340,Male,18-25,Miami,Books & Stationery,Productivity Planner,3,19.75,7.52,0.0,59.25,22.56,36.69,UPI / Digital Wallet,Delivered,4
+TXN-10039,2025-03-03,18:36,CUST-1308,Male,36-50,New York,Electronics,Smart Watch,1,180.47,106.02,5.0,171.45,106.02,65.43,Credit Card,Delivered,5
+TXN-10054,2025-03-04,09:40,CUST-1249,Non-Binary,51+,Houston,Groceries & Gourmet,Artisan Coffee Beans,1,18.30,9.89,0.0,18.30,9.89,8.41,UPI / Digital Wallet,Delivered,5
+TXN-10198,2025-03-04,10:29,CUST-1170,Male,18-25,Seattle,Electronics,Smartphone,2,672.05,418.32,0.0,1344.10,836.64,507.46,Credit Card,Delivered,5
+TXN-10031,2025-03-04,15:51,CUST-1128,Male,26-35,Seattle,Beauty & Personal Care,Moisturizer Cream,4,22.86,8.05,15.0,77.72,32.20,45.52,Debit Card,Cancelled,5
+TXN-10681,2025-03-05,14:40,CUST-1316,Female,26-35,Houston,Electronics,Smartphone,1,631.37,426.16,5.0,599.80,426.16,173.64,UPI / Digital Wallet,Cancelled,5
+TXN-10426,2025-03-05,15:33,CUST-1161,Female,26-35,Miami,Clothing & Apparel,Formal Shirt,2,40.84,18.22,0.0,81.68,36.44,45.24,UPI / Digital Wallet,Delivered,5
+TXN-10485,2025-03-05,15:36,CUST-1334,Female,26-35,Houston,Books & Stationery,Hardcover Journal,3,15.94,6.17,20.0,38.26,18.51,19.75,Debit Card,Delivered,4
+TXN-10067,2025-03-05,15:43,CUST-1275,Female,26-35,Houston,Books & Stationery,Calligraphy Pen Set,4,28.19,13.25,0.0,112.76,53.00,59.76,Cash,Delivered,4
+TXN-10503,2025-03-05,15:59,CUST-1005,Female,36-50,Miami,Clothing & Apparel,Formal Shirt,2,38.43,18.26,5.0,73.02,36.52,36.50,UPI / Digital Wallet,Delivered,5
+TXN-11125,2025-03-05,16:27,CUST-1135,Female,18-25,Seattle,Home & Kitchen,Air Fryer,1,113.28,68.80,10.0,101.95,68.80,33.15,Debit Card,Cancelled,4
+TXN-10827,2025-03-05,17:37,CUST-1206,Male,26-35,Los Angeles,Books & Stationery,Bestseller Fiction Book,1,21.48,10.76,0.0,21.48,10.76,10.72,Debit Card,Cancelled,5
+TXN-10215,2025-03-06,10:05,CUST-1099,Male,51+,Miami,Books & Stationery,Productivity Planner,1,19.52,7.65,5.0,18.54,7.65,10.89,Credit Card,Returned,5
+TXN-10422,2025-03-06,12:05,CUST-1158,Female,36-50,Los Angeles,Beauty & Personal Care,Skincare Serum Set,2,43.48,16.26,0.0,86.96,32.52,54.44,UPI / Digital Wallet,Cancelled,5
+TXN-10058,2025-03-06,15:37,CUST-1019,Female,36-50,Chicago,Home & Kitchen,Air Fryer,1,113.29,67.76,0.0,113.29,67.76,45.53,Credit Card,Cancelled,4
+TXN-10372,2025-03-06,15:54,CUST-1043,Male,51+,Los Angeles,Home & Kitchen,Stainless Steel Cookware Set,3,135.88,78.95,0.0,407.64,236.85,170.79,UPI / Digital Wallet,Cancelled,5
+TXN-10822,2025-03-06,19:19,CUST-1152,Female,51+,Chicago,Beauty & Personal Care,Organic Perfume,4,70.30,26.69,20.0,224.96,106.76,118.20,Cash,Delivered,5
+TXN-10520,2025-03-06,19:37,CUST-1144,Female,36-50,Chicago,Beauty & Personal Care,Electric Toothbrush,2,61.09,28.48,5.0,116.07,56.96,59.11,UPI / Digital Wallet,Delivered,5
+TXN-10206,2025-03-07,12:00,CUST-1151,Male,51+,Miami,Books & Stationery,Productivity Planner,2,20.56,7.62,0.0,41.12,15.24,25.88,Credit Card,Delivered,4
+TXN-10715,2025-03-07,14:35,CUST-1182,Non-Binary,18-25,Los Angeles,Clothing & Apparel,Running Shoes,3,87.26,43.00,5.0,248.69,129.00,119.69,UPI / Digital Wallet,Delivered,4
+TXN-10035,2025-03-07,21:34,CUST-1240,Female,26-35,Austin,Electronics,Bluetooth Speaker,1,60.44,32.31,0.0,60.44,32.31,28.13,Credit Card,Cancelled,5
+TXN-10462,2025-03-08,12:03,CUST-1292,Female,26-35,Seattle,Books & Stationery,Calligraphy Pen Set,1,27.60,12.65,20.0,22.08,12.65,9.43,Credit Card,Returned,5
+TXN-10197,2025-03-08,12:25,CUST-1114,Female,26-35,Los Angeles,Home & Kitchen,Air Fryer,3,110.72,67.02,0.0,332.16,201.06,131.10,Debit Card,Delivered,4
+TXN-10072,2025-03-08,16:51,CUST-1075,Male,18-25,Houston,Clothing & Apparel,Denim Jacket,1,75.97,31.09,10.0,68.37,31.09,37.28,Credit Card,Delivered,4
+TXN-10878,2025-03-08,19:59,CUST-1017,Female,36-50,Seattle,Groceries & Gourmet,Organic Olive Oil,1,24.45,14.57,15.0,20.78,14.57,6.21,Credit Card,Returned,5
+TXN-10776,2025-03-09,14:54,CUST-1276,Male,51+,Chicago,Electronics,Wireless Headphones,1,119.00,70.75,0.0,119.00,70.75,48.25,Cash,Returned,5
+TXN-10587,2025-03-10,15:03,CUST-1188,Male,36-50,Houston,Beauty & Personal Care,Organic Perfume,1,69.32,25.80,15.0,58.92,25.80,33.12,Debit Card,Delivered,5
+TXN-10267,2025-03-10,17:21,CUST-1185,Male,36-50,Los Angeles,Beauty & Personal Care,Organic Perfume,1,69.69,26.43,0.0,69.69,26.43,43.26,Credit Card,Delivered,5
+TXN-11028,2025-03-10,19:04,CUST-1178,Female,26-35,San Francisco,Home & Kitchen,Ceramic Dinnerware Set,1,62.77,33.23,10.0,56.49,33.23,23.26,Credit Card,Cancelled,5
+TXN-10983,2025-03-10,19:38,CUST-1044,Female,36-50,Miami,Groceries & Gourmet,Green Tea Box,1,15.32,8.04,5.0,14.55,8.04,6.51,Debit Card,Delivered,5
+TXN-10442,2025-03-11,09:50,CUST-1140,Female,36-50,New York,Home & Kitchen,Ceramic Dinnerware Set,4,63.32,34.72,0.0,253.28,138.88,114.40,Credit Card,Delivered,4
+TXN-11129,2025-03-11,17:43,CUST-1315,Male,18-25,Seattle,Clothing & Apparel,Denim Jacket,5,77.07,32.54,0.0,385.35,162.70,222.65,Credit Card,Cancelled,5
+TXN-10220,2025-03-11,18:33,CUST-1207,Female,51+,New York,Groceries & Gourmet,Organic Olive Oil,1,23.37,15.34,0.0,23.37,15.34,8.03,UPI / Digital Wallet,Delivered,5
+TXN-10690,2025-03-12,18:28,CUST-1287,Female,18-25,Los Angeles,Beauty & Personal Care,Organic Perfume,1,72.09,26.11,5.0,68.49,26.11,42.38,UPI / Digital Wallet,Delivered,5
+TXN-10146,2025-03-12,19:14,CUST-1212,Male,18-25,Austin,Electronics,Laptop Stand,1,34.02,15.73,0.0,34.02,15.73,18.29,UPI / Digital Wallet,Returned,5
+TXN-10699,2025-03-12,19:33,CUST-1105,Female,18-25,Chicago,Clothing & Apparel,Running Shoes,1,91.74,41.27,10.0,82.57,41.27,41.30,Credit Card,Cancelled,4
+TXN-11122,2025-03-12,21:25,CUST-1224,Female,36-50,Seattle,Beauty & Personal Care,Electric Toothbrush,1,62.35,28.42,5.0,59.23,28.42,30.81,Credit Card,Delivered,5
+TXN-10759,2025-03-13,11:21,CUST-1291,Female,36-50,Chicago,Electronics,Wireless Headphones,3,118.17,73.15,0.0,354.51,219.45,135.06,Credit Card,Delivered,5
+TXN-10899,2025-03-13,11:33,CUST-1035,Male,26-35,Miami,Clothing & Apparel,Cotton T-Shirt,1,24.18,8.43,0.0,24.18,8.43,15.75,UPI / Digital Wallet,Returned,5
+TXN-10826,2025-03-13,11:52,CUST-1211,Male,18-25,Houston,Clothing & Apparel,Cotton T-Shirt,1,24.78,8.33,5.0,23.54,8.33,15.21,Cash,Delivered,5
+TXN-11058,2025-03-13,13:25,CUST-1293,Female,26-35,Houston,Beauty & Personal Care,Moisturizer Cream,1,22.80,8.03,5.0,21.66,8.03,13.63,Credit Card,Delivered,4
+TXN-10138,2025-03-13,15:18,CUST-1029,Male,51+,San Francisco,Clothing & Apparel,Hoodie,2,54.20,24.14,0.0,108.40,48.28,60.12,UPI / Digital Wallet,Returned,5
+TXN-10683,2025-03-13,15:46,CUST-1182,Female,36-50,Houston,Beauty & Personal Care,Hair Dryer,1,48.04,24.49,15.0,40.83,24.49,16.34,Credit Card,Delivered,5
+TXN-10500,2025-03-13,17:17,CUST-1063,Male,51+,Miami,Beauty & Personal Care,Electric Toothbrush,1,60.53,28.77,5.0,57.50,28.77,28.73,UPI / Digital Wallet,Delivered,5
+TXN-10952,2025-03-13,17:19,CUST-1303,Female,26-35,Seattle,Beauty & Personal Care,Electric Toothbrush,3,58.28,28.67,0.0,174.84,86.01,88.83,Debit Card,Cancelled,5
+TXN-10226,2025-03-13,17:41,CUST-1349,Female,36-50,Houston,Beauty & Personal Care,Hair Dryer,1,49.04,24.88,0.0,49.04,24.88,24.16,UPI / Digital Wallet,Cancelled,4
+TXN-10181,2025-03-13,18:37,CUST-1052,Female,26-35,Los Angeles,Books & Stationery,Productivity Planner,2,19.76,7.47,0.0,39.52,14.94,24.58,UPI / Digital Wallet,Delivered,4
+TXN-10414,2025-03-13,18:38,CUST-1213,Male,26-35,Los Angeles,Electronics,Smartphone,3,634.80,419.36,20.0,1523.52,1258.08,265.44,Credit Card,Delivered,5
+TXN-10114,2025-03-14,11:18,CUST-1127,Female,18-25,Miami,Beauty & Personal Care,Moisturizer Cream,3,21.86,8.22,10.0,59.02,24.66,34.36,Cash,Cancelled,5
+TXN-11175,2025-03-14,13:18,CUST-1010,Female,26-35,New York,Books & Stationery,Productivity Planner,2,20.29,7.30,0.0,40.58,14.60,25.98,Cash,Delivered,4
+TXN-11024,2025-03-14,18:05,CUST-1114,Male,18-25,New York,Electronics,Laptop Stand,2,35.28,16.03,10.0,63.50,32.06,31.44,UPI / Digital Wallet,Delivered,5
+TXN-10180,2025-03-15,10:36,CUST-1347,Male,26-35,Chicago,Electronics,Gaming Mouse,2,45.54,21.92,5.0,86.53,43.84,42.69,Credit Card,Delivered,5
+TXN-10896,2025-03-15,13:01,CUST-1105,Male,26-35,Seattle,Books & Stationery,Productivity Planner,3,19.33,7.48,0.0,57.99,22.44,35.55,Debit Card,Delivered,4
+TXN-10381,2025-03-15,16:27,CUST-1056,Female,36-50,Los Angeles,Clothing & Apparel,Hoodie,2,55.63,24.59,0.0,111.26,49.18,62.08,Debit Card,Delivered,4
+TXN-10359,2025-03-15,19:39,CUST-1115,Female,18-25,Miami,Home & Kitchen,Stainless Steel Cookware Set,2,138.79,80.96,10.0,249.82,161.92,87.90,UPI / Digital Wallet,Delivered,5
+TXN-10513,2025-03-16,11:19,CUST-1278,Female,26-35,Chicago,Groceries & Gourmet,Premium Dark Chocolate,1,11.80,6.68,5.0,11.21,6.68,4.53,Debit Card,Delivered,5
+TXN-10294,2025-03-16,18:47,CUST-1101,Male,26-35,Miami,Clothing & Apparel,Formal Shirt,1,40.98,17.65,20.0,32.78,17.65,15.13,UPI / Digital Wallet,Delivered,5
+TXN-10971,2025-03-17,10:08,CUST-1172,Female,18-25,Seattle,Clothing & Apparel,Hoodie,3,55.46,24.66,10.0,149.74,73.98,75.76,Credit Card,Delivered,4
+TXN-10743,2025-03-17,11:30,CUST-1315,Male,26-35,Seattle,Electronics,Smart Watch,1,173.92,107.96,10.0,156.53,107.96,48.57,UPI / Digital Wallet,Delivered,5
+TXN-10658,2025-03-17,18:56,CUST-1164,Non-Binary,26-35,Austin,Beauty & Personal Care,Organic Perfume,1,70.94,26.03,0.0,70.94,26.03,44.91,UPI / Digital Wallet,Delivered,5
+TXN-10874,2025-03-17,19:06,CUST-1340,Male,26-35,Miami,Electronics,Smartphone,1,669.77,419.31,10.0,602.79,419.31,183.48,Credit Card,Delivered,3
+TXN-10199,2025-03-18,09:39,CUST-1229,Female,18-25,Los Angeles,Groceries & Gourmet,Artisan Coffee Beans,3,18.21,10.00,0.0,54.63,30.00,24.63,Credit Card,Delivered,5
+TXN-10356,2025-03-18,11:07,CUST-1140,Female,36-50,San Francisco,Electronics,Gaming Mouse,1,45.21,21.48,5.0,42.95,21.48,21.47,Credit Card,Delivered,5
+TXN-10342,2025-03-18,12:09,CUST-1338,Female,18-25,Chicago,Clothing & Apparel,Denim Jacket,2,74.52,31.63,0.0,149.04,63.26,85.78,Credit Card,Delivered,5
+TXN-10888,2025-03-18,14:00,CUST-1324,Female,26-35,Austin,Beauty & Personal Care,Electric Toothbrush,1,58.32,28.75,0.0,58.32,28.75,29.57,Credit Card,Returned,5
+TXN-10618,2025-03-18,18:30,CUST-1214,Female,26-35,Miami,Books & Stationery,Bestseller Fiction Book,1,22.44,11.13,0.0,22.44,11.13,11.31,Credit Card,Delivered,5
+TXN-10709,2025-03-18,19:01,CUST-1149,Male,26-35,Miami,Electronics,Gaming Mouse,2,43.96,21.75,10.0,79.13,43.50,35.63,UPI / Digital Wallet,Delivered,5
+TXN-10211,2025-03-20,10:00,CUST-1252,Female,26-35,New York,Beauty & Personal Care,Skincare Serum Set,2,44.26,16.16,0.0,88.52,32.32,56.20,Cash,Cancelled,4
+TXN-11200,2025-03-20,10:32,CUST-1202,Female,18-25,San Francisco,Beauty & Personal Care,Hair Dryer,1,49.45,24.70,10.0,44.51,24.70,19.81,Cash,Returned,3
+TXN-10110,2025-03-20,13:10,CUST-1266,Female,51+,San Francisco,Home & Kitchen,Coffee Maker,3,83.95,49.27,10.0,226.67,147.81,78.86,Credit Card,Delivered,5
+TXN-10416,2025-03-20,13:40,CUST-1002,Female,36-50,Houston,Books & Stationery,Productivity Planner,1,19.40,7.57,0.0,19.40,7.57,11.83,UPI / Digital Wallet,Delivered,5
+TXN-10471,2025-03-20,17:28,CUST-1086,Female,18-25,Seattle,Beauty & Personal Care,Organic Perfume,1,67.31,25.92,0.0,67.31,25.92,41.39,UPI / Digital Wallet,Returned,3
+TXN-11141,2025-03-20,20:28,CUST-1100,Female,51+,Los Angeles,Home & Kitchen,Ceramic Dinnerware Set,5,65.60,34.48,5.0,311.60,172.40,139.20,Credit Card,Delivered,5
+TXN-11098,2025-03-21,09:30,CUST-1039,Female,26-35,San Francisco,Electronics,Bluetooth Speaker,1,58.19,32.22,5.0,55.28,32.22,23.06,Credit Card,Delivered,5
+TXN-11083,2025-03-21,16:36,CUST-1089,Male,26-35,Miami,Groceries & Gourmet,Artisan Coffee Beans,4,18.35,10.23,10.0,66.06,40.92,25.14,UPI / Digital Wallet,Delivered,5
+TXN-10327,2025-03-21,18:54,CUST-1192,Female,36-50,San Francisco,Electronics,Wireless Headphones,2,122.30,70.89,0.0,244.60,141.78,102.82,Credit Card,Cancelled,5
+TXN-11081,2025-03-21,19:02,CUST-1195,Female,36-50,Austin,Home & Kitchen,Coffee Maker,2,85.81,48.03,5.0,163.04,96.06,66.98,Credit Card,Delivered,5
+TXN-10048,2025-03-22,08:28,CUST-1039,Female,18-25,Austin,Books & Stationery,Productivity Planner,2,19.67,7.38,10.0,35.41,14.76,20.65,Credit Card,Delivered,5
+TXN-10318,2025-03-22,16:38,CUST-1337,Male,26-35,Seattle,Beauty & Personal Care,Hair Dryer,5,51.61,25.08,10.0,232.25,125.40,106.85,UPI / Digital Wallet,Delivered,5
+TXN-10484,2025-03-23,09:56,CUST-1326,Male,36-50,Los Angeles,Groceries & Gourmet,Green Tea Box,1,14.71,8.16,0.0,14.71,8.16,6.55,Credit Card,Delivered,5
+TXN-10240,2025-03-23,11:58,CUST-1031,Male,36-50,Miami,Groceries & Gourmet,Mixed Nuts Pack,1,20.48,12.13,0.0,20.48,12.13,8.35,Debit Card,Delivered,5
+TXN-11189,2025-03-24,12:48,CUST-1177,Female,51+,Chicago,Groceries & Gourmet,Organic Olive Oil,4,23.39,14.94,0.0,93.56,59.76,33.80,UPI / Digital Wallet,Delivered,5
+TXN-10274,2025-03-24,17:26,CUST-1303,Male,18-25,New York,Electronics,Smartphone,1,626.24,421.85,5.0,594.93,421.85,173.08,Credit Card,Delivered,5
+TXN-11193,2025-03-25,08:11,CUST-1245,Female,51+,Houston,Groceries & Gourmet,Artisan Coffee Beans,2,18.17,10.02,10.0,32.71,20.04,12.67,Credit Card,Delivered,5
+TXN-10463,2025-03-25,14:25,CUST-1107,Male,26-35,San Francisco,Home & Kitchen,Coffee Maker,1,82.42,47.97,10.0,74.18,47.97,26.21,Credit Card,Delivered,4
+TXN-10151,2025-03-25,16:36,CUST-1154,Female,51+,Los Angeles,Beauty & Personal Care,Moisturizer Cream,1,21.70,8.12,20.0,17.36,8.12,9.24,Credit Card,Returned,5
+TXN-10508,2025-03-26,13:04,CUST-1101,Male,18-25,Miami,Books & Stationery,Hardcover Journal,1,15.40,5.98,10.0,13.86,5.98,7.88,UPI / Digital Wallet,Delivered,4
+TXN-10210,2025-03-26,16:27,CUST-1335,Male,26-35,San Francisco,Clothing & Apparel,Denim Jacket,1,72.61,31.43,5.0,68.98,31.43,37.55,Credit Card,Returned,5
+TXN-11050,2025-03-26,17:05,CUST-1105,Female,26-35,Miami,Groceries & Gourmet,Artisan Coffee Beans,2,17.28,9.77,0.0,34.56,19.54,15.02,UPI / Digital Wallet,Delivered,5
+TXN-10233,2025-03-26,20:58,CUST-1097,Female,36-50,Chicago,Beauty & Personal Care,Skincare Serum Set,1,44.02,16.22,10.0,39.62,16.22,23.40,Debit Card,Returned,4
+TXN-10714,2025-03-27,11:16,CUST-1008,Non-Binary,18-25,Chicago,Groceries & Gourmet,Mixed Nuts Pack,1,20.39,11.73,0.0,20.39,11.73,8.66,Debit Card,Returned,4
+TXN-10666,2025-03-27,12:57,CUST-1036,Male,18-25,San Francisco,Beauty & Personal Care,Electric Toothbrush,1,62.22,28.28,0.0,62.22,28.28,33.94,Debit Card,Delivered,5
+TXN-10156,2025-03-27,14:26,CUST-1033,Male,18-25,Austin,Home & Kitchen,Blender,4,51.13,27.77,10.0,184.07,111.08,72.99,Credit Card,Delivered,5
+TXN-10555,2025-03-29,12:11,CUST-1221,Female,18-25,Houston,Books & Stationery,Bestseller Fiction Book,4,21.47,10.79,0.0,85.88,43.16,42.72,Credit Card,Delivered,5
+TXN-11019,2025-03-29,15:41,CUST-1152,Female,36-50,Chicago,Books & Stationery,Calligraphy Pen Set,1,27.79,12.73,0.0,27.79,12.73,15.06,UPI / Digital Wallet,Delivered,5
+TXN-10814,2025-03-30,12:33,CUST-1215,Female,26-35,Houston,Clothing & Apparel,Cotton T-Shirt,2,24.73,8.72,0.0,49.46,17.44,32.02,Cash,Delivered,5
+TXN-10835,2025-03-30,19:54,CUST-1179,Male,18-25,Miami,Electronics,Smart Watch,3,177.87,105.24,20.0,426.89,315.72,111.17,UPI / Digital Wallet,Returned,5
+TXN-10909,2025-03-31,09:05,CUST-1244,Male,26-35,New York,Books & Stationery,Bestseller Fiction Book,2,21.92,11.26,0.0,43.84,22.52,21.32,UPI / Digital Wallet,Delivered,5
+TXN-11105,2025-03-31,11:12,CUST-1206,Female,36-50,Miami,Electronics,Wireless Headphones,1,120.63,70.63,5.0,114.60,70.63,43.97,UPI / Digital Wallet,Cancelled,5
+TXN-10186,2025-03-31,11:45,CUST-1337,Female,18-25,San Francisco,Clothing & Apparel,Denim Jacket,1,72.98,32.87,10.0,65.68,32.87,32.81,Debit Card,Delivered,4
+TXN-10791,2025-04-01,10:38,CUST-1234,Male,18-25,Chicago,Home & Kitchen,Ceramic Dinnerware Set,2,63.84,34.50,15.0,108.53,69.00,39.53,Credit Card,Cancelled,5
+TXN-10605,2025-04-01,12:01,CUST-1144,Male,18-25,Houston,Groceries & Gourmet,Green Tea Box,1,14.53,8.12,5.0,13.80,8.12,5.68,Credit Card,Returned,5
+TXN-10717,2025-04-01,15:37,CUST-1225,Female,26-35,Seattle,Home & Kitchen,Air Fryer,1,107.64,67.97,5.0,102.26,67.97,34.29,Debit Card,Delivered,5
+TXN-10813,2025-04-01,16:08,CUST-1128,Male,36-50,Houston,Groceries & Gourmet,Artisan Coffee Beans,1,17.48,9.98,5.0,16.61,9.98,6.63,Credit Card,Returned,4
+TXN-10337,2025-04-01,20:28,CUST-1034,Male,36-50,New York,Groceries & Gourmet,Mixed Nuts Pack,3,20.30,12.26,0.0,60.90,36.78,24.12,UPI / Digital Wallet,Returned,5
+TXN-10204,2025-04-01,20:54,CUST-1175,Non-Binary,26-35,Miami,Home & Kitchen,Air Fryer,3,105.79,68.35,10.0,285.63,205.05,80.58,Cash,Returned,5
+TXN-10764,2025-04-02,12:43,CUST-1216,Male,18-25,Seattle,Groceries & Gourmet,Organic Olive Oil,2,23.93,14.62,0.0,47.86,29.24,18.62,Credit Card,Returned,5
+TXN-10521,2025-04-02,13:23,CUST-1238,Female,36-50,New York,Groceries & Gourmet,Mixed Nuts Pack,1,20.35,12.00,0.0,20.35,12.00,8.35,UPI / Digital Wallet,Delivered,5
+TXN-10314,2025-04-02,19:12,CUST-1067,Male,36-50,Austin,Electronics,Bluetooth Speaker,2,58.52,31.10,0.0,117.04,62.20,54.84,Credit Card,Delivered,5
+TXN-11086,2025-04-03,19:38,CUST-1060,Female,51+,Miami,Groceries & Gourmet,Mixed Nuts Pack,1,19.20,12.05,0.0,19.20,12.05,7.15,UPI / Digital Wallet,Cancelled,4
+TXN-11154,2025-04-04,08:52,CUST-1207,Male,18-25,New York,Home & Kitchen,Stainless Steel Cookware Set,1,145.07,80.42,0.0,145.07,80.42,64.65,Credit Card,Returned,5
+TXN-11082,2025-04-04,17:07,CUST-1282,Male,36-50,Houston,Books & Stationery,Productivity Planner,1,19.48,7.48,0.0,19.48,7.48,12.00,Cash,Delivered,5
+TXN-10289,2025-04-04,20:43,CUST-1138,Female,18-25,Houston,Clothing & Apparel,Formal Shirt,1,40.76,17.71,0.0,40.76,17.71,23.05,UPI / Digital Wallet,Delivered,4
+TXN-10602,2025-04-05,08:36,CUST-1106,Female,18-25,San Francisco,Clothing & Apparel,Hoodie,2,55.87,24.55,0.0,111.74,49.10,62.64,UPI / Digital Wallet,Delivered,5
+TXN-10760,2025-04-05,12:13,CUST-1042,Female,26-35,New York,Beauty & Personal Care,Skincare Serum Set,2,45.81,15.67,10.0,82.46,31.34,51.12,UPI / Digital Wallet,Returned,5
+TXN-10409,2025-04-05,12:45,CUST-1190,Male,18-25,Chicago,Electronics,Laptop Stand,1,34.49,15.85,5.0,32.77,15.85,16.92,Credit Card,Cancelled,4
+TXN-10818,2025-04-05,17:19,CUST-1129,Female,26-35,Chicago,Home & Kitchen,Blender,2,50.67,28.03,15.0,86.14,56.06,30.08,Credit Card,Delivered,4
+TXN-10701,2025-04-05,17:34,CUST-1195,Male,51+,Miami,Electronics,Laptop Stand,1,34.45,16.04,0.0,34.45,16.04,18.41,Debit Card,Delivered,4
+TXN-11134,2025-04-05,18:21,CUST-1325,Male,18-25,Houston,Books & Stationery,Calligraphy Pen Set,1,27.00,12.92,5.0,25.65,12.92,12.73,Cash,Returned,5
+TXN-10336,2025-04-05,19:31,CUST-1192,Male,18-25,San Francisco,Beauty & Personal Care,Electric Toothbrush,1,58.39,27.54,20.0,46.71,27.54,19.17,UPI / Digital Wallet,Delivered,4
+TXN-11053,2025-04-06,10:53,CUST-1088,Male,26-35,Los Angeles,Clothing & Apparel,Denim Jacket,2,77.27,32.76,10.0,139.09,65.52,73.57,Cash,Returned,5
+TXN-10594,2025-04-06,12:49,CUST-1262,Male,26-35,Los Angeles,Electronics,Smart Watch,3,187.12,103.41,0.0,561.36,310.23,251.13,Credit Card,Delivered,5
+TXN-10644,2025-04-06,12:57,CUST-1184,Male,36-50,Seattle,Clothing & Apparel,Running Shoes,2,87.80,42.86,10.0,158.04,85.72,72.32,Credit Card,Delivered,5
+TXN-10166,2025-04-06,14:12,CUST-1275,Male,26-35,Seattle,Beauty & Personal Care,Skincare Serum Set,1,44.14,16.35,5.0,41.93,16.35,25.58,Credit Card,Cancelled,5
+TXN-10168,2025-04-06,15:34,CUST-1217,Male,36-50,Austin,Books & Stationery,Bestseller Fiction Book,1,22.10,10.99,0.0,22.10,10.99,11.11,Cash,Cancelled,5
+TXN-11124,2025-04-06,21:02,CUST-1175,Male,26-35,New York,Home & Kitchen,Stainless Steel Cookware Set,1,140.63,78.05,10.0,126.57,78.05,48.52,Cash,Delivered,5
+TXN-10928,2025-04-07,17:30,CUST-1110,Female,18-25,Los Angeles,Beauty & Personal Care,Electric Toothbrush,2,58.08,27.81,5.0,110.35,55.62,54.73,UPI / Digital Wallet,Delivered,5
+TXN-10779,2025-04-07,17:39,CUST-1211,Male,26-35,Seattle,Clothing & Apparel,Cotton T-Shirt,1,25.22,8.50,5.0,23.96,8.50,15.46,Credit Card,Cancelled,5
+TXN-10895,2025-04-07,20:38,CUST-1331,Female,26-35,San Francisco,Groceries & Gourmet,Organic Olive Oil,3,23.61,14.60,5.0,67.29,43.80,23.49,UPI / Digital Wallet,Delivered,5
+TXN-10042,2025-04-08,10:46,CUST-1265,Male,18-25,Austin,Beauty & Personal Care,Organic Perfume,1,70.31,25.59,10.0,63.28,25.59,37.69,Credit Card,Delivered,5
+TXN-10385,2025-04-08,11:12,CUST-1225,Female,51+,San Francisco,Electronics,Laptop Stand,1,36.39,15.75,10.0,32.75,15.75,17.00,Debit Card,Delivered,5
+TXN-10746,2025-04-08,14:11,CUST-1287,Female,26-35,Miami,Books & Stationery,Hardcover Journal,1,15.61,5.95,5.0,14.83,5.95,8.88,Credit Card,Delivered,5
+TXN-10540,2025-04-08,16:59,CUST-1321,Female,36-50,Chicago,Groceries & Gourmet,Mixed Nuts Pack,1,20.70,11.73,0.0,20.70,11.73,8.97,Credit Card,Delivered,5
+TXN-10586,2025-04-08,19:47,CUST-1316,Male,51+,New York,Electronics,Laptop Stand,1,34.79,16.03,20.0,27.83,16.03,11.80,UPI / Digital Wallet,Delivered,5
+TXN-10311,2025-04-09,09:24,CUST-1225,Female,18-25,Austin,Home & Kitchen,Coffee Maker,2,83.30,46.67,5.0,158.27,93.34,64.93,Credit Card,Cancelled,5
+TXN-10378,2025-04-09,09:39,CUST-1129,Male,18-25,Los Angeles,Electronics,Wireless Headphones,3,124.21,72.68,20.0,298.10,218.04,80.06,Debit Card,Delivered,5
+TXN-10649,2025-04-09,12:12,CUST-1205,Male,51+,Chicago,Books & Stationery,Calligraphy Pen Set,2,29.03,12.69,5.0,55.16,25.38,29.78,UPI / Digital Wallet,Cancelled,5
+TXN-10044,2025-04-09,12:30,CUST-1095,Female,26-35,Houston,Home & Kitchen,Ceramic Dinnerware Set,1,67.48,34.05,0.0,67.48,34.05,33.43,Credit Card,Delivered,5
+TXN-11094,2025-04-09,14:21,CUST-1293,Male,18-25,San Francisco,Clothing & Apparel,Hoodie,2,52.86,23.54,5.0,100.43,47.08,53.35,Debit Card,Delivered,5
+TXN-10093,2025-04-10,14:36,CUST-1241,Male,36-50,Chicago,Beauty & Personal Care,Organic Perfume,1,71.51,26.43,0.0,71.51,26.43,45.08,Credit Card,Delivered,5
+TXN-10957,2025-04-10,14:52,CUST-1292,Female,18-25,Los Angeles,Clothing & Apparel,Formal Shirt,3,40.15,17.74,0.0,120.45,53.22,67.23,UPI / Digital Wallet,Delivered,5
+TXN-10377,2025-04-10,15:43,CUST-1302,Female,18-25,Seattle,Books & Stationery,Bestseller Fiction Book,1,21.67,10.68,0.0,21.67,10.68,10.99,Credit Card,Delivered,4
+TXN-11096,2025-04-10,17:23,CUST-1303,Male,26-35,Houston,Home & Kitchen,Blender,2,51.36,27.27,5.0,97.58,54.54,43.04,Credit Card,Cancelled,4
+TXN-10551,2025-04-10,18:16,CUST-1084,Male,36-50,Seattle,Books & Stationery,Calligraphy Pen Set,2,28.02,12.99,5.0,53.24,25.98,27.26,Credit Card,Delivered,4
+TXN-10412,2025-04-11,09:34,CUST-1143,Male,26-35,New York,Beauty & Personal Care,Skincare Serum Set,1,46.71,15.90,5.0,44.37,15.90,28.47,Credit Card,Returned,5
+TXN-11065,2025-04-11,11:52,CUST-1202,Male,36-50,San Francisco,Groceries & Gourmet,Premium Dark Chocolate,4,11.70,6.40,5.0,44.46,25.60,18.86,Credit Card,Delivered,5
+TXN-11049,2025-04-12,12:14,CUST-1100,Male,26-35,Miami,Electronics,Smartphone,2,673.62,415.32,0.0,1347.24,830.64,516.60,UPI / Digital Wallet,Delivered,5
+TXN-10517,2025-04-12,13:14,CUST-1102,Male,18-25,San Francisco,Home & Kitchen,Coffee Maker,1,83.91,48.16,0.0,83.91,48.16,35.75,UPI / Digital Wallet,Returned,5
+TXN-10063,2025-04-12,22:54,CUST-1155,Female,36-50,San Francisco,Beauty & Personal Care,Skincare Serum Set,2,44.05,16.07,20.0,70.48,32.14,38.34,Credit Card,Delivered,5
+TXN-10464,2025-04-13,15:56,CUST-1263,Male,26-35,Miami,Beauty & Personal Care,Organic Perfume,1,68.70,26.16,0.0,68.70,26.16,42.54,Credit Card,Delivered,5
+TXN-10514,2025-04-13,17:12,CUST-1101,Male,26-35,Miami,Electronics,Smart Watch,2,175.53,104.85,0.0,351.06,209.70,141.36,Credit Card,Delivered,5
+TXN-10108,2025-04-13,18:15,CUST-1063,Male,18-25,Chicago,Beauty & Personal Care,Skincare Serum Set,1,44.50,16.07,20.0,35.60,16.07,19.53,Credit Card,Cancelled,5
+TXN-10037,2025-04-13,18:39,CUST-1127,Male,18-25,San Francisco,Clothing & Apparel,Cotton T-Shirt,2,24.25,8.59,0.0,48.50,17.18,31.32,UPI / Digital Wallet,Delivered,4
+TXN-10236,2025-04-13,18:53,CUST-1312,Male,26-35,Houston,Groceries & Gourmet,Artisan Coffee Beans,1,17.80,9.95,5.0,16.91,9.95,6.96,Credit Card,Delivered,5
+TXN-10609,2025-04-14,11:48,CUST-1044,Male,18-25,San Francisco,Groceries & Gourmet,Mixed Nuts Pack,1,20.50,11.86,0.0,20.50,11.86,8.64,Debit Card,Delivered,5
+TXN-10396,2025-04-14,13:02,CUST-1139,Female,26-35,Miami,Books & Stationery,Hardcover Journal,1,15.72,5.86,0.0,15.72,5.86,9.86,Credit Card,Delivered,5
+TXN-10479,2025-04-14,14:26,CUST-1063,Female,36-50,San Francisco,Electronics,Smartphone,1,667.41,419.34,0.0,667.41,419.34,248.07,Credit Card,Delivered,5
+TXN-10938,2025-04-15,10:42,CUST-1217,Female,18-25,Seattle,Groceries & Gourmet,Organic Olive Oil,2,23.06,14.85,0.0,46.12,29.70,16.42,UPI / Digital Wallet,Delivered,4
+TXN-10680,2025-04-15,11:01,CUST-1127,Male,36-50,Chicago,Groceries & Gourmet,Mixed Nuts Pack,1,19.83,12.31,0.0,19.83,12.31,7.52,UPI / Digital Wallet,Cancelled,4
+TXN-10113,2025-04-15,13:09,CUST-1238,Female,18-25,Miami,Home & Kitchen,Stainless Steel Cookware Set,5,142.62,81.73,0.0,713.10,408.65,304.45,Credit Card,Delivered,5
+TXN-10856,2025-04-15,15:36,CUST-1038,Female,18-25,San Francisco,Books & Stationery,Hardcover Journal,3,15.42,5.96,0.0,46.26,17.88,28.38,Debit Card,Delivered,2
+TXN-10951,2025-04-16,10:23,CUST-1019,Female,36-50,Miami,Home & Kitchen,Air Fryer,1,110.92,67.64,0.0,110.92,67.64,43.28,Credit Card,Delivered,5
+TXN-10516,2025-04-16,14:52,CUST-1193,Female,26-35,Austin,Electronics,Smart Watch,2,172.94,104.10,0.0,345.88,208.20,137.68,Debit Card,Delivered,3
+TXN-10344,2025-04-17,10:09,CUST-1286,Female,18-25,San Francisco,Electronics,Laptop Stand,1,34.58,15.66,5.0,32.85,15.66,17.19,Credit Card,Delivered,5
+TXN-10195,2025-04-17,15:29,CUST-1184,Female,36-50,New York,Home & Kitchen,Air Fryer,1,106.40,69.25,10.0,95.76,69.25,26.51,Credit Card,Delivered,4
+TXN-11195,2025-04-17,21:17,CUST-1325,Male,18-25,Chicago,Books & Stationery,Bestseller Fiction Book,2,21.51,10.76,0.0,43.02,21.52,21.50,Credit Card,Delivered,5
+TXN-10882,2025-04-18,10:05,CUST-1120,Male,18-25,Austin,Beauty & Personal Care,Hair Dryer,3,50.50,24.54,10.0,136.35,73.62,62.73,Credit Card,Delivered,5
+TXN-10328,2025-04-18,17:13,CUST-1170,Male,36-50,Chicago,Clothing & Apparel,Hoodie,1,55.10,23.65,10.0,49.59,23.65,25.94,Credit Card,Delivered,5
+TXN-10803,2025-04-20,12:29,CUST-1229,Female,26-35,New York,Clothing & Apparel,Formal Shirt,5,39.56,17.67,0.0,197.80,88.35,109.45,Credit Card,Cancelled,4
+TXN-10869,2025-04-20,14:30,CUST-1158,Female,18-25,Seattle,Electronics,Gaming Mouse,3,45.55,21.74,10.0,122.98,65.22,57.76,UPI / Digital Wallet,Delivered,5
+TXN-10013,2025-04-20,16:46,CUST-1249,Male,26-35,Los Angeles,Groceries & Gourmet,Green Tea Box,3,14.97,8.14,0.0,44.91,24.42,20.49,Credit Card,Delivered,5
+TXN-10320,2025-04-20,19:01,CUST-1114,Female,26-35,Los Angeles,Books & Stationery,Calligraphy Pen Set,2,28.94,13.01,5.0,54.99,26.02,28.97,Credit Card,Delivered,4
+TXN-10425,2025-04-20,20:54,CUST-1051,Male,51+,Chicago,Books & Stationery,Productivity Planner,1,19.79,7.54,20.0,15.83,7.54,8.29,Credit Card,Delivered,5
+TXN-10353,2025-04-21,15:11,CUST-1155,Male,51+,New York,Electronics,Smart Watch,3,184.10,106.75,0.0,552.30,320.25,232.05,Credit Card,Delivered,4
+TXN-11003,2025-04-21,18:56,CUST-1251,Male,51+,Seattle,Home & Kitchen,Air Fryer,4,106.38,68.34,0.0,425.52,273.36,152.16,Debit Card,Delivered,5
+TXN-10578,2025-04-21,20:38,CUST-1154,Female,26-35,San Francisco,Groceries & Gourmet,Artisan Coffee Beans,2,18.13,9.87,0.0,36.26,19.74,16.52,Credit Card,Cancelled,5
+TXN-10648,2025-04-22,09:08,CUST-1059,Female,26-35,Los Angeles,Clothing & Apparel,Denim Jacket,1,76.37,32.84,0.0,76.37,32.84,43.53,Credit Card,Cancelled,5
+TXN-11051,2025-04-22,15:57,CUST-1098,Female,36-50,Miami,Books & Stationery,Calligraphy Pen Set,2,27.57,13.07,0.0,55.14,26.14,29.00,Credit Card,Delivered,3
+TXN-10134,2025-04-22,16:02,CUST-1002,Female,26-35,Austin,Beauty & Personal Care,Hair Dryer,1,50.80,25.06,15.0,43.18,25.06,18.12,Debit Card,Returned,5
+TXN-10563,2025-04-23,17:42,CUST-1144,Male,51+,Miami,Beauty & Personal Care,Skincare Serum Set,2,45.60,16.41,0.0,91.20,32.82,58.38,Debit Card,Delivered,5
+TXN-10901,2025-04-23,18:09,CUST-1022,Female,36-50,San Francisco,Clothing & Apparel,Hoodie,2,54.21,23.84,0.0,108.42,47.68,60.74,UPI / Digital Wallet,Delivered,5
+TXN-10283,2025-04-24,14:38,CUST-1135,Male,36-50,New York,Electronics,Laptop Stand,2,34.68,16.47,5.0,65.89,32.94,32.95,UPI / Digital Wallet,Cancelled,5
+TXN-10728,2025-04-24,16:10,CUST-1210,Male,18-25,Chicago,Groceries & Gourmet,Artisan Coffee Beans,4,18.40,9.77,5.0,69.92,39.08,30.84,UPI / Digital Wallet,Returned,5
+TXN-10831,2025-04-24,16:42,CUST-1254,Male,36-50,Seattle,Home & Kitchen,Air Fryer,1,114.38,69.33,5.0,108.66,69.33,39.33,UPI / Digital Wallet,Delivered,5
+TXN-10144,2025-04-24,18:01,CUST-1289,Female,26-35,Miami,Home & Kitchen,Ceramic Dinnerware Set,1,67.26,34.16,0.0,67.26,34.16,33.10,Credit Card,Delivered,5
+TXN-10823,2025-04-24,18:12,CUST-1349,Male,26-35,New York,Books & Stationery,Calligraphy Pen Set,2,28.06,13.22,5.0,53.31,26.44,26.87,Credit Card,Delivered,5
+TXN-11067,2025-04-24,19:14,CUST-1302,Male,26-35,Los Angeles,Home & Kitchen,Ceramic Dinnerware Set,1,65.56,34.38,15.0,55.73,34.38,21.35,Credit Card,Cancelled,5
+TXN-10975,2025-04-24,20:28,CUST-1021,Female,36-50,Seattle,Clothing & Apparel,Formal Shirt,1,38.41,17.51,10.0,34.57,17.51,17.06,UPI / Digital Wallet,Delivered,4
+TXN-10611,2025-04-25,11:18,CUST-1057,Male,18-25,New York,Home & Kitchen,Air Fryer,4,111.02,66.44,15.0,377.47,265.76,111.71,UPI / Digital Wallet,Delivered,5
+TXN-10866,2025-04-25,11:40,CUST-1185,Female,26-35,New York,Books & Stationery,Bestseller Fiction Book,1,22.81,10.93,0.0,22.81,10.93,11.88,Credit Card,Returned,4
+TXN-10640,2025-04-25,15:17,CUST-1192,Male,26-35,New York,Books & Stationery,Calligraphy Pen Set,3,27.57,13.31,5.0,78.57,39.93,38.64,Credit Card,Delivered,4
+TXN-10639,2025-04-25,18:35,CUST-1109,Female,36-50,Austin,Beauty & Personal Care,Skincare Serum Set,1,43.90,15.97,20.0,35.12,15.97,19.15,UPI / Digital Wallet,Returned,5
+TXN-10078,2025-04-25,19:22,CUST-1247,Male,36-50,New York,Groceries & Gourmet,Premium Dark Chocolate,1,11.63,6.41,0.0,11.63,6.41,5.22,UPI / Digital Wallet,Delivered,5
+TXN-10332,2025-04-26,11:57,CUST-1144,Female,26-35,Houston,Beauty & Personal Care,Electric Toothbrush,4,58.02,27.80,5.0,220.48,111.20,109.28,Credit Card,Delivered,4
+TXN-10581,2025-04-26,13:06,CUST-1075,Male,36-50,San Francisco,Beauty & Personal Care,Electric Toothbrush,4,59.42,27.34,0.0,237.68,109.36,128.32,Credit Card,Delivered,4
+TXN-10427,2025-04-26,16:18,CUST-1228,Female,51+,Miami,Beauty & Personal Care,Electric Toothbrush,3,61.71,28.66,15.0,157.36,85.98,71.38,UPI / Digital Wallet,Delivered,5
+TXN-10125,2025-04-26,17:03,CUST-1272,Female,51+,Chicago,Electronics,Bluetooth Speaker,2,59.19,31.95,0.0,118.38,63.90,54.48,Debit Card,Cancelled,5
+TXN-10568,2025-04-26,17:03,CUST-1108,Non-Binary,26-35,Chicago,Clothing & Apparel,Formal Shirt,3,40.73,17.78,15.0,103.86,53.34,50.52,Credit Card,Cancelled,1
+TXN-10049,2025-04-26,17:58,CUST-1279,Female,26-35,San Francisco,Home & Kitchen,Coffee Maker,1,82.09,47.04,10.0,73.88,47.04,26.84,Credit Card,Returned,4
+TXN-10930,2025-04-26,18:08,CUST-1311,Female,26-35,Chicago,Beauty & Personal Care,Moisturizer Cream,1,22.79,8.00,15.0,19.37,8.00,11.37,UPI / Digital Wallet,Delivered,5
+TXN-11000,2025-04-27,14:35,CUST-1253,Female,26-35,New York,Electronics,Laptop Stand,1,33.81,16.06,0.0,33.81,16.06,17.75,Cash,Delivered,5
+TXN-10857,2025-04-27,14:53,CUST-1200,Male,36-50,Seattle,Beauty & Personal Care,Skincare Serum Set,2,43.76,16.09,0.0,87.52,32.18,55.34,Cash,Delivered,5
+TXN-10706,2025-04-27,17:09,CUST-1066,Male,18-25,Austin,Groceries & Gourmet,Organic Olive Oil,1,23.49,15.14,5.0,22.32,15.14,7.18,UPI / Digital Wallet,Delivered,4
+TXN-10867,2025-04-27,21:08,CUST-1278,Female,26-35,Austin,Books & Stationery,Calligraphy Pen Set,3,27.35,12.93,0.0,82.05,38.79,43.26,Credit Card,Delivered,5
+TXN-10763,2025-04-28,11:12,CUST-1331,Female,26-35,Chicago,Electronics,Smartphone,1,639.70,409.74,0.0,639.70,409.74,229.96,Debit Card,Delivered,5
+TXN-10397,2025-04-28,11:54,CUST-1284,Male,36-50,New York,Groceries & Gourmet,Mixed Nuts Pack,1,20.58,11.80,0.0,20.58,11.80,8.78,Credit Card,Delivered,5
+TXN-11055,2025-04-28,16:28,CUST-1174,Male,51+,Seattle,Books & Stationery,Hardcover Journal,1,15.99,6.07,5.0,15.19,6.07,9.12,UPI / Digital Wallet,Delivered,5
+TXN-11097,2025-04-28,21:07,CUST-1050,Female,51+,Seattle,Clothing & Apparel,Running Shoes,1,87.77,43.10,5.0,83.38,43.10,40.28,Credit Card,Delivered,5
+TXN-10719,2025-04-29,17:09,CUST-1055,Male,26-35,New York,Electronics,Smartphone,1,652.71,420.22,5.0,620.07,420.22,199.85,Debit Card,Delivered,5
+TXN-10321,2025-04-30,12:19,CUST-1128,Female,36-50,Austin,Electronics,Gaming Mouse,2,44.64,22.55,10.0,80.35,45.10,35.25,UPI / Digital Wallet,Delivered,5
+TXN-10375,2025-04-30,14:45,CUST-1273,Female,26-35,Austin,Beauty & Personal Care,Organic Perfume,1,68.67,26.05,0.0,68.67,26.05,42.62,UPI / Digital Wallet,Delivered,5
+TXN-11035,2025-04-30,17:39,CUST-1109,Female,51+,New York,Books & Stationery,Hardcover Journal,1,15.43,6.06,5.0,14.66,6.06,8.60,UPI / Digital Wallet,Delivered,4
+TXN-10497,2025-04-30,20:01,CUST-1325,Female,26-35,Chicago,Home & Kitchen,Ceramic Dinnerware Set,1,67.41,34.36,5.0,64.04,34.36,29.68,Credit Card,Delivered,4
+TXN-10841,2025-05-01,13:22,CUST-1187,Female,51+,Chicago,Electronics,Laptop Stand,5,33.98,16.35,0.0,169.90,81.75,88.15,Cash,Cancelled,5
+TXN-10890,2025-05-01,15:31,CUST-1073,Male,26-35,San Francisco,Clothing & Apparel,Formal Shirt,2,39.97,18.49,0.0,79.94,36.98,42.96,Credit Card,Delivered,5
+TXN-11056,2025-05-01,19:33,CUST-1255,Female,26-35,Chicago,Clothing & Apparel,Denim Jacket,1,74.19,31.04,0.0,74.19,31.04,43.15,Credit Card,Delivered,5
+TXN-10939,2025-05-02,11:35,CUST-1182,Male,18-25,New York,Groceries & Gourmet,Premium Dark Chocolate,4,12.25,6.37,0.0,49.00,25.48,23.52,UPI / Digital Wallet,Delivered,4
+TXN-10444,2025-05-02,16:49,CUST-1047,Female,18-25,Seattle,Home & Kitchen,Stainless Steel Cookware Set,3,143.72,81.14,10.0,388.04,243.42,144.62,Credit Card,Delivered,5
+TXN-11084,2025-05-02,19:20,CUST-1074,Female,51+,Houston,Books & Stationery,Calligraphy Pen Set,2,28.45,12.80,15.0,48.36,25.60,22.76,Credit Card,Delivered,5
+TXN-11171,2025-05-04,13:58,CUST-1269,Male,26-35,New York,Clothing & Apparel,Formal Shirt,1,40.10,17.90,5.0,38.09,17.90,20.19,UPI / Digital Wallet,Delivered,2
+TXN-10861,2025-05-04,14:23,CUST-1035,Male,36-50,Houston,Beauty & Personal Care,Electric Toothbrush,2,59.72,28.45,5.0,113.47,56.90,56.57,Credit Card,Delivered,4
+TXN-10071,2025-05-05,22:50,CUST-1171,Female,18-25,Houston,Groceries & Gourmet,Artisan Coffee Beans,1,17.38,10.16,0.0,17.38,10.16,7.22,Cash,Delivered,5
+TXN-10802,2025-05-06,13:34,CUST-1225,Male,36-50,Los Angeles,Books & Stationery,Calligraphy Pen Set,2,28.13,13.25,0.0,56.26,26.50,29.76,UPI / Digital Wallet,Delivered,4
+TXN-10782,2025-05-06,15:04,CUST-1082,Female,26-35,Seattle,Electronics,Laptop Stand,3,33.69,16.17,20.0,80.86,48.51,32.35,Credit Card,Delivered,4
+TXN-10785,2025-05-06,18:21,CUST-1252,Male,18-25,New York,Home & Kitchen,Blender,1,49.32,27.92,0.0,49.32,27.92,21.40,Credit Card,Delivered,4
+TXN-10871,2025-05-06,19:08,CUST-1240,Male,36-50,New York,Beauty & Personal Care,Hair Dryer,1,50.44,25.40,5.0,47.92,25.40,22.52,Credit Card,Delivered,4
+TXN-10953,2025-05-06,20:57,CUST-1027,Female,26-35,Seattle,Books & Stationery,Hardcover Journal,1,15.74,5.84,0.0,15.74,5.84,9.90,Debit Card,Cancelled,5
+TXN-10486,2025-05-07,11:33,CUST-1267,Female,18-25,Seattle,Groceries & Gourmet,Artisan Coffee Beans,1,18.46,9.92,10.0,16.61,9.92,6.69,Debit Card,Cancelled,5
+TXN-10435,2025-05-07,12:19,CUST-1126,Male,18-25,New York,Groceries & Gourmet,Organic Olive Oil,1,24.79,14.61,0.0,24.79,14.61,10.18,UPI / Digital Wallet,Returned,5
+TXN-10532,2025-05-07,15:58,CUST-1310,Female,36-50,Austin,Groceries & Gourmet,Mixed Nuts Pack,2,19.94,12.05,0.0,39.88,24.10,15.78,Debit Card,Returned,5
+TXN-10174,2025-05-07,18:43,CUST-1165,Male,36-50,Los Angeles,Beauty & Personal Care,Organic Perfume,2,68.00,26.21,0.0,136.00,52.42,83.58,Credit Card,Delivered,5
+TXN-10466,2025-05-08,15:18,CUST-1154,Female,36-50,Seattle,Groceries & Gourmet,Organic Olive Oil,1,24.10,15.38,5.0,22.90,15.38,7.52,UPI / Digital Wallet,Delivered,5
+TXN-11109,2025-05-08,17:45,CUST-1162,Male,26-35,San Francisco,Electronics,Smart Watch,2,184.10,102.12,5.0,349.79,204.24,145.55,UPI / Digital Wallet,Returned,4
+TXN-10691,2025-05-09,14:22,CUST-1149,Female,18-25,San Francisco,Electronics,Smartphone,2,674.34,409.28,15.0,1146.38,818.56,327.82,UPI / Digital Wallet,Delivered,5
+TXN-10862,2025-05-09,20:22,CUST-1175,Female,26-35,Los Angeles,Beauty & Personal Care,Electric Toothbrush,1,61.93,27.25,15.0,52.64,27.25,25.39,Credit Card,Cancelled,5
+TXN-10535,2025-05-10,12:02,CUST-1085,Male,26-35,Seattle,Beauty & Personal Care,Skincare Serum Set,2,43.46,16.19,0.0,86.92,32.38,54.54,Credit Card,Delivered,4
+TXN-10082,2025-05-11,13:07,CUST-1071,Female,36-50,Miami,Electronics,Bluetooth Speaker,1,61.19,31.38,10.0,55.07,31.38,23.69,Credit Card,Delivered,5
+TXN-10062,2025-05-11,15:42,CUST-1327,Non-Binary,26-35,Miami,Electronics,Bluetooth Speaker,1,61.93,32.34,0.0,61.93,32.34,29.59,Cash,Delivered,5
+TXN-10495,2025-05-11,18:09,CUST-1094,Female,18-25,New York,Home & Kitchen,Blender,4,50.71,27.26,0.0,202.84,109.04,93.80,Credit Card,Delivered,5
+TXN-10707,2025-05-12,09:54,CUST-1133,Female,18-25,Austin,Home & Kitchen,Ceramic Dinnerware Set,1,66.14,34.21,0.0,66.14,34.21,31.93,Credit Card,Delivered,4
+TXN-10455,2025-05-12,10:35,CUST-1306,Female,26-35,New York,Electronics,Wireless Headphones,3,118.40,70.85,20.0,284.16,212.55,71.61,Credit Card,Returned,5
+TXN-10085,2025-05-12,12:38,CUST-1075,Male,36-50,Austin,Clothing & Apparel,Denim Jacket,1,73.06,32.52,10.0,65.75,32.52,33.23,UPI / Digital Wallet,Delivered,4
+TXN-11169,2025-05-12,13:30,CUST-1305,Non-Binary,18-25,Chicago,Electronics,Bluetooth Speaker,2,61.61,31.21,10.0,110.90,62.42,48.48,Credit Card,Delivered,5
+TXN-10627,2025-05-12,18:28,CUST-1243,Female,36-50,San Francisco,Books & Stationery,Bestseller Fiction Book,1,22.77,11.31,0.0,22.77,11.31,11.46,Cash,Delivered,5
+TXN-10657,2025-05-13,19:02,CUST-1027,Female,18-25,Seattle,Electronics,Wireless Headphones,1,124.29,70.16,5.0,118.08,70.16,47.92,Credit Card,Cancelled,5
+TXN-11118,2025-05-13,19:05,CUST-1061,Female,26-35,Houston,Groceries & Gourmet,Mixed Nuts Pack,1,19.38,11.95,5.0,18.41,11.95,6.46,Debit Card,Delivered,5
+TXN-10373,2025-05-14,18:15,CUST-1090,Male,36-50,Chicago,Beauty & Personal Care,Electric Toothbrush,1,61.44,28.61,0.0,61.44,28.61,32.83,Debit Card,Returned,4
+TXN-11138,2025-05-15,19:40,CUST-1210,Female,36-50,San Francisco,Beauty & Personal Care,Skincare Serum Set,1,43.73,15.63,0.0,43.73,15.63,28.10,UPI / Digital Wallet,Delivered,5
+TXN-10588,2025-05-16,12:47,CUST-1151,Male,36-50,New York,Books & Stationery,Productivity Planner,4,19.55,7.41,5.0,74.29,29.64,44.65,Debit Card,Delivered,5
+TXN-10794,2025-05-16,19:15,CUST-1154,Female,26-35,Chicago,Home & Kitchen,Stainless Steel Cookware Set,2,141.99,80.01,0.0,283.98,160.02,123.96,Cash,Cancelled,5
+TXN-10911,2025-05-17,09:17,CUST-1104,Male,36-50,Seattle,Clothing & Apparel,Cotton T-Shirt,5,25.38,8.66,0.0,126.90,43.30,83.60,Debit Card,Delivered,5
+TXN-10436,2025-05-17,09:30,CUST-1216,Female,36-50,Austin,Groceries & Gourmet,Organic Olive Oil,1,24.93,14.89,5.0,23.68,14.89,8.79,Credit Card,Delivered,5
+TXN-10024,2025-05-17,11:44,CUST-1128,Female,36-50,Austin,Electronics,Bluetooth Speaker,1,61.79,32.69,10.0,55.61,32.69,22.92,Debit Card,Delivered,5
+TXN-10664,2025-05-17,12:34,CUST-1295,Female,36-50,Los Angeles,Electronics,Smart Watch,2,176.06,105.76,0.0,352.12,211.52,140.60,UPI / Digital Wallet,Cancelled,5
+TXN-10477,2025-05-17,19:54,CUST-1286,Non-Binary,36-50,Los Angeles,Books & Stationery,Hardcover Journal,1,16.26,6.15,0.0,16.26,6.15,10.11,UPI / Digital Wallet,Delivered,4
+TXN-10006,2025-05-18,10:58,CUST-1206,Female,18-25,Chicago,Groceries & Gourmet,Premium Dark Chocolate,3,11.72,6.50,5.0,33.40,19.50,13.90,UPI / Digital Wallet,Delivered,4
+TXN-11149,2025-05-18,11:13,CUST-1090,Female,18-25,Los Angeles,Groceries & Gourmet,Artisan Coffee Beans,1,18.13,9.80,5.0,17.22,9.80,7.42,UPI / Digital Wallet,Cancelled,5
+TXN-10176,2025-05-18,13:18,CUST-1254,Female,26-35,New York,Home & Kitchen,Ceramic Dinnerware Set,1,65.41,34.13,0.0,65.41,34.13,31.28,Debit Card,Delivered,5
+TXN-10051,2025-05-18,16:48,CUST-1345,Male,26-35,Seattle,Clothing & Apparel,Formal Shirt,1,40.06,17.94,20.0,32.05,17.94,14.11,Credit Card,Delivered,5
+TXN-10704,2025-05-18,17:50,CUST-1186,Female,18-25,Chicago,Books & Stationery,Hardcover Journal,1,15.52,6.02,0.0,15.52,6.02,9.50,Credit Card,Delivered,4
+TXN-11017,2025-05-18,18:59,CUST-1032,Female,36-50,New York,Electronics,Bluetooth Speaker,3,58.81,32.05,15.0,149.97,96.15,53.82,Cash,Delivered,5
+TXN-10632,2025-05-19,12:11,CUST-1217,Male,36-50,Seattle,Electronics,Smartphone,1,627.60,417.61,10.0,564.84,417.61,147.23,Credit Card,Delivered,5
+TXN-11127,2025-05-19,14:54,CUST-1227,Male,26-35,San Francisco,Electronics,Smartphone,3,667.67,423.09,5.0,1902.86,1269.27,633.59,UPI / Digital Wallet,Delivered,5
+TXN-10391,2025-05-19,15:26,CUST-1328,Male,36-50,Los Angeles,Clothing & Apparel,Cotton T-Shirt,1,25.22,8.26,0.0,25.22,8.26,16.96,Credit Card,Delivered,5
+TXN-10128,2025-05-20,12:07,CUST-1240,Male,26-35,Miami,Home & Kitchen,Coffee Maker,2,86.57,48.43,0.0,173.14,96.86,76.28,Debit Card,Delivered,5
+TXN-10858,2025-05-20,14:00,CUST-1335,Male,26-35,San Francisco,Beauty & Personal Care,Organic Perfume,1,69.31,26.53,10.0,62.38,26.53,35.85,Credit Card,Cancelled,5
+TXN-10499,2025-05-20,16:53,CUST-1247,Female,36-50,San Francisco,Books & Stationery,Productivity Planner,1,20.80,7.65,10.0,18.72,7.65,11.07,UPI / Digital Wallet,Delivered,5
+TXN-10839,2025-05-21,09:14,CUST-1342,Female,51+,New York,Books & Stationery,Bestseller Fiction Book,2,21.55,10.82,0.0,43.10,21.64,21.46,Debit Card,Cancelled,4
+TXN-10147,2025-05-21,16:18,CUST-1272,Male,26-35,Los Angeles,Electronics,Gaming Mouse,3,46.13,22.23,15.0,117.63,66.69,50.94,Credit Card,Delivered,4
+TXN-10907,2025-05-21,20:19,CUST-1006,Non-Binary,36-50,Houston,Beauty & Personal Care,Organic Perfume,1,71.28,26.72,0.0,71.28,26.72,44.56,Credit Card,Delivered,5
+TXN-10897,2025-05-22,12:38,CUST-1234,Male,26-35,Miami,Beauty & Personal Care,Hair Dryer,4,48.65,24.44,0.0,194.60,97.76,96.84,Credit Card,Returned,5
+TXN-10801,2025-05-22,16:28,CUST-1176,Male,36-50,Seattle,Home & Kitchen,Air Fryer,1,109.75,69.55,20.0,87.80,69.55,18.25,UPI / Digital Wallet,Delivered,5
+TXN-11173,2025-05-22,17:25,CUST-1228,Male,36-50,Houston,Home & Kitchen,Blender,1,50.48,27.75,0.0,50.48,27.75,22.73,Credit Card,Delivered,5
+TXN-10225,2025-05-22,17:55,CUST-1173,Male,36-50,Houston,Home & Kitchen,Stainless Steel Cookware Set,2,141.75,82.17,0.0,283.50,164.34,119.16,Debit Card,Returned,5
+TXN-10380,2025-05-22,18:24,CUST-1038,Female,51+,Los Angeles,Beauty & Personal Care,Hair Dryer,3,51.98,24.64,0.0,155.94,73.92,82.02,UPI / Digital Wallet,Delivered,5
+TXN-10889,2025-05-23,12:31,CUST-1282,Female,18-25,New York,Groceries & Gourmet,Mixed Nuts Pack,1,19.89,12.32,20.0,15.91,12.32,3.59,Cash,Cancelled,5
+TXN-11194,2025-05-23,17:46,CUST-1250,Male,36-50,Houston,Clothing & Apparel,Hoodie,5,56.09,23.38,20.0,224.36,116.90,107.46,UPI / Digital Wallet,Delivered,5
+TXN-10036,2025-05-23,18:53,CUST-1195,Female,18-25,Miami,Beauty & Personal Care,Hair Dryer,2,51.34,24.96,0.0,102.68,49.92,52.76,Cash,Delivered,4
+TXN-10291,2025-05-24,14:48,CUST-1262,Female,36-50,Miami,Groceries & Gourmet,Artisan Coffee Beans,1,17.36,10.18,5.0,16.49,10.18,6.31,Credit Card,Delivered,5
+TXN-10892,2025-05-24,16:36,CUST-1244,Male,26-35,Houston,Home & Kitchen,Coffee Maker,2,87.73,49.34,5.0,166.69,98.68,68.01,Debit Card,Delivered,5
+TXN-11136,2025-05-24,17:06,CUST-1091,Non-Binary,18-25,Seattle,Electronics,Smart Watch,3,185.91,107.22,0.0,557.73,321.66,236.07,Cash,Delivered,5
+TXN-10597,2025-05-24,19:06,CUST-1242,Male,36-50,New York,Beauty & Personal Care,Electric Toothbrush,1,58.81,27.99,0.0,58.81,27.99,30.82,Credit Card,Delivered,4
+TXN-10360,2025-05-25,18:38,CUST-1088,Male,26-35,Los Angeles,Groceries & Gourmet,Artisan Coffee Beans,2,18.01,9.94,0.0,36.02,19.88,16.14,Credit Card,Returned,5
+TXN-10525,2025-05-25,18:50,CUST-1154,Male,18-25,Chicago,Beauty & Personal Care,Organic Perfume,1,71.80,26.40,5.0,68.21,26.40,41.81,UPI / Digital Wallet,Delivered,5
+TXN-10222,2025-05-26,09:03,CUST-1047,Female,26-35,Houston,Clothing & Apparel,Hoodie,1,56.23,23.59,0.0,56.23,23.59,32.64,Credit Card,Delivered,5
+TXN-11095,2025-05-26,09:35,CUST-1047,Non-Binary,18-25,Miami,Books & Stationery,Productivity Planner,1,20.20,7.34,0.0,20.20,7.34,12.86,Credit Card,Delivered,5
+TXN-10329,2025-05-26,12:44,CUST-1031,Male,51+,San Francisco,Groceries & Gourmet,Premium Dark Chocolate,1,11.57,6.56,0.0,11.57,6.56,5.01,Credit Card,Delivered,5
+TXN-10300,2025-05-26,14:08,CUST-1127,Male,26-35,Miami,Clothing & Apparel,Hoodie,2,56.49,23.32,15.0,96.03,46.64,49.39,Debit Card,Delivered,5
+TXN-10441,2025-05-27,17:16,CUST-1137,Female,26-35,San Francisco,Books & Stationery,Bestseller Fiction Book,1,21.83,10.74,0.0,21.83,10.74,11.09,Credit Card,Delivered,5
+TXN-10778,2025-05-27,18:28,CUST-1238,Male,18-25,Chicago,Clothing & Apparel,Cotton T-Shirt,3,24.80,8.25,10.0,66.96,24.75,42.21,UPI / Digital Wallet,Returned,3
+TXN-10251,2025-05-27,19:27,CUST-1274,Male,18-25,San Francisco,Electronics,Gaming Mouse,1,43.58,21.84,0.0,43.58,21.84,21.74,Credit Card,Delivered,5
+TXN-10755,2025-05-28,12:44,CUST-1350,Female,26-35,San Francisco,Groceries & Gourmet,Green Tea Box,1,15.40,8.14,10.0,13.86,8.14,5.72,Cash,Delivered,5
+TXN-11183,2025-05-28,13:44,CUST-1292,Female,18-25,Chicago,Home & Kitchen,Coffee Maker,1,81.74,47.69,10.0,73.57,47.69,25.88,Credit Card,Delivered,4
+TXN-10453,2025-05-28,18:24,CUST-1137,Female,26-35,Houston,Clothing & Apparel,Formal Shirt,5,41.14,18.11,0.0,205.70,90.55,115.15,Credit Card,Delivered,3
+TXN-11179,2025-05-28,20:39,CUST-1202,Female,18-25,New York,Clothing & Apparel,Running Shoes,2,91.96,40.77,5.0,174.72,81.54,93.18,Credit Card,Delivered,5
+TXN-10624,2025-05-29,12:43,CUST-1020,Male,18-25,Chicago,Beauty & Personal Care,Skincare Serum Set,2,46.39,15.61,15.0,78.86,31.22,47.64,Cash,Delivered,5
+TXN-10371,2025-05-29,12:44,CUST-1151,Male,36-50,Chicago,Groceries & Gourmet,Premium Dark Chocolate,1,12.22,6.52,0.0,12.22,6.52,5.70,Credit Card,Delivered,5
+TXN-10238,2025-05-29,14:43,CUST-1021,Male,18-25,Chicago,Home & Kitchen,Blender,2,50.95,27.32,0.0,101.90,54.64,47.26,Credit Card,Cancelled,4
+TXN-10678,2025-05-29,16:44,CUST-1050,Female,26-35,Houston,Home & Kitchen,Air Fryer,1,106.67,68.35,10.0,96.00,68.35,27.65,Cash,Delivered,5
+TXN-10173,2025-05-29,16:54,CUST-1150,Male,18-25,San Francisco,Groceries & Gourmet,Organic Olive Oil,1,23.30,15.23,0.0,23.30,15.23,8.07,Debit Card,Delivered,5
+TXN-10265,2025-05-29,17:16,CUST-1038,Female,26-35,Houston,Electronics,Smartphone,1,661.73,419.68,0.0,661.73,419.68,242.05,Cash,Delivered,5
+TXN-11034,2025-05-29,18:02,CUST-1136,Female,18-25,Houston,Electronics,Smartphone,2,639.81,421.37,20.0,1023.70,842.74,180.96,Debit Card,Delivered,5
+TXN-10913,2025-05-30,11:43,CUST-1178,Female,26-35,Chicago,Beauty & Personal Care,Moisturizer Cream,1,21.84,8.22,0.0,21.84,8.22,13.62,UPI / Digital Wallet,Delivered,4
+TXN-10155,2025-05-30,14:49,CUST-1007,Male,18-25,Chicago,Electronics,Laptop Stand,5,36.12,16.39,5.0,171.57,81.95,89.62,Credit Card,Delivered,5
+TXN-10246,2025-05-30,16:23,CUST-1325,Female,26-35,Seattle,Books & Stationery,Hardcover Journal,1,15.42,5.88,10.0,13.88,5.88,8.00,Credit Card,Returned,5
+TXN-10303,2025-05-30,16:50,CUST-1221,Male,26-35,Chicago,Electronics,Gaming Mouse,2,44.55,21.88,0.0,89.10,43.76,45.34,Debit Card,Delivered,5
+TXN-10876,2025-05-30,17:50,CUST-1165,Non-Binary,26-35,Seattle,Electronics,Smart Watch,1,181.48,106.89,15.0,154.26,106.89,47.37,Credit Card,Delivered,2
+TXN-10853,2025-05-30,20:27,CUST-1102,Male,26-35,Austin,Beauty & Personal Care,Organic Perfume,1,69.31,25.99,0.0,69.31,25.99,43.32,Cash,Delivered,4
+TXN-10537,2025-05-31,11:47,CUST-1091,Female,36-50,Miami,Beauty & Personal Care,Electric Toothbrush,2,57.97,28.44,0.0,115.94,56.88,59.06,Debit Card,Delivered,5
+TXN-10249,2025-05-31,15:08,CUST-1176,Male,51+,Miami,Clothing & Apparel,Formal Shirt,1,40.33,18.42,10.0,36.30,18.42,17.88,UPI / Digital Wallet,Delivered,5
+TXN-10577,2025-05-31,17:28,CUST-1266,Male,36-50,Houston,Clothing & Apparel,Hoodie,3,54.96,23.73,20.0,131.90,71.19,60.71,Credit Card,Delivered,5
+TXN-10967,2025-05-31,17:52,CUST-1157,Female,26-35,Miami,Beauty & Personal Care,Organic Perfume,5,71.72,25.59,0.0,358.60,127.95,230.65,UPI / Digital Wallet,Delivered,5
+TXN-10738,2025-05-31,17:56,CUST-1223,Female,36-50,Chicago,Books & Stationery,Calligraphy Pen Set,1,28.05,13.09,5.0,26.65,13.09,13.56,Debit Card,Delivered,5
+TXN-10799,2025-05-31,18:01,CUST-1132,Male,26-35,Houston,Home & Kitchen,Blender,2,51.16,27.71,0.0,102.32,55.42,46.90,Credit Card,Delivered,5
+TXN-10131,2025-06-01,14:14,CUST-1328,Male,36-50,Austin,Clothing & Apparel,Cotton T-Shirt,5,24.96,8.48,0.0,124.80,42.40,82.40,Debit Card,Delivered,5
+TXN-10066,2025-06-01,18:21,CUST-1247,Non-Binary,36-50,Seattle,Electronics,Bluetooth Speaker,4,62.22,31.31,15.0,211.55,125.24,86.31,Credit Card,Returned,5
+TXN-10987,2025-06-02,11:25,CUST-1337,Female,18-25,New York,Electronics,Smart Watch,2,186.03,104.50,0.0,372.06,209.00,163.06,Cash,Delivered,5
+TXN-10828,2025-06-02,18:34,CUST-1225,Male,18-25,San Francisco,Books & Stationery,Productivity Planner,2,19.45,7.67,10.0,35.01,15.34,19.67,Debit Card,Delivered,5
+TXN-10908,2025-06-02,18:57,CUST-1012,Female,26-35,Houston,Electronics,Smart Watch,4,174.84,104.73,20.0,559.49,418.92,140.57,Cash,Delivered,4
+TXN-10758,2025-06-03,10:59,CUST-1206,Female,18-25,New York,Clothing & Apparel,Hoodie,1,53.27,23.89,5.0,50.61,23.89,26.72,Credit Card,Delivered,4
+TXN-10020,2025-06-03,20:06,CUST-1284,Male,18-25,Houston,Clothing & Apparel,Running Shoes,2,87.23,41.01,0.0,174.46,82.02,92.44,UPI / Digital Wallet,Delivered,5
+TXN-11172,2025-06-03,20:32,CUST-1129,Female,18-25,San Francisco,Clothing & Apparel,Hoodie,3,54.14,23.53,0.0,162.42,70.59,91.83,Credit Card,Delivered,5
+TXN-10097,2025-06-04,11:15,CUST-1122,Male,26-35,New York,Beauty & Personal Care,Moisturizer Cream,3,21.92,7.81,5.0,62.47,23.43,39.04,UPI / Digital Wallet,Delivered,5
+TXN-10205,2025-06-04,13:10,CUST-1173,Female,26-35,Miami,Books & Stationery,Productivity Planner,2,20.47,7.71,0.0,40.94,15.42,25.52,Credit Card,Delivered,4
+TXN-11091,2025-06-05,12:17,CUST-1048,Female,36-50,Austin,Books & Stationery,Bestseller Fiction Book,3,21.22,11.21,5.0,60.48,33.63,26.85,UPI / Digital Wallet,Delivered,5
+TXN-10142,2025-06-05,20:00,CUST-1171,Male,36-50,Houston,Clothing & Apparel,Cotton T-Shirt,5,25.92,8.30,0.0,129.60,41.50,88.10,Credit Card,Delivered,5
+TXN-10757,2025-06-06,12:34,CUST-1184,Female,18-25,Seattle,Clothing & Apparel,Denim Jacket,2,74.63,32.22,5.0,141.80,64.44,77.36,UPI / Digital Wallet,Delivered,5
+TXN-10331,2025-06-06,13:25,CUST-1272,Male,26-35,San Francisco,Books & Stationery,Bestseller Fiction Book,1,21.15,11.12,0.0,21.15,11.12,10.03,Debit Card,Delivered,4
+TXN-10178,2025-06-06,17:48,CUST-1321,Male,26-35,Chicago,Clothing & Apparel,Formal Shirt,1,40.50,18.22,0.0,40.50,18.22,22.28,Credit Card,Delivered,5
+TXN-10527,2025-06-06,20:00,CUST-1066,Female,18-25,San Francisco,Beauty & Personal Care,Hair Dryer,2,49.36,24.88,0.0,98.72,49.76,48.96,Debit Card,Delivered,5
+TXN-10808,2025-06-07,12:01,CUST-1106,Female,26-35,Los Angeles,Groceries & Gourmet,Green Tea Box,1,15.53,7.78,0.0,15.53,7.78,7.75,Credit Card,Delivered,5
+TXN-11185,2025-06-07,13:06,CUST-1114,Male,18-25,Seattle,Electronics,Wireless Headphones,1,122.28,69.98,15.0,103.94,69.98,33.96,Credit Card,Returned,5
+TXN-10753,2025-06-08,10:45,CUST-1068,Male,18-25,San Francisco,Home & Kitchen,Coffee Maker,1,83.50,48.19,10.0,75.15,48.19,26.96,Credit Card,Cancelled,5
+TXN-10622,2025-06-08,12:12,CUST-1006,Female,26-35,Austin,Books & Stationery,Hardcover Journal,2,15.67,5.85,0.0,31.34,11.70,19.64,Cash,Delivered,2
+TXN-10531,2025-06-08,14:45,CUST-1106,Female,18-25,Austin,Books & Stationery,Productivity Planner,1,19.45,7.53,0.0,19.45,7.53,11.92,Credit Card,Delivered,4
+TXN-11038,2025-06-08,16:50,CUST-1257,Female,18-25,Houston,Clothing & Apparel,Cotton T-Shirt,3,25.78,8.30,10.0,69.61,24.90,44.71,Cash,Returned,5
+TXN-10626,2025-06-08,16:51,CUST-1074,Male,26-35,San Francisco,Electronics,Bluetooth Speaker,4,58.05,31.64,0.0,232.20,126.56,105.64,Credit Card,Cancelled,5
+TXN-10354,2025-06-08,18:09,CUST-1269,Female,51+,Los Angeles,Electronics,Gaming Mouse,2,45.64,21.52,0.0,91.28,43.04,48.24,UPI / Digital Wallet,Delivered,5
+TXN-10038,2025-06-09,11:01,CUST-1084,Male,36-50,Los Angeles,Home & Kitchen,Ceramic Dinnerware Set,1,65.92,34.93,10.0,59.33,34.93,24.40,Credit Card,Delivered,4
+TXN-10751,2025-06-09,13:22,CUST-1002,Female,18-25,Los Angeles,Electronics,Smart Watch,1,179.51,107.12,15.0,152.58,107.12,45.46,UPI / Digital Wallet,Delivered,5
+TXN-11168,2025-06-09,16:20,CUST-1294,Male,26-35,Seattle,Books & Stationery,Calligraphy Pen Set,2,27.39,13.11,5.0,52.04,26.22,25.82,Debit Card,Returned,5
+TXN-10308,2025-06-09,20:10,CUST-1349,Female,36-50,San Francisco,Books & Stationery,Hardcover Journal,1,16.31,6.02,0.0,16.31,6.02,10.29,Debit Card,Delivered,3
+TXN-11013,2025-06-10,14:07,CUST-1181,Female,26-35,Austin,Groceries & Gourmet,Premium Dark Chocolate,1,12.24,6.41,10.0,11.02,6.41,4.61,Debit Card,Delivered,5
+TXN-10076,2025-06-10,14:42,CUST-1049,Female,18-25,Los Angeles,Home & Kitchen,Stainless Steel Cookware Set,1,145.08,80.90,0.0,145.08,80.90,64.18,UPI / Digital Wallet,Delivered,5
+TXN-10788,2025-06-10,15:24,CUST-1257,Female,26-35,Los Angeles,Beauty & Personal Care,Electric Toothbrush,1,61.78,27.97,0.0,61.78,27.97,33.81,Credit Card,Delivered,5
+TXN-10083,2025-06-10,16:36,CUST-1040,Male,51+,Austin,Beauty & Personal Care,Organic Perfume,4,68.82,25.85,0.0,275.28,103.40,171.88,Credit Card,Delivered,5
+TXN-10230,2025-06-10,17:00,CUST-1091,Female,26-35,Los Angeles,Beauty & Personal Care,Hair Dryer,2,48.84,25.41,0.0,97.68,50.82,46.86,Credit Card,Returned,4
+TXN-10933,2025-06-10,20:20,CUST-1117,Female,26-35,Seattle,Clothing & Apparel,Hoodie,1,53.64,24.68,0.0,53.64,24.68,28.96,UPI / Digital Wallet,Delivered,4
+TXN-10565,2025-06-10,20:36,CUST-1066,Female,26-35,Seattle,Books & Stationery,Hardcover Journal,1,15.76,6.03,0.0,15.76,6.03,9.73,UPI / Digital Wallet,Delivered,5
+TXN-10086,2025-06-11,11:04,CUST-1322,Female,26-35,Los Angeles,Beauty & Personal Care,Organic Perfume,2,70.74,26.46,0.0,141.48,52.92,88.56,Credit Card,Delivered,5
+TXN-10292,2025-06-11,17:00,CUST-1236,Male,18-25,Chicago,Books & Stationery,Bestseller Fiction Book,1,21.79,10.74,15.0,18.52,10.74,7.78,UPI / Digital Wallet,Delivered,5
+TXN-10580,2025-06-11,22:27,CUST-1079,Female,26-35,Seattle,Beauty & Personal Care,Skincare Serum Set,1,46.67,15.76,5.0,44.34,15.76,28.58,Credit Card,Delivered,4
+TXN-11071,2025-06-12,10:39,CUST-1230,Female,26-35,Los Angeles,Home & Kitchen,Coffee Maker,1,86.34,48.41,20.0,69.07,48.41,20.66,UPI / Digital Wallet,Delivered,5
+TXN-10364,2025-06-12,13:50,CUST-1349,Male,26-35,Los Angeles,Books & Stationery,Calligraphy Pen Set,2,28.94,13.34,15.0,49.20,26.68,22.52,UPI / Digital Wallet,Delivered,4
+TXN-11063,2025-06-12,17:00,CUST-1273,Male,36-50,New York,Beauty & Personal Care,Electric Toothbrush,1,60.88,28.49,5.0,57.84,28.49,29.35,Debit Card,Returned,5
+TXN-10655,2025-06-12,18:25,CUST-1141,Female,26-35,Austin,Electronics,Gaming Mouse,1,45.99,21.99,0.0,45.99,21.99,24.00,Cash,Delivered,4
+TXN-10410,2025-06-13,11:47,CUST-1235,Male,36-50,Chicago,Groceries & Gourmet,Green Tea Box,1,14.80,8.10,0.0,14.80,8.10,6.70,Cash,Delivered,5
+TXN-10158,2025-06-13,13:44,CUST-1204,Female,51+,Seattle,Books & Stationery,Productivity Planner,1,20.75,7.63,0.0,20.75,7.63,13.12,Credit Card,Delivered,5
+TXN-10650,2025-06-13,16:38,CUST-1140,Female,18-25,Austin,Beauty & Personal Care,Organic Perfume,3,68.32,25.77,10.0,184.46,77.31,107.15,UPI / Digital Wallet,Returned,5
+TXN-11046,2025-06-14,10:26,CUST-1038,Female,26-35,Chicago,Clothing & Apparel,Hoodie,1,53.66,24.12,0.0,53.66,24.12,29.54,UPI / Digital Wallet,Delivered,5
+TXN-10126,2025-06-14,13:03,CUST-1148,Female,36-50,Chicago,Electronics,Laptop Stand,2,35.21,16.03,15.0,59.86,32.06,27.80,Cash,Delivered,1
+TXN-10219,2025-06-14,13:26,CUST-1227,Male,26-35,Miami,Groceries & Gourmet,Organic Olive Oil,3,23.40,14.74,10.0,63.18,44.22,18.96,Credit Card,Delivered,4
+TXN-10313,2025-06-14,17:42,CUST-1123,Female,26-35,San Francisco,Groceries & Gourmet,Mixed Nuts Pack,2,19.50,12.13,0.0,39.00,24.26,14.74,Credit Card,Delivered,5
+TXN-10807,2025-06-15,14:16,CUST-1116,Male,36-50,Miami,Clothing & Apparel,Hoodie,1,55.77,23.75,5.0,52.98,23.75,29.23,UPI / Digital Wallet,Delivered,4
+TXN-11174,2025-06-16,11:31,CUST-1171,Male,51+,Los Angeles,Books & Stationery,Calligraphy Pen Set,2,28.52,13.13,15.0,48.48,26.26,22.22,UPI / Digital Wallet,Returned,5
+TXN-11040,2025-06-16,17:38,CUST-1113,Male,51+,New York,Home & Kitchen,Coffee Maker,2,87.71,48.06,5.0,166.65,96.12,70.53,Debit Card,Delivered,4
+TXN-10080,2025-06-16,18:36,CUST-1160,Female,36-50,Los Angeles,Groceries & Gourmet,Organic Olive Oil,2,24.74,14.69,0.0,49.48,29.38,20.10,UPI / Digital Wallet,Cancelled,5
+TXN-10216,2025-06-16,19:33,CUST-1283,Female,26-35,Seattle,Beauty & Personal Care,Skincare Serum Set,1,46.03,16.12,0.0,46.03,16.12,29.91,UPI / Digital Wallet,Delivered,4
+TXN-10449,2025-06-17,15:01,CUST-1281,Female,26-35,Seattle,Electronics,Laptop Stand,2,35.40,16.12,0.0,70.80,32.24,38.56,UPI / Digital Wallet,Delivered,5
+TXN-10963,2025-06-17,16:54,CUST-1307,Male,51+,Austin,Electronics,Wireless Headphones,1,115.99,73.28,5.0,110.19,73.28,36.91,Debit Card,Delivered,1
+TXN-10103,2025-06-17,17:19,CUST-1041,Male,26-35,Miami,Beauty & Personal Care,Moisturizer Cream,1,22.38,7.84,0.0,22.38,7.84,14.54,UPI / Digital Wallet,Delivered,5
+TXN-10536,2025-06-17,17:29,CUST-1070,Female,26-35,Chicago,Beauty & Personal Care,Organic Perfume,1,67.58,26.08,20.0,54.06,26.08,27.98,Credit Card,Delivered,5
+TXN-10652,2025-06-18,12:36,CUST-1006,Male,36-50,Los Angeles,Home & Kitchen,Coffee Maker,2,85.42,47.67,5.0,162.30,95.34,66.96,Cash,Delivered,5
+TXN-11064,2025-06-19,17:36,CUST-1318,Male,26-35,Miami,Electronics,Wireless Headphones,3,121.66,70.57,0.0,364.98,211.71,153.27,Credit Card,Returned,5
+TXN-10207,2025-06-19,18:15,CUST-1073,Female,26-35,Miami,Home & Kitchen,Stainless Steel Cookware Set,1,136.28,81.85,10.0,122.65,81.85,40.80,Credit Card,Delivered,5
+TXN-10350,2025-06-19,18:59,CUST-1100,Male,26-35,Austin,Books & Stationery,Productivity Planner,2,20.67,7.63,0.0,41.34,15.26,26.08,Credit Card,Returned,4
+TXN-10872,2025-06-19,19:20,CUST-1028,Male,36-50,Miami,Home & Kitchen,Coffee Maker,1,86.66,49.32,0.0,86.66,49.32,37.34,UPI / Digital Wallet,Delivered,5
+TXN-11144,2025-06-19,19:56,CUST-1118,Female,36-50,Los Angeles,Home & Kitchen,Air Fryer,2,105.91,69.72,5.0,201.23,139.44,61.79,Credit Card,Cancelled,5
+TXN-10986,2025-06-20,13:07,CUST-1136,Male,26-35,Los Angeles,Clothing & Apparel,Hoodie,1,53.73,24.43,0.0,53.73,24.43,29.30,UPI / Digital Wallet,Delivered,4
+TXN-11027,2025-06-20,15:44,CUST-1194,Male,36-50,Seattle,Beauty & Personal Care,Hair Dryer,2,50.92,25.48,20.0,81.47,50.96,30.51,UPI / Digital Wallet,Returned,5
+TXN-10358,2025-06-20,18:45,CUST-1160,Female,26-35,Austin,Books & Stationery,Hardcover Journal,1,16.61,6.09,0.0,16.61,6.09,10.52,UPI / Digital Wallet,Cancelled,5
+TXN-10157,2025-06-20,19:24,CUST-1203,Female,26-35,Chicago,Home & Kitchen,Blender,3,49.34,28.53,20.0,118.42,85.59,32.83,UPI / Digital Wallet,Cancelled,5
+TXN-10955,2025-06-21,18:29,CUST-1207,Male,26-35,Austin,Home & Kitchen,Ceramic Dinnerware Set,3,64.10,33.73,5.0,182.68,101.19,81.49,UPI / Digital Wallet,Delivered,1
+TXN-10972,2025-06-22,08:30,CUST-1191,Male,36-50,San Francisco,Groceries & Gourmet,Artisan Coffee Beans,2,17.58,9.90,10.0,31.64,19.80,11.84,Cash,Delivered,5
+TXN-10935,2025-06-22,12:41,CUST-1325,Female,26-35,Miami,Beauty & Personal Care,Hair Dryer,1,48.98,24.98,5.0,46.53,24.98,21.55,Credit Card,Returned,4
+TXN-10297,2025-06-22,14:39,CUST-1328,Male,36-50,Miami,Groceries & Gourmet,Mixed Nuts Pack,1,20.56,11.69,0.0,20.56,11.69,8.87,UPI / Digital Wallet,Returned,5
+TXN-10386,2025-06-22,18:02,CUST-1029,Male,18-25,Chicago,Beauty & Personal Care,Skincare Serum Set,1,43.96,16.15,15.0,37.37,16.15,21.22,Credit Card,Delivered,5
+TXN-10770,2025-06-22,20:47,CUST-1041,Male,26-35,Los Angeles,Home & Kitchen,Blender,2,49.60,27.47,10.0,89.28,54.94,34.34,Credit Card,Delivered,5
+TXN-10851,2025-06-22,20:59,CUST-1314,Female,18-25,Houston,Books & Stationery,Productivity Planner,2,20.45,7.70,0.0,40.90,15.40,25.50,Debit Card,Delivered,4
+TXN-10247,2025-06-23,11:26,CUST-1098,Non-Binary,18-25,Chicago,Electronics,Laptop Stand,2,35.94,16.09,0.0,71.88,32.18,39.70,UPI / Digital Wallet,Returned,4
+TXN-10079,2025-06-23,13:11,CUST-1159,Male,18-25,Los Angeles,Clothing & Apparel,Hoodie,2,55.69,23.38,20.0,89.10,46.76,42.34,Credit Card,Delivered,5
+TXN-10625,2025-06-23,13:39,CUST-1068,Male,26-35,Los Angeles,Beauty & Personal Care,Skincare Serum Set,1,46.41,16.26,0.0,46.41,16.26,30.15,Cash,Delivered,4
+TXN-10059,2025-06-23,16:25,CUST-1136,Male,36-50,Miami,Books & Stationery,Hardcover Journal,3,16.45,6.13,0.0,49.35,18.39,30.96,UPI / Digital Wallet,Delivered,5
+TXN-10492,2025-06-23,16:42,CUST-1203,Male,18-25,San Francisco,Beauty & Personal Care,Hair Dryer,2,50.58,25.55,5.0,96.10,51.10,45.00,UPI / Digital Wallet,Delivered,4
+TXN-10518,2025-06-23,20:19,CUST-1057,Male,18-25,Seattle,Beauty & Personal Care,Electric Toothbrush,1,59.37,27.79,5.0,56.40,27.79,28.61,Credit Card,Delivered,4
+TXN-10102,2025-06-23,21:31,CUST-1198,Female,26-35,Seattle,Books & Stationery,Productivity Planner,1,19.79,7.63,0.0,19.79,7.63,12.16,Debit Card,Delivered,5
+TXN-10501,2025-06-24,12:38,CUST-1165,Male,36-50,New York,Home & Kitchen,Air Fryer,4,113.64,66.51,5.0,431.83,266.04,165.79,Credit Card,Cancelled,4
+TXN-11033,2025-06-24,13:52,CUST-1131,Female,26-35,Austin,Beauty & Personal Care,Moisturizer Cream,1,22.09,7.97,5.0,20.99,7.97,13.02,Cash,Delivered,2
+TXN-10152,2025-06-24,16:39,CUST-1039,Female,26-35,Austin,Groceries & Gourmet,Mixed Nuts Pack,2,20.75,11.87,10.0,37.35,23.74,13.61,Cash,Returned,5
+TXN-11054,2025-06-24,17:31,CUST-1280,Male,36-50,Houston,Books & Stationery,Productivity Planner,3,19.57,7.47,15.0,49.90,22.41,27.49,Credit Card,Delivered,5
+TXN-10420,2025-06-24,20:10,CUST-1211,Female,51+,Los Angeles,Electronics,Smartphone,1,632.04,412.97,15.0,537.23,412.97,124.26,Credit Card,Delivered,4
+TXN-10091,2025-06-24,20:31,CUST-1110,Male,36-50,New York,Clothing & Apparel,Cotton T-Shirt,1,26.00,8.32,10.0,23.40,8.32,15.08,UPI / Digital Wallet,Returned,5
+TXN-11002,2025-06-24,20:39,CUST-1048,Female,36-50,Houston,Electronics,Wireless Headphones,1,122.93,73.26,5.0,116.78,73.26,43.52,UPI / Digital Wallet,Delivered,4
+TXN-10942,2025-06-25,13:31,CUST-1269,Male,36-50,Los Angeles,Groceries & Gourmet,Green Tea Box,1,14.87,7.97,0.0,14.87,7.97,6.90,Credit Card,Returned,5
+TXN-10306,2025-06-25,14:50,CUST-1112,Female,36-50,Chicago,Beauty & Personal Care,Hair Dryer,1,49.85,25.44,10.0,44.87,25.44,19.43,Credit Card,Cancelled,5
+TXN-10633,2025-06-25,21:19,CUST-1220,Non-Binary,26-35,Chicago,Clothing & Apparel,Cotton T-Shirt,1,24.70,8.46,5.0,23.46,8.46,15.00,Cash,Returned,4
+TXN-10558,2025-06-25,22:52,CUST-1350,Male,18-25,Miami,Clothing & Apparel,Running Shoes,1,91.19,41.69,0.0,91.19,41.69,49.50,Debit Card,Returned,4
+TXN-10554,2025-06-26,18:17,CUST-1294,Female,18-25,Austin,Books & Stationery,Bestseller Fiction Book,1,22.76,10.93,20.0,18.21,10.93,7.28,UPI / Digital Wallet,Returned,5
+TXN-10769,2025-06-26,21:44,CUST-1141,Female,26-35,Austin,Groceries & Gourmet,Artisan Coffee Beans,4,18.60,10.24,10.0,66.96,40.96,26.00,Credit Card,Delivered,5
+TXN-10647,2025-06-27,15:39,CUST-1176,Male,26-35,New York,Groceries & Gourmet,Green Tea Box,1,14.41,8.01,0.0,14.41,8.01,6.40,Debit Card,Delivered,4
+TXN-10665,2025-06-27,17:45,CUST-1105,Male,36-50,Austin,Groceries & Gourmet,Premium Dark Chocolate,1,12.22,6.34,10.0,11.00,6.34,4.66,UPI / Digital Wallet,Delivered,5
+TXN-11181,2025-06-27,18:15,CUST-1184,Non-Binary,26-35,Seattle,Home & Kitchen,Ceramic Dinnerware Set,1,64.17,33.07,0.0,64.17,33.07,31.10,UPI / Digital Wallet,Delivered,5
+TXN-10600,2025-06-27,19:28,CUST-1287,Female,26-35,New York,Books & Stationery,Hardcover Journal,1,16.53,5.84,15.0,14.05,5.84,8.21,Cash,Delivered,5
+TXN-10124,2025-06-27,20:41,CUST-1041,Female,26-35,San Francisco,Home & Kitchen,Blender,1,48.86,28.55,5.0,46.42,28.55,17.87,UPI / Digital Wallet,Delivered,5
+TXN-10636,2025-06-28,12:12,CUST-1111,Male,26-35,Los Angeles,Books & Stationery,Hardcover Journal,1,15.83,5.95,0.0,15.83,5.95,9.88,UPI / Digital Wallet,Returned,5
+TXN-10421,2025-06-28,13:23,CUST-1246,Female,36-50,San Francisco,Clothing & Apparel,Formal Shirt,2,41.25,18.11,0.0,82.50,36.22,46.28,Credit Card,Delivered,5
+TXN-10098,2025-06-30,12:26,CUST-1315,Female,26-35,New York,Clothing & Apparel,Denim Jacket,4,75.14,31.73,5.0,285.53,126.92,158.61,UPI / Digital Wallet,Delivered,5
+TXN-10424,2025-06-30,12:32,CUST-1179,Male,51+,Houston,Books & Stationery,Bestseller Fiction Book,3,22.01,10.72,10.0,59.43,32.16,27.27,Credit Card,Delivered,3
+TXN-10614,2025-06-30,13:27,CUST-1198,Female,26-35,Houston,Beauty & Personal Care,Organic Perfume,1,70.57,26.21,15.0,59.98,26.21,33.77,UPI / Digital Wallet,Cancelled,5
+TXN-10943,2025-06-30,14:15,CUST-1161,Male,18-25,Houston,Books & Stationery,Calligraphy Pen Set,3,28.89,12.91,20.0,69.34,38.73,30.61,UPI / Digital Wallet,Delivered,5
+TXN-10288,2025-06-30,15:00,CUST-1212,Male,18-25,Los Angeles,Books & Stationery,Calligraphy Pen Set,2,27.44,12.68,10.0,49.39,25.36,24.03,Credit Card,Delivered,4
+TXN-10684,2025-06-30,17:36,CUST-1078,Male,18-25,San Francisco,Home & Kitchen,Blender,1,50.86,28.48,10.0,45.77,28.48,17.29,Debit Card,Cancelled,5
+TXN-10729,2025-06-30,18:35,CUST-1171,Male,18-25,Seattle,Electronics,Laptop Stand,1,33.74,15.72,20.0,26.99,15.72,11.27,Debit Card,Delivered,5
+TXN-11119,2025-07-01,11:59,CUST-1194,Male,36-50,San Francisco,Beauty & Personal Care,Moisturizer Cream,2,22.52,8.15,0.0,45.04,16.30,28.74,Cash,Delivered,4
+TXN-10847,2025-07-01,12:27,CUST-1160,Female,36-50,Los Angeles,Home & Kitchen,Blender,1,48.36,27.60,0.0,48.36,27.60,20.76,UPI / Digital Wallet,Delivered,4
+TXN-10754,2025-07-01,16:22,CUST-1251,Female,26-35,Seattle,Books & Stationery,Productivity Planner,1,20.53,7.58,15.0,17.45,7.58,9.87,Cash,Returned,5
+TXN-10418,2025-07-02,12:17,CUST-1070,Female,36-50,Los Angeles,Home & Kitchen,Blender,1,50.54,28.76,0.0,50.54,28.76,21.78,Credit Card,Delivered,5
+TXN-10099,2025-07-02,18:22,CUST-1009,Male,18-25,Miami,Clothing & Apparel,Denim Jacket,1,76.63,32.45,0.0,76.63,32.45,44.18,Debit Card,Cancelled,2
+TXN-10852,2025-07-03,10:58,CUST-1022,Male,26-35,Seattle,Beauty & Personal Care,Moisturizer Cream,2,21.29,8.01,0.0,42.58,16.02,26.56,Credit Card,Delivered,5
+TXN-10061,2025-07-03,14:09,CUST-1151,Male,18-25,Seattle,Clothing & Apparel,Hoodie,1,54.61,24.26,0.0,54.61,24.26,30.35,Cash,Delivered,5
+TXN-10227,2025-07-03,15:54,CUST-1344,Male,36-50,Chicago,Clothing & Apparel,Hoodie,1,53.60,23.42,0.0,53.60,23.42,30.18,UPI / Digital Wallet,Delivered,5
+TXN-10834,2025-07-03,18:22,CUST-1130,Male,18-25,San Francisco,Home & Kitchen,Coffee Maker,1,83.48,48.82,5.0,79.31,48.82,30.49,UPI / Digital Wallet,Delivered,4
+TXN-10944,2025-07-04,14:31,CUST-1177,Male,26-35,Miami,Beauty & Personal Care,Organic Perfume,1,72.29,25.36,0.0,72.29,25.36,46.93,Credit Card,Delivered,4
+TXN-11032,2025-07-04,14:56,CUST-1105,Female,36-50,Los Angeles,Groceries & Gourmet,Organic Olive Oil,1,24.61,15.24,5.0,23.38,15.24,8.14,Credit Card,Delivered,4
+TXN-10154,2025-07-04,18:06,CUST-1228,Female,26-35,New York,Clothing & Apparel,Denim Jacket,2,73.12,31.90,0.0,146.24,63.80,82.44,UPI / Digital Wallet,Delivered,4
+TXN-10183,2025-07-04,20:08,CUST-1007,Female,18-25,Los Angeles,Beauty & Personal Care,Moisturizer Cream,1,21.86,8.02,0.0,21.86,8.02,13.84,Credit Card,Delivered,4
+TXN-10504,2025-07-05,09:31,CUST-1253,Male,26-35,San Francisco,Books & Stationery,Bestseller Fiction Book,2,21.13,11.32,0.0,42.26,22.64,19.62,UPI / Digital Wallet,Delivered,5
+TXN-10712,2025-07-05,10:35,CUST-1210,Female,36-50,Seattle,Groceries & Gourmet,Organic Olive Oil,2,24.80,15.14,0.0,49.60,30.28,19.32,Cash,Delivered,4
+TXN-11015,2025-07-05,17:17,CUST-1046,Female,51+,San Francisco,Groceries & Gourmet,Artisan Coffee Beans,1,17.86,10.04,0.0,17.86,10.04,7.82,Credit Card,Delivered,5
+TXN-10786,2025-07-05,17:19,CUST-1289,Male,36-50,Chicago,Books & Stationery,Bestseller Fiction Book,2,22.12,10.87,5.0,42.03,21.74,20.29,Credit Card,Delivered,4
+TXN-11140,2025-07-05,18:17,CUST-1130,Female,18-25,Austin,Electronics,Wireless Headphones,1,121.69,71.69,0.0,121.69,71.69,50.00,Credit Card,Delivered,5
+TXN-10298,2025-07-05,18:33,CUST-1228,Male,36-50,San Francisco,Beauty & Personal Care,Organic Perfume,1,68.14,26.55,0.0,68.14,26.55,41.59,Credit Card,Delivered,5
+TXN-11158,2025-07-06,09:51,CUST-1038,Female,26-35,Seattle,Groceries & Gourmet,Mixed Nuts Pack,1,19.49,11.97,0.0,19.49,11.97,7.52,Credit Card,Delivered,5
+TXN-10443,2025-07-06,17:56,CUST-1209,Male,36-50,Los Angeles,Electronics,Bluetooth Speaker,1,62.13,32.43,0.0,62.13,32.43,29.70,Cash,Delivered,5
+TXN-10437,2025-07-06,21:12,CUST-1154,Male,26-35,Seattle,Beauty & Personal Care,Skincare Serum Set,1,46.23,16.03,0.0,46.23,16.03,30.20,Cash,Delivered,5
+TXN-11162,2025-07-07,13:08,CUST-1136,Female,26-35,Miami,Electronics,Gaming Mouse,1,44.45,21.73,10.0,40.01,21.73,18.28,Credit Card,Delivered,5
+TXN-10269,2025-07-07,14:57,CUST-1077,Male,36-50,New York,Groceries & Gourmet,Premium Dark Chocolate,1,11.65,6.50,0.0,11.65,6.50,5.15,Debit Card,Delivered,4
+TXN-10272,2025-07-07,16:57,CUST-1194,Female,26-35,Miami,Electronics,Gaming Mouse,1,44.11,22.62,0.0,44.11,22.62,21.49,UPI / Digital Wallet,Delivered,5
+TXN-10698,2025-07-07,18:18,CUST-1155,Female,26-35,New York,Books & Stationery,Bestseller Fiction Book,2,22.05,10.85,5.0,41.90,21.70,20.20,Cash,Cancelled,5
+TXN-10451,2025-07-08,12:56,CUST-1213,Male,51+,Houston,Beauty & Personal Care,Moisturizer Cream,4,21.52,8.22,5.0,81.78,32.88,48.90,Credit Card,Delivered,5
+TXN-11078,2025-07-08,13:04,CUST-1086,Female,18-25,Chicago,Groceries & Gourmet,Artisan Coffee Beans,1,18.44,9.80,10.0,16.60,9.80,6.80,Credit Card,Delivered,4
+TXN-10993,2025-07-08,13:26,CUST-1064,Female,18-25,Houston,Beauty & Personal Care,Moisturizer Cream,1,22.32,7.97,5.0,21.20,7.97,13.23,UPI / Digital Wallet,Delivered,5
+TXN-11021,2025-07-08,13:43,CUST-1346,Female,26-35,Austin,Clothing & Apparel,Running Shoes,2,87.78,42.92,5.0,166.78,85.84,80.94,Credit Card,Delivered,5
+TXN-10043,2025-07-08,15:33,CUST-1298,Female,18-25,San Francisco,Home & Kitchen,Blender,1,51.99,28.08,0.0,51.99,28.08,23.91,Credit Card,Delivered,4
+TXN-10949,2025-07-08,16:17,CUST-1312,Female,26-35,New York,Beauty & Personal Care,Electric Toothbrush,2,59.78,28.35,0.0,119.56,56.70,62.86,Credit Card,Cancelled,5
+TXN-10864,2025-07-09,10:57,CUST-1165,Male,36-50,Los Angeles,Electronics,Laptop Stand,2,34.25,15.89,10.0,61.65,31.78,29.87,Credit Card,Delivered,5
+TXN-10720,2025-07-09,12:36,CUST-1014,Female,26-35,Los Angeles,Beauty & Personal Care,Organic Perfume,1,70.12,26.52,0.0,70.12,26.52,43.60,Credit Card,Delivered,1
+TXN-10487,2025-07-09,17:25,CUST-1040,Non-Binary,36-50,Seattle,Groceries & Gourmet,Green Tea Box,1,15.02,7.95,0.0,15.02,7.95,7.07,Cash,Returned,4
+TXN-10365,2025-07-09,19:03,CUST-1032,Female,36-50,New York,Electronics,Laptop Stand,1,35.17,16.46,0.0,35.17,16.46,18.71,Credit Card,Delivered,4
+TXN-10094,2025-07-10,16:06,CUST-1247,Male,18-25,Chicago,Books & Stationery,Hardcover Journal,1,15.72,6.09,15.0,13.36,6.09,7.27,Cash,Cancelled,4
+TXN-11166,2025-07-10,21:39,CUST-1295,Female,36-50,Chicago,Clothing & Apparel,Formal Shirt,3,41.23,17.58,0.0,123.69,52.74,70.95,Credit Card,Delivered,5
+TXN-11006,2025-07-11,09:11,CUST-1088,Female,36-50,Los Angeles,Books & Stationery,Productivity Planner,1,19.37,7.62,0.0,19.37,7.62,11.75,Credit Card,Delivered,4
+TXN-10550,2025-07-11,15:59,CUST-1257,Female,18-25,Los Angeles,Beauty & Personal Care,Organic Perfume,1,72.63,25.80,5.0,69.00,25.80,43.20,Cash,Returned,4
+TXN-10498,2025-07-11,16:10,CUST-1073,Non-Binary,26-35,Austin,Clothing & Apparel,Hoodie,2,56.99,24.66,0.0,113.98,49.32,64.66,UPI / Digital Wallet,Delivered,5
+TXN-10891,2025-07-11,18:55,CUST-1175,Female,26-35,Houston,Clothing & Apparel,Running Shoes,1,90.47,41.93,0.0,90.47,41.93,48.54,Credit Card,Delivered,5
+TXN-11008,2025-07-12,18:29,CUST-1152,Male,26-35,Los Angeles,Electronics,Gaming Mouse,3,43.62,22.26,0.0,130.86,66.78,64.08,UPI / Digital Wallet,Delivered,5
+TXN-10319,2025-07-12,18:59,CUST-1110,Non-Binary,26-35,New York,Books & Stationery,Calligraphy Pen Set,4,27.69,12.96,0.0,110.76,51.84,58.92,UPI / Digital Wallet,Delivered,5
+TXN-10395,2025-07-12,19:04,CUST-1103,Female,26-35,Austin,Beauty & Personal Care,Moisturizer Cream,1,21.97,8.19,15.0,18.67,8.19,10.48,UPI / Digital Wallet,Delivered,5
+TXN-10571,2025-07-12,20:27,CUST-1076,Female,26-35,New York,Books & Stationery,Bestseller Fiction Book,5,22.75,10.73,0.0,113.75,53.65,60.10,Credit Card,Returned,4
+TXN-10160,2025-07-13,10:38,CUST-1217,Male,26-35,New York,Beauty & Personal Care,Moisturizer Cream,4,21.83,8.00,5.0,82.95,32.00,50.95,Debit Card,Delivered,5
+TXN-10956,2025-07-13,13:45,CUST-1079,Female,18-25,San Francisco,Beauty & Personal Care,Hair Dryer,1,48.58,25.39,5.0,46.15,25.39,20.76,Credit Card,Delivered,5
+TXN-10057,2025-07-13,15:20,CUST-1279,Male,36-50,Austin,Clothing & Apparel,Cotton T-Shirt,2,25.14,8.36,0.0,50.28,16.72,33.56,Credit Card,Delivered,5
+TXN-10583,2025-07-13,16:17,CUST-1074,Male,18-25,Seattle,Electronics,Laptop Stand,2,35.39,15.88,5.0,67.24,31.76,35.48,Cash,Cancelled,5
+TXN-10731,2025-07-13,17:08,CUST-1064,Female,36-50,Seattle,Books & Stationery,Calligraphy Pen Set,1,28.81,12.67,10.0,25.93,12.67,13.26,UPI / Digital Wallet,Delivered,5
+TXN-10617,2025-07-13,17:44,CUST-1074,Female,26-35,Chicago,Beauty & Personal Care,Hair Dryer,2,48.22,24.41,0.0,96.44,48.82,47.62,Credit Card,Delivered,5
+TXN-10744,2025-07-13,18:45,CUST-1202,Male,51+,Houston,Beauty & Personal Care,Hair Dryer,1,49.25,25.03,15.0,41.86,25.03,16.83,Debit Card,Delivered,4
+TXN-10143,2025-07-14,15:41,CUST-1145,Male,26-35,Austin,Home & Kitchen,Stainless Steel Cookware Set,1,137.33,80.06,0.0,137.33,80.06,57.27,Credit Card,Delivered,5
+TXN-10573,2025-07-15,13:41,CUST-1333,Female,26-35,Houston,Beauty & Personal Care,Hair Dryer,1,48.05,24.42,5.0,45.65,24.42,21.23,UPI / Digital Wallet,Delivered,5
+TXN-10366,2025-07-15,14:13,CUST-1208,Female,51+,Seattle,Books & Stationery,Bestseller Fiction Book,1,21.96,10.79,15.0,18.67,10.79,7.88,UPI / Digital Wallet,Delivered,5
+TXN-10262,2025-07-15,14:42,CUST-1225,Non-Binary,18-25,San Francisco,Electronics,Bluetooth Speaker,2,58.35,31.46,10.0,105.03,62.92,42.11,UPI / Digital Wallet,Delivered,4
+TXN-10253,2025-07-15,14:50,CUST-1025,Male,51+,Austin,Books & Stationery,Calligraphy Pen Set,2,29.04,12.65,0.0,58.08,25.30,32.78,UPI / Digital Wallet,Delivered,4
+TXN-10564,2025-07-15,17:50,CUST-1194,Female,26-35,Los Angeles,Groceries & Gourmet,Mixed Nuts Pack,1,20.49,11.80,0.0,20.49,11.80,8.69,Credit Card,Delivered,5
+TXN-10307,2025-07-15,18:07,CUST-1129,Female,36-50,Houston,Books & Stationery,Bestseller Fiction Book,1,21.80,11.31,20.0,17.44,11.31,6.13,UPI / Digital Wallet,Delivered,5
+TXN-10608,2025-07-16,09:52,CUST-1194,Male,18-25,New York,Electronics,Laptop Stand,2,36.22,15.65,0.0,72.44,31.30,41.14,Debit Card,Delivered,4
+TXN-10615,2025-07-16,10:45,CUST-1118,Female,18-25,Houston,Beauty & Personal Care,Moisturizer Cream,2,22.14,8.09,10.0,39.85,16.18,23.67,Debit Card,Delivered,5
+TXN-10402,2025-07-16,14:39,CUST-1057,Female,26-35,Houston,Electronics,Smart Watch,2,178.08,105.93,5.0,338.35,211.86,126.49,UPI / Digital Wallet,Cancelled,4
+TXN-10232,2025-07-16,15:19,CUST-1053,Female,36-50,Miami,Clothing & Apparel,Denim Jacket,1,76.94,31.61,10.0,69.25,31.61,37.64,Credit Card,Cancelled,5
+TXN-11120,2025-07-16,16:46,CUST-1193,Female,26-35,Austin,Home & Kitchen,Ceramic Dinnerware Set,1,64.63,33.52,0.0,64.63,33.52,31.11,Credit Card,Delivered,5
+TXN-10330,2025-07-17,12:24,CUST-1333,Female,26-35,Houston,Groceries & Gourmet,Organic Olive Oil,2,24.78,14.99,0.0,49.56,29.98,19.58,Cash,Delivered,5
+TXN-11139,2025-07-17,19:34,CUST-1302,Male,18-25,San Francisco,Electronics,Bluetooth Speaker,2,60.26,32.91,0.0,120.52,65.82,54.70,Credit Card,Delivered,5
+TXN-10982,2025-07-18,13:23,CUST-1235,Male,26-35,Miami,Clothing & Apparel,Denim Jacket,2,72.22,31.40,0.0,144.44,62.80,81.64,Debit Card,Delivered,4
+TXN-10271,2025-07-18,15:29,CUST-1185,Male,26-35,San Francisco,Electronics,Wireless Headphones,2,124.61,71.24,5.0,236.76,142.48,94.28,UPI / Digital Wallet,Delivered,5
+TXN-10922,2025-07-18,18:34,CUST-1290,Female,18-25,Austin,Books & Stationery,Hardcover Journal,1,15.68,5.86,0.0,15.68,5.86,9.82,Credit Card,Delivered,5
+TXN-10034,2025-07-19,19:53,CUST-1153,Female,26-35,Houston,Beauty & Personal Care,Moisturizer Cream,2,22.44,8.02,0.0,44.88,16.04,28.84,Credit Card,Returned,4
+TXN-10569,2025-07-20,10:46,CUST-1201,Female,36-50,Chicago,Home & Kitchen,Stainless Steel Cookware Set,3,142.20,78.54,0.0,426.60,235.62,190.98,Debit Card,Delivered,4
+TXN-10732,2025-07-20,12:38,CUST-1302,Female,36-50,Los Angeles,Home & Kitchen,Stainless Steel Cookware Set,1,139.16,81.17,0.0,139.16,81.17,57.99,UPI / Digital Wallet,Delivered,5
+TXN-10682,2025-07-20,14:51,CUST-1141,Female,26-35,Seattle,Electronics,Bluetooth Speaker,1,59.60,31.86,0.0,59.60,31.86,27.74,UPI / Digital Wallet,Cancelled,5
+TXN-10607,2025-07-21,17:12,CUST-1091,Male,18-25,Los Angeles,Electronics,Smartphone,3,627.75,413.58,20.0,1506.60,1240.74,265.86,Debit Card,Delivered,5
+TXN-10844,2025-07-22,12:28,CUST-1069,Female,26-35,Seattle,Home & Kitchen,Ceramic Dinnerware Set,1,66.03,33.60,10.0,59.43,33.60,25.83,UPI / Digital Wallet,Delivered,4
+TXN-11128,2025-07-22,17:35,CUST-1298,Female,26-35,Los Angeles,Beauty & Personal Care,Hair Dryer,1,51.72,24.82,15.0,43.96,24.82,19.14,Cash,Delivered,5
+TXN-10860,2025-07-22,18:56,CUST-1062,Female,18-25,Austin,Clothing & Apparel,Denim Jacket,1,75.33,32.00,20.0,60.26,32.00,28.26,Credit Card,Returned,5
+TXN-10148,2025-07-23,10:25,CUST-1137,Male,36-50,Los Angeles,Beauty & Personal Care,Moisturizer Cream,1,21.55,8.09,10.0,19.39,8.09,11.30,Debit Card,Delivered,5
+TXN-10548,2025-07-23,14:30,CUST-1185,Female,26-35,Austin,Beauty & Personal Care,Organic Perfume,2,70.03,26.37,10.0,126.05,52.74,73.31,Debit Card,Delivered,5
+TXN-10623,2025-07-23,15:20,CUST-1145,Female,36-50,Los Angeles,Beauty & Personal Care,Hair Dryer,1,51.90,25.30,0.0,51.90,25.30,26.60,Credit Card,Returned,5
+TXN-10212,2025-07-23,15:57,CUST-1158,Female,18-25,Miami,Books & Stationery,Calligraphy Pen Set,1,27.08,13.03,15.0,23.02,13.03,9.99,Credit Card,Delivered,5
+TXN-11197,2025-07-23,19:06,CUST-1183,Female,36-50,Los Angeles,Groceries & Gourmet,Green Tea Box,2,14.67,8.13,5.0,27.87,16.26,11.61,UPI / Digital Wallet,Delivered,5
+TXN-10025,2025-07-24,13:55,CUST-1099,Male,18-25,Miami,Electronics,Smart Watch,2,177.86,105.06,10.0,320.15,210.12,110.03,Cash,Delivered,5
+TXN-10595,2025-07-25,10:12,CUST-1068,Male,51+,San Francisco,Clothing & Apparel,Formal Shirt,3,38.46,17.68,0.0,115.38,53.04,62.34,Credit Card,Returned,5
+TXN-10084,2025-07-25,15:25,CUST-1302,Male,26-35,Houston,Home & Kitchen,Stainless Steel Cookware Set,1,136.88,81.34,5.0,130.04,81.34,48.70,UPI / Digital Wallet,Delivered,5
+TXN-11061,2025-07-25,15:30,CUST-1279,Female,18-25,San Francisco,Clothing & Apparel,Hoodie,1,56.18,24.23,5.0,53.37,24.23,29.14,UPI / Digital Wallet,Cancelled,5
+TXN-10046,2025-07-25,15:36,CUST-1034,Female,36-50,Houston,Books & Stationery,Hardcover Journal,4,15.55,6.11,0.0,62.20,24.44,37.76,UPI / Digital Wallet,Delivered,4
+TXN-10999,2025-07-25,17:38,CUST-1322,Female,26-35,Miami,Groceries & Gourmet,Green Tea Box,2,14.83,7.94,15.0,25.21,15.88,9.33,UPI / Digital Wallet,Delivered,5
+TXN-10282,2025-07-25,18:51,CUST-1261,Male,36-50,New York,Groceries & Gourmet,Green Tea Box,1,15.24,8.10,20.0,12.19,8.10,4.09,UPI / Digital Wallet,Returned,5
+TXN-10481,2025-07-25,21:10,CUST-1162,Non-Binary,51+,New York,Beauty & Personal Care,Skincare Serum Set,4,44.62,15.56,0.0,178.48,62.24,116.24,Debit Card,Delivered,5
+TXN-11093,2025-07-26,11:58,CUST-1196,Male,18-25,Austin,Clothing & Apparel,Denim Jacket,1,72.73,32.43,10.0,65.46,32.43,33.03,UPI / Digital Wallet,Delivered,5
+TXN-10572,2025-07-26,12:07,CUST-1322,Male,51+,Seattle,Clothing & Apparel,Formal Shirt,4,39.96,18.20,5.0,151.85,72.80,79.05,UPI / Digital Wallet,Delivered,4
+TXN-10750,2025-07-26,14:42,CUST-1341,Female,18-25,Los Angeles,Books & Stationery,Hardcover Journal,1,15.44,6.12,10.0,13.90,6.12,7.78,UPI / Digital Wallet,Returned,5
+TXN-10642,2025-07-26,19:33,CUST-1089,Male,26-35,Seattle,Clothing & Apparel,Formal Shirt,1,39.14,18.23,0.0,39.14,18.23,20.91,Credit Card,Delivered,4
+TXN-10104,2025-07-27,14:51,CUST-1327,Female,18-25,New York,Books & Stationery,Bestseller Fiction Book,2,22.80,10.76,10.0,41.04,21.52,19.52,UPI / Digital Wallet,Delivered,5
+TXN-10820,2025-07-27,15:13,CUST-1296,Female,36-50,Miami,Beauty & Personal Care,Moisturizer Cream,2,21.58,7.97,5.0,41.00,15.94,25.06,Credit Card,Cancelled,4
+TXN-11025,2025-07-27,17:14,CUST-1069,Male,26-35,Austin,Electronics,Bluetooth Speaker,4,61.70,32.43,15.0,209.78,129.72,80.06,Credit Card,Cancelled,4
+TXN-10129,2025-07-27,18:32,CUST-1328,Female,26-35,Houston,Home & Kitchen,Air Fryer,5,109.13,66.35,0.0,545.65,331.75,213.90,Credit Card,Delivered,4
+TXN-10483,2025-07-27,18:56,CUST-1333,Male,26-35,Chicago,Home & Kitchen,Air Fryer,2,105.93,67.32,10.0,190.67,134.64,56.03,Credit Card,Delivered,5
+TXN-11039,2025-07-28,16:01,CUST-1029,Male,18-25,New York,Groceries & Gourmet,Mixed Nuts Pack,1,19.45,12.10,0.0,19.45,12.10,7.35,Credit Card,Delivered,5
+TXN-10733,2025-07-28,16:30,CUST-1114,Male,36-50,Miami,Home & Kitchen,Ceramic Dinnerware Set,5,65.03,33.76,10.0,292.63,168.80,123.83,UPI / Digital Wallet,Delivered,5
+TXN-10689,2025-07-28,16:55,CUST-1185,Female,18-25,Austin,Electronics,Smart Watch,3,175.47,106.45,5.0,500.09,319.35,180.74,Debit Card,Delivered,5
+TXN-10023,2025-07-28,21:47,CUST-1287,Female,51+,New York,Clothing & Apparel,Cotton T-Shirt,3,25.73,8.74,15.0,65.61,26.22,39.39,Debit Card,Returned,4
+TXN-10280,2025-07-29,14:09,CUST-1162,Non-Binary,26-35,San Francisco,Beauty & Personal Care,Moisturizer Cream,1,21.57,8.17,0.0,21.57,8.17,13.40,Credit Card,Cancelled,5
+TXN-10887,2025-07-29,15:29,CUST-1181,Female,18-25,Seattle,Home & Kitchen,Blender,1,49.85,28.67,0.0,49.85,28.67,21.18,Credit Card,Delivered,5
+TXN-10646,2025-07-31,10:40,CUST-1012,Female,18-25,Chicago,Electronics,Smartphone,1,659.74,416.86,15.0,560.78,416.86,143.92,Credit Card,Delivered,5
+TXN-10302,2025-07-31,13:19,CUST-1188,Male,26-35,New York,Electronics,Wireless Headphones,1,120.22,73.12,0.0,120.22,73.12,47.10,Debit Card,Delivered,5
+TXN-10193,2025-07-31,17:23,CUST-1267,Female,51+,New York,Beauty & Personal Care,Skincare Serum Set,2,45.29,16.01,0.0,90.58,32.02,58.56,Credit Card,Delivered,4
+TXN-10708,2025-08-01,10:27,CUST-1349,Female,51+,Miami,Home & Kitchen,Coffee Maker,1,81.77,48.31,20.0,65.42,48.31,17.11,UPI / Digital Wallet,Delivered,5
+TXN-10095,2025-08-01,10:32,CUST-1014,Male,26-35,Los Angeles,Home & Kitchen,Coffee Maker,1,84.23,46.80,0.0,84.23,46.80,37.43,Debit Card,Delivered,5
+TXN-10811,2025-08-01,12:05,CUST-1163,Male,26-35,Seattle,Groceries & Gourmet,Premium Dark Chocolate,4,11.98,6.50,0.0,47.92,26.00,21.92,Debit Card,Delivered,5
+TXN-10415,2025-08-01,12:29,CUST-1140,Male,26-35,San Francisco,Books & Stationery,Bestseller Fiction Book,1,21.47,11.22,0.0,21.47,11.22,10.25,UPI / Digital Wallet,Cancelled,5
+TXN-10533,2025-08-01,12:57,CUST-1090,Male,18-25,Seattle,Groceries & Gourmet,Mixed Nuts Pack,1,19.93,12.30,5.0,18.93,12.30,6.63,Debit Card,Delivered,5
+TXN-10056,2025-08-01,13:50,CUST-1142,Male,26-35,Austin,Groceries & Gourmet,Premium Dark Chocolate,1,12.31,6.42,5.0,11.69,6.42,5.27,UPI / Digital Wallet,Delivered,5
+TXN-10931,2025-08-02,10:05,CUST-1016,Female,26-35,Miami,Books & Stationery,Bestseller Fiction Book,1,22.48,10.70,0.0,22.48,10.70,11.78,Credit Card,Delivered,4
+TXN-10112,2025-08-02,16:01,CUST-1293,Female,18-25,Seattle,Beauty & Personal Care,Moisturizer Cream,1,21.63,8.22,10.0,19.47,8.22,11.25,Credit Card,Cancelled,5
+TXN-10925,2025-08-03,15:17,CUST-1055,Female,26-35,Miami,Beauty & Personal Care,Moisturizer Cream,1,22.36,7.79,15.0,19.01,7.79,11.22,Credit Card,Delivered,5
+TXN-10961,2025-08-03,16:19,CUST-1205,Male,18-25,Miami,Electronics,Smartphone,4,632.45,419.53,0.0,2529.80,1678.12,851.68,Credit Card,Returned,5
+TXN-10137,2025-08-03,16:59,CUST-1339,Female,18-25,New York,Electronics,Smartphone,1,634.72,409.94,5.0,602.98,409.94,193.04,Credit Card,Delivered,4
+TXN-10724,2025-08-03,17:39,CUST-1020,Male,36-50,San Francisco,Beauty & Personal Care,Moisturizer Cream,1,21.53,7.93,20.0,17.22,7.93,9.29,UPI / Digital Wallet,Cancelled,4
+TXN-10777,2025-08-03,19:17,CUST-1112,Female,26-35,Miami,Home & Kitchen,Stainless Steel Cookware Set,2,141.46,80.79,5.0,268.77,161.58,107.19,Credit Card,Returned,5
+TXN-10539,2025-08-04,09:00,CUST-1009,Male,18-25,Chicago,Home & Kitchen,Coffee Maker,4,86.22,46.74,0.0,344.88,186.96,157.92,UPI / Digital Wallet,Delivered,5
+TXN-10653,2025-08-04,17:27,CUST-1331,Female,18-25,San Francisco,Home & Kitchen,Stainless Steel Cookware Set,1,136.62,77.84,0.0,136.62,77.84,58.78,Credit Card,Delivered,5
+TXN-10480,2025-08-04,18:08,CUST-1272,Male,26-35,Miami,Beauty & Personal Care,Organic Perfume,4,72.34,26.62,5.0,274.89,106.48,168.41,Debit Card,Delivered,5
+TXN-10228,2025-08-04,18:21,CUST-1158,Female,18-25,Los Angeles,Home & Kitchen,Stainless Steel Cookware Set,1,140.96,79.83,0.0,140.96,79.83,61.13,Credit Card,Returned,5
+TXN-10825,2025-08-04,19:29,CUST-1268,Female,36-50,San Francisco,Home & Kitchen,Coffee Maker,1,86.51,47.42,10.0,77.86,47.42,30.44,UPI / Digital Wallet,Delivered,5
+TXN-10663,2025-08-05,12:12,CUST-1196,Male,51+,New York,Beauty & Personal Care,Electric Toothbrush,1,60.45,28.05,0.0,60.45,28.05,32.40,Credit Card,Delivered,4
+TXN-10326,2025-08-05,14:12,CUST-1212,Male,26-35,Austin,Home & Kitchen,Stainless Steel Cookware Set,1,141.05,77.72,20.0,112.84,77.72,35.12,Cash,Delivered,5
+TXN-10179,2025-08-05,17:30,CUST-1062,Female,36-50,San Francisco,Electronics,Smartphone,1,643.92,425.82,0.0,643.92,425.82,218.10,Debit Card,Delivered,5
+TXN-10947,2025-08-05,19:15,CUST-1241,Male,36-50,Chicago,Electronics,Smartphone,2,655.34,409.34,0.0,1310.68,818.68,492.00,UPI / Digital Wallet,Delivered,4
+TXN-10293,2025-08-06,12:44,CUST-1256,Male,36-50,Houston,Home & Kitchen,Stainless Steel Cookware Set,1,143.97,78.94,0.0,143.97,78.94,65.03,Debit Card,Returned,4
+TXN-10984,2025-08-06,13:54,CUST-1275,Non-Binary,26-35,Seattle,Electronics,Wireless Headphones,5,124.21,72.71,5.0,590.00,363.55,226.45,Debit Card,Delivered,3
+TXN-10879,2025-08-06,14:21,CUST-1263,Male,18-25,Austin,Clothing & Apparel,Running Shoes,1,91.58,42.13,0.0,91.58,42.13,49.45,UPI / Digital Wallet,Delivered,4
+TXN-10766,2025-08-06,16:24,CUST-1092,Female,26-35,Houston,Books & Stationery,Hardcover Journal,4,15.55,5.94,5.0,59.09,23.76,35.33,Debit Card,Returned,5
+TXN-10522,2025-08-06,19:36,CUST-1157,Female,18-25,Miami,Clothing & Apparel,Running Shoes,2,88.23,40.95,0.0,176.46,81.90,94.56,UPI / Digital Wallet,Delivered,5
+TXN-10809,2025-08-06,22:14,CUST-1084,Female,36-50,Seattle,Clothing & Apparel,Running Shoes,4,86.60,42.95,0.0,346.40,171.80,174.60,Debit Card,Delivered,5
+TXN-10637,2025-08-07,15:48,CUST-1278,Male,26-35,Chicago,Home & Kitchen,Air Fryer,1,113.75,67.83,5.0,108.06,67.83,40.23,Debit Card,Returned,5
+TXN-10829,2025-08-07,16:56,CUST-1239,Female,36-50,Miami,Books & Stationery,Productivity Planner,1,20.41,7.38,20.0,16.33,7.38,8.95,UPI / Digital Wallet,Returned,5
+TXN-10547,2025-08-07,17:19,CUST-1041,Non-Binary,18-25,Austin,Clothing & Apparel,Cotton T-Shirt,1,24.49,8.33,0.0,24.49,8.33,16.16,Debit Card,Cancelled,5
+TXN-10596,2025-08-07,17:19,CUST-1262,Female,18-25,New York,Electronics,Smart Watch,2,178.04,107.79,0.0,356.08,215.58,140.50,UPI / Digital Wallet,Delivered,5
+TXN-10401,2025-08-07,18:44,CUST-1152,Male,18-25,Miami,Groceries & Gourmet,Green Tea Box,2,15.09,7.86,5.0,28.67,15.72,12.95,Cash,Delivered,4
+TXN-10584,2025-08-08,15:45,CUST-1142,Male,18-25,Los Angeles,Clothing & Apparel,Running Shoes,1,90.98,40.96,10.0,81.88,40.96,40.92,Credit Card,Delivered,5
+TXN-10452,2025-08-08,16:09,CUST-1317,Male,26-35,Austin,Electronics,Smart Watch,1,175.25,105.42,5.0,166.49,105.42,61.07,Credit Card,Delivered,5
+TXN-10511,2025-08-08,19:39,CUST-1238,Female,18-25,Houston,Electronics,Smart Watch,1,182.17,106.11,5.0,173.06,106.11,66.95,UPI / Digital Wallet,Delivered,4
+TXN-10116,2025-08-09,11:16,CUST-1056,Female,26-35,Houston,Books & Stationery,Calligraphy Pen Set,1,28.59,12.90,5.0,27.16,12.90,14.26,Credit Card,Cancelled,4
+TXN-11052,2025-08-09,13:03,CUST-1049,Male,51+,Los Angeles,Clothing & Apparel,Formal Shirt,1,39.06,17.73,0.0,39.06,17.73,21.33,UPI / Digital Wallet,Cancelled,5
+TXN-10718,2025-08-09,15:36,CUST-1108,Female,18-25,Austin,Groceries & Gourmet,Premium Dark Chocolate,1,11.62,6.42,0.0,11.62,6.42,5.20,Cash,Delivered,2
+TXN-10432,2025-08-09,19:07,CUST-1017,Male,18-25,San Francisco,Beauty & Personal Care,Organic Perfume,1,68.96,25.81,0.0,68.96,25.81,43.15,Credit Card,Delivered,4
+TXN-10981,2025-08-10,11:32,CUST-1200,Non-Binary,36-50,Los Angeles,Beauty & Personal Care,Electric Toothbrush,1,58.40,28.20,5.0,55.48,28.20,27.28,Debit Card,Cancelled,5
+TXN-10870,2025-08-10,12:28,CUST-1265,Male,26-35,Chicago,Electronics,Laptop Stand,1,34.18,16.06,20.0,27.34,16.06,11.28,Debit Card,Delivered,5
+TXN-10523,2025-08-10,14:51,CUST-1240,Female,18-25,Los Angeles,Beauty & Personal Care,Hair Dryer,1,49.09,24.29,0.0,49.09,24.29,24.80,Debit Card,Delivered,4
+TXN-10671,2025-08-10,18:36,CUST-1063,Male,26-35,Chicago,Home & Kitchen,Stainless Steel Cookware Set,4,135.63,77.64,0.0,542.52,310.56,231.96,UPI / Digital Wallet,Delivered,5
+TXN-10606,2025-08-11,14:57,CUST-1119,Male,18-25,Austin,Beauty & Personal Care,Skincare Serum Set,3,44.99,15.96,0.0,134.97,47.88,87.09,Credit Card,Delivered,5
+TXN-10898,2025-08-11,17:25,CUST-1322,Male,18-25,New York,Clothing & Apparel,Running Shoes,2,90.81,42.66,0.0,181.62,85.32,96.30,UPI / Digital Wallet,Delivered,5
+TXN-11031,2025-08-11,21:47,CUST-1220,Male,51+,New York,Electronics,Gaming Mouse,1,45.70,21.49,10.0,41.13,21.49,19.64,Debit Card,Delivered,5
+TXN-10994,2025-08-12,10:00,CUST-1141,Female,18-25,San Francisco,Beauty & Personal Care,Organic Perfume,3,68.09,26.44,10.0,183.84,79.32,104.52,Credit Card,Delivered,5
+TXN-10937,2025-08-12,14:07,CUST-1244,Female,26-35,Los Angeles,Clothing & Apparel,Cotton T-Shirt,5,24.25,8.63,0.0,121.25,43.15,78.10,Credit Card,Delivered,4
+TXN-10810,2025-08-13,14:13,CUST-1229,Female,18-25,Los Angeles,Beauty & Personal Care,Moisturizer Cream,1,22.55,7.80,15.0,19.17,7.80,11.37,Cash,Delivered,4
+TXN-10688,2025-08-13,17:14,CUST-1252,Male,36-50,New York,Clothing & Apparel,Cotton T-Shirt,2,24.87,8.51,0.0,49.74,17.02,32.72,Credit Card,Delivered,4
+TXN-10711,2025-08-14,13:12,CUST-1267,Female,36-50,Houston,Groceries & Gourmet,Premium Dark Chocolate,2,12.39,6.43,20.0,19.82,12.86,6.96,Credit Card,Delivered,5
+TXN-11047,2025-08-14,14:18,CUST-1254,Male,26-35,Seattle,Beauty & Personal Care,Electric Toothbrush,3,57.88,28.74,10.0,156.28,86.22,70.06,Credit Card,Delivered,4
+TXN-10177,2025-08-14,15:27,CUST-1081,Male,26-35,Los Angeles,Clothing & Apparel,Cotton T-Shirt,3,25.76,8.40,15.0,65.69,25.20,40.49,Credit Card,Delivered,5
+TXN-10556,2025-08-14,16:39,CUST-1210,Female,18-25,Miami,Electronics,Laptop Stand,1,34.07,15.80,0.0,34.07,15.80,18.27,UPI / Digital Wallet,Delivered,5
+TXN-11001,2025-08-14,17:14,CUST-1281,Female,26-35,Seattle,Books & Stationery,Bestseller Fiction Book,1,21.50,10.73,15.0,18.27,10.73,7.54,UPI / Digital Wallet,Cancelled,4
+TXN-10510,2025-08-15,10:39,CUST-1032,Female,26-35,Seattle,Books & Stationery,Productivity Planner,2,19.31,7.58,0.0,38.62,15.16,23.46,Credit Card,Delivered,5
+TXN-10745,2025-08-15,15:50,CUST-1287,Male,36-50,Miami,Home & Kitchen,Air Fryer,1,110.51,67.74,0.0,110.51,67.74,42.77,Credit Card,Returned,5
+TXN-10546,2025-08-15,17:04,CUST-1094,Female,26-35,Chicago,Beauty & Personal Care,Skincare Serum Set,5,46.63,15.57,15.0,198.18,77.85,120.33,Debit Card,Delivered,5
+TXN-10793,2025-08-15,18:12,CUST-1058,Female,18-25,San Francisco,Groceries & Gourmet,Green Tea Box,1,15.31,8.24,0.0,15.31,8.24,7.07,UPI / Digital Wallet,Delivered,4
+TXN-10406,2025-08-16,17:01,CUST-1216,Female,26-35,Miami,Home & Kitchen,Coffee Maker,1,82.03,49.07,15.0,69.73,49.07,20.66,UPI / Digital Wallet,Delivered,5
+TXN-10270,2025-08-17,11:36,CUST-1072,Female,26-35,Austin,Groceries & Gourmet,Artisan Coffee Beans,1,18.34,9.99,0.0,18.34,9.99,8.35,Credit Card,Delivered,5
+TXN-10768,2025-08-17,13:40,CUST-1009,Female,18-25,Chicago,Electronics,Gaming Mouse,1,43.60,22.31,0.0,43.60,22.31,21.29,UPI / Digital Wallet,Cancelled,5
+TXN-10734,2025-08-17,14:36,CUST-1119,Female,51+,Chicago,Electronics,Laptop Stand,2,34.47,15.66,0.0,68.94,31.32,37.62,UPI / Digital Wallet,Delivered,5
+TXN-11108,2025-08-17,16:42,CUST-1026,Male,51+,Houston,Beauty & Personal Care,Skincare Serum Set,2,46.49,15.56,0.0,92.98,31.12,61.86,Credit Card,Delivered,5
+TXN-10543,2025-08-18,14:40,CUST-1300,Female,36-50,Los Angeles,Books & Stationery,Bestseller Fiction Book,1,22.01,11.14,0.0,22.01,11.14,10.87,Debit Card,Delivered,5
+TXN-10333,2025-08-18,16:13,CUST-1169,Female,51+,Chicago,Books & Stationery,Bestseller Fiction Book,1,22.14,11.12,0.0,22.14,11.12,11.02,Debit Card,Delivered,5
+TXN-10135,2025-08-18,19:58,CUST-1196,Female,51+,Miami,Beauty & Personal Care,Organic Perfume,3,67.65,26.72,0.0,202.95,80.16,122.79,Credit Card,Delivered,4
+TXN-10970,2025-08-19,11:20,CUST-1166,Female,36-50,Chicago,Books & Stationery,Productivity Planner,2,20.25,7.71,15.0,34.42,15.42,19.00,Cash,Returned,5
+TXN-10047,2025-08-19,19:19,CUST-1195,Male,26-35,Houston,Groceries & Gourmet,Mixed Nuts Pack,2,19.69,12.09,10.0,35.44,24.18,11.26,Credit Card,Delivered,5
+TXN-10946,2025-08-20,11:09,CUST-1131,Female,18-25,Los Angeles,Beauty & Personal Care,Hair Dryer,1,51.48,24.53,0.0,51.48,24.53,26.95,Credit Card,Delivered,5
+TXN-11165,2025-08-20,12:08,CUST-1135,Female,18-25,Miami,Beauty & Personal Care,Skincare Serum Set,4,44.60,16.42,10.0,160.56,65.68,94.88,Debit Card,Delivered,5
+TXN-10979,2025-08-20,13:32,CUST-1059,Male,26-35,Miami,Groceries & Gourmet,Mixed Nuts Pack,2,20.02,11.99,10.0,36.04,23.98,12.06,Credit Card,Delivered,5
+TXN-10668,2025-08-20,15:22,CUST-1172,Male,36-50,San Francisco,Groceries & Gourmet,Premium Dark Chocolate,1,12.16,6.40,10.0,10.94,6.40,4.54,Debit Card,Cancelled,5
+TXN-10775,2025-08-20,17:01,CUST-1162,Male,26-35,New York,Clothing & Apparel,Hoodie,2,55.37,24.18,0.0,110.74,48.36,62.38,UPI / Digital Wallet,Delivered,5
+TXN-10806,2025-08-20,19:47,CUST-1239,Male,26-35,Seattle,Clothing & Apparel,Running Shoes,1,86.93,42.37,5.0,82.58,42.37,40.21,Credit Card,Returned,5
+TXN-10530,2025-08-21,10:33,CUST-1036,Male,26-35,Chicago,Electronics,Smartphone,1,640.99,430.33,20.0,512.79,430.33,82.46,Credit Card,Delivered,5
+TXN-10439,2025-08-21,17:35,CUST-1264,Female,26-35,Austin,Clothing & Apparel,Denim Jacket,1,75.77,32.03,0.0,75.77,32.03,43.74,Debit Card,Returned,4
+TXN-11159,2025-08-21,19:40,CUST-1184,Male,18-25,Los Angeles,Groceries & Gourmet,Green Tea Box,1,15.07,8.18,0.0,15.07,8.18,6.89,Cash,Delivered,4
+TXN-10175,2025-08-21,20:20,CUST-1189,Male,36-50,Miami,Groceries & Gourmet,Organic Olive Oil,1,24.71,15.31,20.0,19.77,15.31,4.46,Credit Card,Returned,4
+TXN-10973,2025-08-21,21:37,CUST-1021,Male,51+,Seattle,Groceries & Gourmet,Premium Dark Chocolate,1,12.04,6.60,0.0,12.04,6.60,5.44,Credit Card,Returned,4
+TXN-10408,2025-08-22,20:39,CUST-1146,Female,18-25,Chicago,Clothing & Apparel,Hoodie,3,54.06,24.68,5.0,154.07,74.04,80.03,Cash,Delivered,5
+TXN-10170,2025-08-23,16:49,CUST-1087,Male,36-50,Miami,Beauty & Personal Care,Moisturizer Cream,1,22.02,8.03,5.0,20.92,8.03,12.89,Debit Card,Cancelled,5
+TXN-10570,2025-08-23,17:36,CUST-1156,Male,18-25,Houston,Clothing & Apparel,Formal Shirt,1,40.63,17.77,0.0,40.63,17.77,22.86,UPI / Digital Wallet,Delivered,5
+TXN-11011,2025-08-24,12:17,CUST-1165,Male,36-50,New York,Home & Kitchen,Air Fryer,1,105.89,66.01,5.0,100.60,66.01,34.59,Credit Card,Delivered,4
+TXN-10589,2025-08-24,13:22,CUST-1316,Female,18-25,Seattle,Electronics,Wireless Headphones,1,118.56,72.96,0.0,118.56,72.96,45.60,UPI / Digital Wallet,Delivered,5
+TXN-10773,2025-08-24,16:40,CUST-1312,Female,26-35,Miami,Groceries & Gourmet,Premium Dark Chocolate,2,12.04,6.49,0.0,24.08,12.98,11.10,UPI / Digital Wallet,Cancelled,5
+TXN-10469,2025-08-24,17:55,CUST-1245,Male,18-25,Seattle,Books & Stationery,Productivity Planner,2,19.68,7.64,5.0,37.39,15.28,22.11,Credit Card,Delivered,5
+TXN-11160,2025-08-25,14:32,CUST-1038,Female,26-35,Chicago,Home & Kitchen,Air Fryer,2,109.65,67.82,5.0,208.34,135.64,72.70,Credit Card,Delivered,5
+TXN-10041,2025-08-26,16:42,CUST-1125,Female,36-50,San Francisco,Beauty & Personal Care,Hair Dryer,1,48.11,25.53,0.0,48.11,25.53,22.58,UPI / Digital Wallet,Delivered,5
+TXN-11085,2025-08-26,17:56,CUST-1331,Female,26-35,Miami,Beauty & Personal Care,Electric Toothbrush,1,58.38,27.82,0.0,58.38,27.82,30.56,Debit Card,Cancelled,5
+TXN-10676,2025-08-27,14:26,CUST-1219,Male,26-35,Chicago,Beauty & Personal Care,Skincare Serum Set,2,46.49,15.55,0.0,92.98,31.10,61.88,Credit Card,Delivered,5
+TXN-10703,2025-08-28,18:59,CUST-1196,Male,26-35,Houston,Clothing & Apparel,Cotton T-Shirt,2,25.82,8.39,0.0,51.64,16.78,34.86,UPI / Digital Wallet,Delivered,5
+TXN-10631,2025-08-29,11:13,CUST-1080,Male,51+,Miami,Home & Kitchen,Ceramic Dinnerware Set,1,62.56,34.21,15.0,53.18,34.21,18.97,Credit Card,Delivered,4
+TXN-10723,2025-08-29,11:52,CUST-1136,Female,18-25,Houston,Clothing & Apparel,Formal Shirt,3,39.30,17.67,20.0,94.32,53.01,41.31,UPI / Digital Wallet,Delivered,4
+TXN-10989,2025-08-29,12:45,CUST-1009,Female,26-35,Seattle,Clothing & Apparel,Cotton T-Shirt,2,25.48,8.66,0.0,50.96,17.32,33.64,Credit Card,Delivered,5
+TXN-11164,2025-08-29,22:32,CUST-1143,Female,26-35,New York,Clothing & Apparel,Hoodie,3,55.49,24.56,0.0,166.47,73.68,92.79,Cash,Delivered,5
+TXN-10964,2025-08-30,12:08,CUST-1002,Female,36-50,Los Angeles,Home & Kitchen,Stainless Steel Cookware Set,2,142.00,82.01,5.0,269.80,164.02,105.78,Credit Card,Delivered,1
+TXN-11080,2025-08-30,14:45,CUST-1085,Female,51+,Miami,Electronics,Laptop Stand,3,34.88,16.28,0.0,104.64,48.84,55.80,UPI / Digital Wallet,Delivered,5
+TXN-10739,2025-08-30,15:59,CUST-1129,Female,18-25,Chicago,Home & Kitchen,Coffee Maker,1,82.72,48.62,0.0,82.72,48.62,34.10,Cash,Delivered,4
+TXN-10387,2025-08-30,19:39,CUST-1010,Male,18-25,San Francisco,Electronics,Smartphone,1,660.47,410.69,0.0,660.47,410.69,249.78,UPI / Digital Wallet,Delivered,4
+TXN-10101,2025-08-31,12:48,CUST-1279,Female,26-35,San Francisco,Books & Stationery,Bestseller Fiction Book,1,21.62,11.24,5.0,20.54,11.24,9.30,Debit Card,Cancelled,4
+TXN-10118,2025-08-31,15:09,CUST-1171,Male,26-35,San Francisco,Groceries & Gourmet,Green Tea Box,1,14.57,8.21,0.0,14.57,8.21,6.36,UPI / Digital Wallet,Cancelled,4
+TXN-10735,2025-08-31,15:53,CUST-1316,Female,36-50,Chicago,Groceries & Gourmet,Artisan Coffee Beans,1,17.36,10.00,10.0,15.62,10.00,5.62,UPI / Digital Wallet,Delivered,5
+TXN-11072,2025-08-31,16:38,CUST-1269,Female,36-50,Miami,Books & Stationery,Bestseller Fiction Book,1,22.45,10.67,0.0,22.45,10.67,11.78,Cash,Returned,5
+TXN-10969,2025-08-31,17:23,CUST-1108,Female,36-50,San Francisco,Clothing & Apparel,Formal Shirt,1,39.01,17.53,15.0,33.16,17.53,15.63,UPI / Digital Wallet,Returned,4
+TXN-10797,2025-08-31,17:50,CUST-1265,Female,26-35,Miami,Beauty & Personal Care,Hair Dryer,4,48.91,24.64,10.0,176.08,98.56,77.52,Credit Card,Delivered,5
+TXN-10119,2025-09-01,18:23,CUST-1154,Male,26-35,New York,Home & Kitchen,Air Fryer,2,114.22,68.34,10.0,205.60,136.68,68.92,UPI / Digital Wallet,Delivered,4
+TXN-10491,2025-09-01,18:53,CUST-1194,Female,36-50,Austin,Groceries & Gourmet,Artisan Coffee Beans,1,18.38,10.00,0.0,18.38,10.00,8.38,Credit Card,Returned,5
+TXN-11044,2025-09-02,18:00,CUST-1085,Non-Binary,18-25,Los Angeles,Electronics,Laptop Stand,1,35.99,15.94,15.0,30.59,15.94,14.65,Cash,Returned,5
+TXN-10279,2025-09-02,18:58,CUST-1131,Male,18-25,New York,Electronics,Smart Watch,1,181.42,105.28,0.0,181.42,105.28,76.14,Credit Card,Delivered,5
+TXN-10120,2025-09-03,12:40,CUST-1299,Female,26-35,Los Angeles,Books & Stationery,Productivity Planner,1,19.44,7.58,15.0,16.52,7.58,8.94,Credit Card,Returned,5
+TXN-10800,2025-09-03,20:37,CUST-1167,Female,26-35,Houston,Beauty & Personal Care,Skincare Serum Set,4,46.01,15.89,10.0,165.64,63.56,102.08,Credit Card,Delivered,5
+TXN-10242,2025-09-04,13:43,CUST-1128,Male,18-25,New York,Books & Stationery,Productivity Planner,3,19.44,7.65,5.0,55.40,22.95,32.45,Debit Card,Cancelled,4
+TXN-11148,2025-09-04,16:08,CUST-1162,Male,36-50,New York,Beauty & Personal Care,Skincare Serum Set,1,44.19,15.95,0.0,44.19,15.95,28.24,Cash,Returned,4
+TXN-11069,2025-09-04,16:10,CUST-1058,Female,26-35,New York,Electronics,Smartphone,2,651.12,425.16,0.0,1302.24,850.32,451.92,Credit Card,Delivered,5
+TXN-10287,2025-09-05,18:48,CUST-1289,Female,26-35,San Francisco,Home & Kitchen,Blender,3,50.73,28.67,0.0,152.19,86.01,66.18,Cash,Delivered,4
+TXN-10394,2025-09-06,15:04,CUST-1015,Female,18-25,Miami,Clothing & Apparel,Formal Shirt,1,40.30,17.81,5.0,38.28,17.81,20.47,Credit Card,Delivered,4
+TXN-10765,2025-09-06,17:42,CUST-1006,Female,36-50,Austin,Beauty & Personal Care,Organic Perfume,1,71.52,25.69,5.0,67.94,25.69,42.25,UPI / Digital Wallet,Delivered,5
+TXN-10877,2025-09-08,13:10,CUST-1013,Female,51+,New York,Electronics,Laptop Stand,1,34.27,15.81,0.0,34.27,15.81,18.46,UPI / Digital Wallet,Delivered,5
+TXN-11077,2025-09-09,11:54,CUST-1318,Male,18-25,San Francisco,Books & Stationery,Bestseller Fiction Book,2,21.86,11.26,10.0,39.35,22.52,16.83,Credit Card,Delivered,4
+TXN-10305,2025-09-09,12:01,CUST-1319,Male,36-50,Chicago,Clothing & Apparel,Denim Jacket,5,77.82,31.08,0.0,389.10,155.40,233.70,Credit Card,Delivered,5
+TXN-10243,2025-09-09,13:21,CUST-1039,Female,36-50,Los Angeles,Home & Kitchen,Air Fryer,1,110.06,68.21,10.0,99.05,68.21,30.84,Credit Card,Cancelled,5
+TXN-11087,2025-09-09,17:52,CUST-1110,Female,36-50,Chicago,Home & Kitchen,Coffee Maker,3,85.54,48.17,0.0,256.62,144.51,112.11,Cash,Delivered,4
+TXN-11184,2025-09-10,12:24,CUST-1038,Female,18-25,San Francisco,Home & Kitchen,Stainless Steel Cookware Set,1,135.86,79.48,0.0,135.86,79.48,56.38,Credit Card,Delivered,5
+TXN-10885,2025-09-10,13:46,CUST-1033,Female,36-50,Austin,Electronics,Gaming Mouse,2,45.92,21.91,15.0,78.06,43.82,34.24,Credit Card,Delivered,5
+TXN-11062,2025-09-10,14:09,CUST-1273,Female,26-35,Chicago,Groceries & Gourmet,Green Tea Box,2,15.50,8.00,0.0,31.00,16.00,15.00,UPI / Digital Wallet,Delivered,4
+TXN-11110,2025-09-10,17:41,CUST-1271,Female,51+,San Francisco,Electronics,Smartphone,1,648.09,418.46,0.0,648.09,418.46,229.63,Cash,Delivered,5
+TXN-10191,2025-09-10,22:49,CUST-1303,Male,26-35,Houston,Clothing & Apparel,Hoodie,1,56.15,23.63,0.0,56.15,23.63,32.52,UPI / Digital Wallet,Delivered,4
+TXN-10127,2025-09-11,12:47,CUST-1204,Female,26-35,San Francisco,Home & Kitchen,Air Fryer,1,105.68,68.28,20.0,84.54,68.28,16.26,UPI / Digital Wallet,Delivered,4
+TXN-10115,2025-09-12,09:25,CUST-1158,Male,36-50,Austin,Groceries & Gourmet,Mixed Nuts Pack,1,20.75,11.79,0.0,20.75,11.79,8.96,UPI / Digital Wallet,Delivered,5
+TXN-10244,2025-09-12,18:01,CUST-1061,Male,26-35,San Francisco,Electronics,Bluetooth Speaker,1,59.58,32.11,0.0,59.58,32.11,27.47,UPI / Digital Wallet,Cancelled,4
+TXN-11163,2025-09-12,18:45,CUST-1188,Female,51+,Miami,Groceries & Gourmet,Organic Olive Oil,2,24.84,14.59,0.0,49.68,29.18,20.50,UPI / Digital Wallet,Delivered,4
+TXN-10544,2025-09-13,13:09,CUST-1192,Male,26-35,Austin,Beauty & Personal Care,Electric Toothbrush,2,60.68,27.56,20.0,97.09,55.12,41.97,Credit Card,Delivered,5
+TXN-10429,2025-09-13,13:45,CUST-1218,Male,51+,Austin,Groceries & Gourmet,Green Tea Box,2,14.73,8.14,0.0,29.46,16.28,13.18,Cash,Delivered,5
+TXN-10343,2025-09-13,16:00,CUST-1255,Male,18-25,Los Angeles,Groceries & Gourmet,Mixed Nuts Pack,1,19.58,12.06,0.0,19.58,12.06,7.52,Debit Card,Delivered,5
+TXN-10700,2025-09-13,18:17,CUST-1011,Female,36-50,Seattle,Home & Kitchen,Ceramic Dinnerware Set,1,64.40,34.67,0.0,64.40,34.67,29.73,Credit Card,Delivered,5
+TXN-11018,2025-09-13,19:15,CUST-1243,Female,36-50,San Francisco,Groceries & Gourmet,Artisan Coffee Beans,1,17.82,10.16,0.0,17.82,10.16,7.66,Credit Card,Returned,5
+TXN-10457,2025-09-13,19:53,CUST-1066,Female,26-35,San Francisco,Home & Kitchen,Stainless Steel Cookware Set,3,144.77,78.96,5.0,412.59,236.88,175.71,Credit Card,Cancelled,4
+TXN-10055,2025-09-13,20:18,CUST-1079,Female,51+,Chicago,Groceries & Gourmet,Premium Dark Chocolate,1,11.92,6.49,0.0,11.92,6.49,5.43,UPI / Digital Wallet,Delivered,4
+TXN-10686,2025-09-13,20:30,CUST-1055,Male,26-35,Chicago,Home & Kitchen,Coffee Maker,2,88.27,48.89,0.0,176.54,97.78,78.76,Cash,Delivered,5
+TXN-11014,2025-09-14,16:02,CUST-1148,Female,26-35,New York,Home & Kitchen,Blender,1,49.88,28.01,0.0,49.88,28.01,21.87,Credit Card,Delivered,5
+TXN-10121,2025-09-14,18:58,CUST-1211,Male,26-35,Austin,Beauty & Personal Care,Skincare Serum Set,2,45.74,16.02,20.0,73.18,32.04,41.14,Credit Card,Delivered,5
+TXN-11196,2025-09-15,11:21,CUST-1067,Male,26-35,Miami,Electronics,Bluetooth Speaker,2,58.82,31.42,10.0,105.88,62.84,43.04,Cash,Cancelled,5
+TXN-10111,2025-09-15,17:37,CUST-1048,Male,18-25,New York,Groceries & Gourmet,Artisan Coffee Beans,3,17.53,10.07,0.0,52.59,30.21,22.38,Credit Card,Delivered,5
+TXN-10673,2025-09-15,17:49,CUST-1146,Male,18-25,Seattle,Groceries & Gourmet,Artisan Coffee Beans,1,18.65,10.13,10.0,16.79,10.13,6.66,Credit Card,Cancelled,4
+TXN-10324,2025-09-16,11:27,CUST-1295,Female,26-35,Seattle,Home & Kitchen,Blender,1,48.59,27.72,10.0,43.73,27.72,16.01,Credit Card,Delivered,4
+TXN-10488,2025-09-16,11:45,CUST-1074,Female,36-50,Austin,Beauty & Personal Care,Electric Toothbrush,1,62.25,28.02,5.0,59.14,28.02,31.12,Cash,Delivered,4
+TXN-10221,2025-09-16,14:59,CUST-1238,Male,26-35,Austin,Electronics,Laptop Stand,2,33.69,15.88,0.0,67.38,31.76,35.62,Credit Card,Delivered,4
+TXN-11022,2025-09-16,20:01,CUST-1272,Female,51+,San Francisco,Clothing & Apparel,Denim Jacket,1,74.21,32.11,0.0,74.21,32.11,42.10,UPI / Digital Wallet,Delivered,5
+TXN-10478,2025-09-17,11:40,CUST-1022,Male,18-25,Austin,Electronics,Smartphone,1,671.37,411.36,0.0,671.37,411.36,260.01,UPI / Digital Wallet,Delivered,4
+TXN-10694,2025-09-17,12:22,CUST-1255,Female,36-50,New York,Beauty & Personal Care,Organic Perfume,5,68.90,26.55,0.0,344.50,132.75,211.75,Credit Card,Returned,5
+TXN-10184,2025-09-17,13:45,CUST-1204,Female,26-35,Chicago,Groceries & Gourmet,Mixed Nuts Pack,2,19.88,11.93,5.0,37.77,23.86,13.91,UPI / Digital Wallet,Delivered,3
+TXN-10019,2025-09-17,13:59,CUST-1110,Male,51+,San Francisco,Home & Kitchen,Air Fryer,1,113.34,67.47,10.0,102.01,67.47,34.54,UPI / Digital Wallet,Delivered,5
+TXN-10837,2025-09-17,17:35,CUST-1159,Male,51+,Los Angeles,Home & Kitchen,Ceramic Dinnerware Set,2,65.20,33.79,0.0,130.40,67.58,62.82,UPI / Digital Wallet,Delivered,5
+TXN-10009,2025-09-17,19:55,CUST-1092,Male,36-50,Chicago,Books & Stationery,Calligraphy Pen Set,1,28.77,13.01,0.0,28.77,13.01,15.76,UPI / Digital Wallet,Delivered,5
+TXN-10914,2025-09-17,20:40,CUST-1176,Non-Binary,36-50,Chicago,Clothing & Apparel,Hoodie,2,54.30,24.19,15.0,92.31,48.38,43.93,Debit Card,Returned,5
+TXN-11104,2025-09-18,10:28,CUST-1101,Female,26-35,San Francisco,Electronics,Smartphone,1,626.80,425.36,20.0,501.44,425.36,76.08,Credit Card,Delivered,5
+TXN-10248,2025-09-18,18:58,CUST-1248,Female,26-35,Miami,Clothing & Apparel,Hoodie,1,53.56,24.45,5.0,50.88,24.45,26.43,Cash,Delivered,5
+TXN-10903,2025-09-19,14:53,CUST-1192,Female,26-35,San Francisco,Clothing & Apparel,Hoodie,3,53.93,23.56,0.0,161.79,70.68,91.11,Cash,Returned,5
+TXN-10932,2025-09-19,15:48,CUST-1241,Female,26-35,Los Angeles,Books & Stationery,Bestseller Fiction Book,1,21.95,10.73,0.0,21.95,10.73,11.22,Credit Card,Delivered,5
+TXN-10610,2025-09-19,19:26,CUST-1053,Female,36-50,San Francisco,Clothing & Apparel,Denim Jacket,1,77.47,31.09,0.0,77.47,31.09,46.38,Credit Card,Delivered,5
+TXN-10196,2025-09-20,10:19,CUST-1203,Female,18-25,Houston,Home & Kitchen,Coffee Maker,1,81.81,47.72,10.0,73.63,47.72,25.91,Debit Card,Delivered,5
+TXN-10264,2025-09-20,11:11,CUST-1331,Male,51+,New York,Clothing & Apparel,Hoodie,1,56.47,23.56,10.0,50.82,23.56,27.26,Cash,Cancelled,5
+TXN-10081,2025-09-20,11:27,CUST-1111,Female,26-35,Houston,Electronics,Smart Watch,1,182.57,105.59,0.0,182.57,105.59,76.98,Credit Card,Delivered,4
+TXN-11060,2025-09-20,16:04,CUST-1313,Male,26-35,New York,Books & Stationery,Hardcover Journal,1,15.72,5.98,0.0,15.72,5.98,9.74,Credit Card,Delivered,5
+TXN-11103,2025-09-22,10:00,CUST-1217,Male,18-25,New York,Groceries & Gourmet,Organic Olive Oil,1,24.60,15.15,0.0,24.60,15.15,9.45,Credit Card,Delivered,5
+TXN-11126,2025-09-22,11:16,CUST-1034,Male,26-35,New York,Groceries & Gourmet,Green Tea Box,1,15.09,8.02,5.0,14.34,8.02,6.32,UPI / Digital Wallet,Delivered,5
+TXN-10945,2025-09-22,16:51,CUST-1331,Female,36-50,Chicago,Clothing & Apparel,Denim Jacket,2,77.87,31.74,0.0,155.74,63.48,92.26,Credit Card,Delivered,5
+TXN-10997,2025-09-22,18:47,CUST-1338,Male,36-50,San Francisco,Beauty & Personal Care,Skincare Serum Set,1,43.43,16.44,15.0,36.92,16.44,20.48,UPI / Digital Wallet,Delivered,5
+TXN-11137,2025-09-22,21:30,CUST-1302,Female,36-50,Miami,Books & Stationery,Productivity Planner,3,20.79,7.33,0.0,62.37,21.99,40.38,Credit Card,Delivered,5
+TXN-10284,2025-09-23,13:02,CUST-1337,Male,51+,Houston,Groceries & Gourmet,Green Tea Box,1,15.02,7.87,0.0,15.02,7.87,7.15,Credit Card,Delivered,4
+TXN-10106,2025-09-23,14:35,CUST-1256,Female,18-25,Austin,Electronics,Smart Watch,1,183.96,106.29,5.0,174.76,106.29,68.47,Credit Card,Delivered,4
+TXN-10256,2025-09-24,10:32,CUST-1095,Female,26-35,Miami,Clothing & Apparel,Formal Shirt,1,40.14,17.90,15.0,34.12,17.90,16.22,Cash,Cancelled,1
+TXN-10351,2025-09-24,13:46,CUST-1029,Female,18-25,Miami,Books & Stationery,Calligraphy Pen Set,2,28.12,12.62,0.0,56.24,25.24,31.00,Debit Card,Delivered,2
+TXN-10509,2025-09-24,18:04,CUST-1171,Male,26-35,New York,Groceries & Gourmet,Green Tea Box,1,14.93,7.81,0.0,14.93,7.81,7.12,Debit Card,Delivered,4
+TXN-10737,2025-09-24,18:10,CUST-1083,Female,36-50,Austin,Clothing & Apparel,Formal Shirt,3,41.18,17.58,0.0,123.54,52.74,70.80,Credit Card,Delivered,5
+TXN-10833,2025-09-25,10:25,CUST-1294,Female,51+,Miami,Books & Stationery,Productivity Planner,2,20.27,7.29,0.0,40.54,14.58,25.96,Debit Card,Cancelled,4
+TXN-11115,2025-09-25,15:59,CUST-1183,Female,18-25,Chicago,Clothing & Apparel,Hoodie,1,57.12,24.68,15.0,48.55,24.68,23.87,UPI / Digital Wallet,Returned,5
+TXN-10959,2025-09-27,11:43,CUST-1168,Female,26-35,Seattle,Books & Stationery,Calligraphy Pen Set,1,28.69,13.22,10.0,25.82,13.22,12.60,UPI / Digital Wallet,Cancelled,3
+TXN-10008,2025-09-28,12:35,CUST-1240,Female,26-35,Miami,Electronics,Laptop Stand,1,35.62,16.17,0.0,35.62,16.17,19.45,UPI / Digital Wallet,Delivered,3
+TXN-10660,2025-09-28,15:20,CUST-1303,Female,26-35,Miami,Home & Kitchen,Blender,1,50.62,28.58,0.0,50.62,28.58,22.04,UPI / Digital Wallet,Delivered,4
+TXN-10854,2025-09-28,18:12,CUST-1029,Male,26-35,Miami,Electronics,Smart Watch,2,185.65,106.56,0.0,371.30,213.12,158.18,Credit Card,Delivered,5
+TXN-10868,2025-09-29,12:13,CUST-1069,Male,26-35,Miami,Books & Stationery,Bestseller Fiction Book,2,22.12,11.30,10.0,39.82,22.60,17.22,Debit Card,Returned,5
+TXN-10651,2025-09-29,13:01,CUST-1331,Male,26-35,Houston,Electronics,Smartphone,1,666.07,418.22,0.0,666.07,418.22,247.85,Debit Card,Delivered,5
+TXN-10075,2025-09-29,13:32,CUST-1306,Female,36-50,Houston,Groceries & Gourmet,Mixed Nuts Pack,3,19.36,12.15,5.0,55.18,36.45,18.73,Credit Card,Cancelled,5
+TXN-10796,2025-09-29,15:43,CUST-1164,Male,36-50,Seattle,Home & Kitchen,Ceramic Dinnerware Set,1,63.49,34.35,0.0,63.49,34.35,29.14,UPI / Digital Wallet,Delivered,5
+TXN-10838,2025-09-30,13:08,CUST-1175,Female,18-25,Los Angeles,Beauty & Personal Care,Skincare Serum Set,3,46.24,16.23,10.0,124.85,48.69,76.16,Debit Card,Delivered,5
+TXN-10519,2025-09-30,14:23,CUST-1099,Male,26-35,Houston,Home & Kitchen,Ceramic Dinnerware Set,4,64.63,34.28,10.0,232.67,137.12,95.55,Credit Card,Delivered,5
+TXN-10334,2025-09-30,20:07,CUST-1286,Non-Binary,26-35,Seattle,Clothing & Apparel,Running Shoes,1,92.44,41.11,0.0,92.44,41.11,51.33,UPI / Digital Wallet,Delivered,5
+TXN-10603,2025-10-01,12:02,CUST-1024,Male,18-25,New York,Books & Stationery,Bestseller Fiction Book,1,22.78,10.85,15.0,19.36,10.85,8.51,Debit Card,Delivered,5
+TXN-10234,2025-10-01,16:38,CUST-1131,Female,26-35,Austin,Electronics,Laptop Stand,1,33.90,16.32,0.0,33.90,16.32,17.58,UPI / Digital Wallet,Delivered,5
+TXN-10005,2025-10-01,17:10,CUST-1088,Male,36-50,Miami,Beauty & Personal Care,Organic Perfume,2,68.71,26.66,0.0,137.42,53.32,84.10,Credit Card,Delivered,4
+TXN-10352,2025-10-01,19:36,CUST-1321,Male,26-35,Miami,Groceries & Gourmet,Mixed Nuts Pack,2,19.50,11.72,0.0,39.00,23.44,15.56,Credit Card,Delivered,5
+TXN-10948,2025-10-01,20:15,CUST-1079,Female,18-25,New York,Electronics,Smart Watch,1,185.12,106.68,0.0,185.12,106.68,78.44,UPI / Digital Wallet,Delivered,5
+TXN-10185,2025-10-02,13:37,CUST-1080,Female,26-35,Houston,Books & Stationery,Hardcover Journal,4,15.76,5.98,0.0,63.04,23.92,39.12,UPI / Digital Wallet,Delivered,5
+TXN-10855,2025-10-03,10:52,CUST-1181,Male,18-25,New York,Books & Stationery,Productivity Planner,1,20.38,7.51,0.0,20.38,7.51,12.87,Cash,Delivered,4
+TXN-10534,2025-10-03,13:58,CUST-1322,Non-Binary,18-25,Los Angeles,Electronics,Laptop Stand,3,35.63,16.39,0.0,106.89,49.17,57.72,Credit Card,Delivered,5
+TXN-10140,2025-10-03,15:54,CUST-1095,Non-Binary,26-35,Seattle,Clothing & Apparel,Running Shoes,1,92.57,41.10,0.0,92.57,41.10,51.47,Credit Card,Delivered,5
+TXN-10575,2025-10-03,17:50,CUST-1300,Female,26-35,Chicago,Books & Stationery,Hardcover Journal,2,16.32,5.89,0.0,32.64,11.78,20.86,Credit Card,Delivered,5
+TXN-11009,2025-10-03,19:51,CUST-1093,Male,18-25,Houston,Clothing & Apparel,Cotton T-Shirt,2,25.82,8.50,15.0,43.89,17.00,26.89,UPI / Digital Wallet,Delivered,5
+TXN-10383,2025-10-04,12:24,CUST-1036,Female,26-35,San Francisco,Books & Stationery,Productivity Planner,5,19.39,7.52,0.0,96.95,37.60,59.35,Cash,Delivered,5
+TXN-10050,2025-10-04,15:05,CUST-1257,Non-Binary,36-50,Houston,Groceries & Gourmet,Organic Olive Oil,2,24.75,15.21,0.0,49.50,30.42,19.08,UPI / Digital Wallet,Delivered,1
+TXN-10419,2025-10-06,13:20,CUST-1086,Male,18-25,Miami,Books & Stationery,Calligraphy Pen Set,1,27.49,13.15,5.0,26.12,13.15,12.97,UPI / Digital Wallet,Delivered,4
+TXN-10022,2025-10-07,09:23,CUST-1077,Male,18-25,New York,Groceries & Gourmet,Green Tea Box,1,14.58,7.82,15.0,12.39,7.82,4.57,Credit Card,Delivered,5
+TXN-11182,2025-10-08,10:34,CUST-1220,Female,36-50,Austin,Beauty & Personal Care,Organic Perfume,2,69.87,25.29,0.0,139.74,50.58,89.16,Credit Card,Delivered,5
+TXN-10361,2025-10-08,11:30,CUST-1125,Male,26-35,Seattle,Beauty & Personal Care,Skincare Serum Set,2,44.43,16.30,10.0,79.97,32.60,47.37,UPI / Digital Wallet,Delivered,5
+TXN-10916,2025-10-08,20:33,CUST-1192,Female,26-35,Los Angeles,Books & Stationery,Productivity Planner,1,19.55,7.43,10.0,17.59,7.43,10.16,Credit Card,Delivered,4
+TXN-10346,2025-10-09,10:30,CUST-1219,Male,18-25,Houston,Clothing & Apparel,Denim Jacket,1,76.17,31.57,5.0,72.36,31.57,40.79,UPI / Digital Wallet,Delivered,5
+TXN-11010,2025-10-09,11:11,CUST-1171,Female,26-35,Los Angeles,Electronics,Bluetooth Speaker,1,59.95,32.65,10.0,53.95,32.65,21.30,Credit Card,Delivered,4
+TXN-10011,2025-10-09,12:33,CUST-1244,Female,36-50,San Francisco,Groceries & Gourmet,Mixed Nuts Pack,2,20.74,12.31,5.0,39.41,24.62,14.79,Credit Card,Cancelled,5
+TXN-10582,2025-10-10,13:06,CUST-1145,Female,18-25,Seattle,Electronics,Smartphone,1,640.54,426.35,10.0,576.49,426.35,150.14,Credit Card,Delivered,5
+TXN-10695,2025-10-10,15:24,CUST-1010,Female,26-35,Miami,Beauty & Personal Care,Electric Toothbrush,1,59.66,27.88,0.0,59.66,27.88,31.78,Cash,Delivered,5
+TXN-10149,2025-10-10,15:40,CUST-1194,Male,51+,Los Angeles,Electronics,Laptop Stand,1,34.08,16.00,10.0,30.67,16.00,14.67,Credit Card,Cancelled,5
+TXN-11026,2025-10-10,17:33,CUST-1209,Female,26-35,Los Angeles,Electronics,Wireless Headphones,1,123.95,70.74,10.0,111.56,70.74,40.82,UPI / Digital Wallet,Delivered,5
+TXN-10368,2025-10-10,18:24,CUST-1218,Male,26-35,Houston,Home & Kitchen,Coffee Maker,2,82.86,48.30,10.0,149.15,96.60,52.55,Cash,Delivered,5
+TXN-10921,2025-10-10,18:54,CUST-1159,Male,26-35,New York,Beauty & Personal Care,Electric Toothbrush,2,60.55,27.32,5.0,115.04,54.64,60.40,UPI / Digital Wallet,Cancelled,5
+TXN-10312,2025-10-11,11:33,CUST-1307,Male,36-50,Seattle,Clothing & Apparel,Formal Shirt,1,39.35,17.74,0.0,39.35,17.74,21.61,UPI / Digital Wallet,Delivered,4
+TXN-10675,2025-10-11,12:19,CUST-1214,Female,26-35,Seattle,Electronics,Smart Watch,1,180.96,105.81,0.0,180.96,105.81,75.15,UPI / Digital Wallet,Delivered,5
+TXN-10045,2025-10-11,13:08,CUST-1028,Female,18-25,Miami,Books & Stationery,Productivity Planner,1,19.36,7.28,0.0,19.36,7.28,12.08,Cash,Cancelled,5
+TXN-10730,2025-10-11,17:00,CUST-1111,Female,26-35,New York,Electronics,Wireless Headphones,1,122.45,72.11,10.0,110.20,72.11,38.09,Credit Card,Delivered,5
+TXN-10549,2025-10-11,17:16,CUST-1079,Female,26-35,Miami,Beauty & Personal Care,Organic Perfume,2,68.91,25.66,0.0,137.82,51.32,86.50,Credit Card,Delivered,5
+TXN-10189,2025-10-11,18:45,CUST-1019,Male,18-25,Los Angeles,Books & Stationery,Productivity Planner,3,19.56,7.39,0.0,58.68,22.17,36.51,UPI / Digital Wallet,Delivered,5
+TXN-10263,2025-10-11,19:09,CUST-1006,Female,36-50,San Francisco,Electronics,Wireless Headphones,1,115.25,72.42,15.0,97.96,72.42,25.54,UPI / Digital Wallet,Delivered,5
+TXN-10281,2025-10-12,15:19,CUST-1287,Male,26-35,Los Angeles,Groceries & Gourmet,Premium Dark Chocolate,1,12.26,6.46,15.0,10.42,6.46,3.96,UPI / Digital Wallet,Delivered,5
+TXN-10840,2025-10-12,16:36,CUST-1213,Male,36-50,Seattle,Clothing & Apparel,Formal Shirt,1,39.00,18.02,5.0,37.05,18.02,19.03,Cash,Delivered,5
+TXN-11187,2025-10-12,18:34,CUST-1289,Female,26-35,Seattle,Beauty & Personal Care,Hair Dryer,1,51.43,25.54,5.0,48.86,25.54,23.32,Credit Card,Delivered,5
+TXN-10458,2025-10-12,19:42,CUST-1078,Female,26-35,San Francisco,Books & Stationery,Productivity Planner,1,19.29,7.34,0.0,19.29,7.34,11.95,Credit Card,Cancelled,5
+TXN-10848,2025-10-13,10:23,CUST-1032,Female,51+,San Francisco,Electronics,Smartphone,1,624.09,432.23,0.0,624.09,432.23,191.86,UPI / Digital Wallet,Delivered,4
+TXN-10162,2025-10-13,16:36,CUST-1266,Female,18-25,Chicago,Clothing & Apparel,Formal Shirt,2,39.60,17.96,5.0,75.24,35.92,39.32,Credit Card,Returned,4
+TXN-10317,2025-10-13,18:26,CUST-1092,Male,18-25,Seattle,Books & Stationery,Hardcover Journal,2,16.34,6.03,10.0,29.41,12.06,17.35,Credit Card,Returned,5
+TXN-10139,2025-10-13,20:56,CUST-1032,Male,26-35,Seattle,Books & Stationery,Bestseller Fiction Book,1,22.22,10.95,20.0,17.78,10.95,6.83,Credit Card,Delivered,5
+TXN-10456,2025-10-14,10:11,CUST-1068,Male,26-35,Miami,Home & Kitchen,Coffee Maker,3,85.03,49.24,0.0,255.09,147.72,107.37,Credit Card,Delivered,5
+TXN-10325,2025-10-14,12:25,CUST-1247,Male,26-35,San Francisco,Books & Stationery,Bestseller Fiction Book,1,22.11,11.33,0.0,22.11,11.33,10.78,Cash,Delivered,5
+TXN-11068,2025-10-14,13:39,CUST-1198,Male,18-25,San Francisco,Home & Kitchen,Blender,1,51.09,27.64,0.0,51.09,27.64,23.45,UPI / Digital Wallet,Delivered,4
+TXN-10123,2025-10-14,20:50,CUST-1179,Male,51+,Seattle,Books & Stationery,Calligraphy Pen Set,1,27.52,13.06,15.0,23.39,13.06,10.33,Debit Card,Delivered,5
+TXN-11106,2025-10-15,08:12,CUST-1062,Male,36-50,San Francisco,Books & Stationery,Bestseller Fiction Book,3,22.19,10.77,15.0,56.58,32.31,24.27,Credit Card,Delivered,5
+TXN-10873,2025-10-15,11:56,CUST-1052,Male,26-35,Austin,Clothing & Apparel,Cotton T-Shirt,2,24.83,8.52,0.0,49.66,17.04,32.62,Debit Card,Delivered,3
+TXN-10169,2025-10-15,15:31,CUST-1197,Male,18-25,New York,Beauty & Personal Care,Organic Perfume,1,69.53,26.53,0.0,69.53,26.53,43.00,Credit Card,Delivered,5
+TXN-10077,2025-10-15,16:42,CUST-1301,Non-Binary,26-35,New York,Electronics,Bluetooth Speaker,2,59.30,32.32,15.0,100.81,64.64,36.17,Credit Card,Delivered,5
+TXN-10736,2025-10-15,18:34,CUST-1108,Male,26-35,Los Angeles,Beauty & Personal Care,Hair Dryer,1,51.84,24.60,0.0,51.84,24.60,27.24,Credit Card,Delivered,4
+TXN-10213,2025-10-16,10:48,CUST-1138,Male,36-50,Houston,Books & Stationery,Hardcover Journal,1,15.47,5.94,20.0,12.38,5.94,6.44,Debit Card,Returned,4
+TXN-10798,2025-10-16,14:26,CUST-1218,Male,18-25,Austin,Electronics,Bluetooth Speaker,2,57.87,31.82,0.0,115.74,63.64,52.10,UPI / Digital Wallet,Delivered,5
+TXN-10929,2025-10-17,12:40,CUST-1038,Male,36-50,New York,Beauty & Personal Care,Hair Dryer,1,51.75,25.49,10.0,46.58,25.49,21.09,Credit Card,Delivered,5
+TXN-11157,2025-10-17,16:10,CUST-1291,Female,51+,Los Angeles,Beauty & Personal Care,Moisturizer Cream,1,21.93,7.77,0.0,21.93,7.77,14.16,UPI / Digital Wallet,Cancelled,4
+TXN-10379,2025-10-17,18:11,CUST-1332,Male,26-35,Austin,Electronics,Laptop Stand,2,34.12,15.80,0.0,68.24,31.60,36.64,Credit Card,Delivered,5
+TXN-10677,2025-10-17,19:03,CUST-1279,Male,18-25,Austin,Beauty & Personal Care,Electric Toothbrush,3,59.53,27.17,15.0,151.80,81.51,70.29,Credit Card,Delivered,5
+TXN-11150,2025-10-18,12:11,CUST-1081,Female,36-50,Chicago,Groceries & Gourmet,Green Tea Box,2,15.51,8.10,0.0,31.02,16.20,14.82,Credit Card,Delivered,5
+TXN-10875,2025-10-18,13:21,CUST-1344,Female,51+,Chicago,Electronics,Smart Watch,1,173.79,102.70,0.0,173.79,102.70,71.09,Cash,Delivered,4
+TXN-10369,2025-10-18,15:23,CUST-1020,Female,18-25,San Francisco,Electronics,Gaming Mouse,1,44.93,22.25,10.0,40.44,22.25,18.19,Debit Card,Delivered,5
+TXN-10203,2025-10-18,16:36,CUST-1181,Female,26-35,Houston,Clothing & Apparel,Formal Shirt,1,40.13,17.65,0.0,40.13,17.65,22.48,Credit Card,Delivered,4
+TXN-10528,2025-10-18,17:38,CUST-1170,Female,18-25,Seattle,Groceries & Gourmet,Green Tea Box,1,15.44,8.23,0.0,15.44,8.23,7.21,UPI / Digital Wallet,Cancelled,5
+TXN-10905,2025-10-18,19:53,CUST-1118,Female,51+,Miami,Home & Kitchen,Coffee Maker,1,85.08,47.45,0.0,85.08,47.45,37.63,Credit Card,Delivered,5
+TXN-10974,2025-10-20,12:20,CUST-1312,Male,26-35,Houston,Groceries & Gourmet,Artisan Coffee Beans,2,17.93,9.88,0.0,35.86,19.76,16.10,Credit Card,Delivered,5
+TXN-11043,2025-10-20,13:59,CUST-1161,Male,26-35,San Francisco,Electronics,Smart Watch,1,184.94,106.75,0.0,184.94,106.75,78.19,Debit Card,Delivered,4
+TXN-11133,2025-10-20,15:19,CUST-1015,Male,26-35,Houston,Home & Kitchen,Coffee Maker,2,82.91,48.02,0.0,165.82,96.04,69.78,Debit Card,Returned,4
+TXN-10865,2025-10-20,17:18,CUST-1244,Non-Binary,26-35,Miami,Books & Stationery,Productivity Planner,2,19.92,7.61,5.0,37.85,15.22,22.63,UPI / Digital Wallet,Delivered,5
+TXN-11036,2025-10-21,12:01,CUST-1147,Male,26-35,Seattle,Books & Stationery,Productivity Planner,1,20.79,7.54,10.0,18.71,7.54,11.17,Credit Card,Delivered,4
+TXN-11090,2025-10-21,13:29,CUST-1294,Female,18-25,Los Angeles,Electronics,Smart Watch,1,184.83,102.88,10.0,166.35,102.88,63.47,UPI / Digital Wallet,Delivered,5
+TXN-11042,2025-10-21,14:26,CUST-1196,Male,36-50,Los Angeles,Books & Stationery,Hardcover Journal,2,16.54,5.90,10.0,29.77,11.80,17.97,Credit Card,Delivered,4
+TXN-10237,2025-10-21,17:09,CUST-1057,Non-Binary,26-35,Austin,Electronics,Gaming Mouse,3,43.47,22.30,5.0,123.89,66.90,56.99,UPI / Digital Wallet,Delivered,4
+TXN-10214,2025-10-21,19:30,CUST-1244,Female,36-50,Chicago,Home & Kitchen,Air Fryer,1,109.07,69.44,5.0,103.62,69.44,34.18,Credit Card,Delivered,3
+TXN-10286,2025-10-22,08:11,CUST-1207,Male,36-50,San Francisco,Beauty & Personal Care,Moisturizer Cream,1,21.31,7.79,15.0,18.11,7.79,10.32,UPI / Digital Wallet,Cancelled,4
+TXN-10109,2025-10-22,10:20,CUST-1210,Male,18-25,Chicago,Books & Stationery,Hardcover Journal,1,15.94,6.06,15.0,13.55,6.06,7.49,UPI / Digital Wallet,Delivered,4
+TXN-10030,2025-10-22,12:44,CUST-1323,Male,18-25,Los Angeles,Beauty & Personal Care,Organic Perfume,2,69.44,25.45,15.0,118.05,50.90,67.15,Debit Card,Cancelled,5
+TXN-10202,2025-10-22,19:51,CUST-1113,Male,36-50,Miami,Beauty & Personal Care,Hair Dryer,1,51.74,25.74,0.0,51.74,25.74,26.00,Cash,Delivered,4
+TXN-10654,2025-10-23,09:01,CUST-1122,Female,18-25,New York,Books & Stationery,Hardcover Journal,3,16.53,5.92,0.0,49.59,17.76,31.83,UPI / Digital Wallet,Returned,4
+TXN-11016,2025-10-23,14:02,CUST-1088,Male,36-50,Austin,Groceries & Gourmet,Organic Olive Oil,1,24.24,14.60,0.0,24.24,14.60,9.64,Credit Card,Delivered,5
+TXN-10493,2025-10-23,18:36,CUST-1278,Non-Binary,26-35,Chicago,Groceries & Gourmet,Artisan Coffee Beans,1,18.36,10.00,5.0,17.44,10.00,7.44,Credit Card,Cancelled,5
+TXN-10065,2025-10-24,14:08,CUST-1018,Male,51+,Miami,Electronics,Smart Watch,1,177.50,104.47,10.0,159.75,104.47,55.28,Debit Card,Delivered,4
+TXN-10472,2025-10-24,16:35,CUST-1254,Female,18-25,Austin,Home & Kitchen,Air Fryer,2,109.89,67.94,5.0,208.79,135.88,72.91,Credit Card,Delivered,5
+TXN-11121,2025-10-24,18:52,CUST-1183,Female,26-35,Houston,Books & Stationery,Productivity Planner,1,19.64,7.52,20.0,15.71,7.52,8.19,UPI / Digital Wallet,Delivered,5
+TXN-10645,2025-10-24,19:07,CUST-1327,Female,26-35,Los Angeles,Beauty & Personal Care,Moisturizer Cream,1,21.34,7.83,0.0,21.34,7.83,13.51,Debit Card,Returned,5
+TXN-10417,2025-10-25,15:27,CUST-1186,Male,18-25,New York,Home & Kitchen,Blender,1,51.90,28.53,10.0,46.71,28.53,18.18,Credit Card,Delivered,5
+TXN-10667,2025-10-26,08:55,CUST-1243,Male,18-25,Houston,Clothing & Apparel,Formal Shirt,2,38.75,18.34,20.0,62.00,36.68,25.32,Credit Card,Delivered,5
+TXN-10007,2025-10-26,14:14,CUST-1220,Male,26-35,Chicago,Clothing & Apparel,Hoodie,3,54.97,24.37,0.0,164.91,73.11,91.80,Credit Card,Returned,5
+TXN-11073,2025-10-26,15:50,CUST-1167,Female,51+,Miami,Beauty & Personal Care,Moisturizer Cream,1,21.90,7.90,0.0,21.90,7.90,14.00,Debit Card,Delivered,5
+TXN-10133,2025-10-26,15:57,CUST-1106,Male,36-50,New York,Groceries & Gourmet,Mixed Nuts Pack,1,20.49,11.97,0.0,20.49,11.97,8.52,Credit Card,Delivered,5
+TXN-10130,2025-10-26,17:00,CUST-1155,Male,51+,Seattle,Home & Kitchen,Stainless Steel Cookware Set,1,142.16,77.90,0.0,142.16,77.90,64.26,Debit Card,Delivered,5
+TXN-11012,2025-10-27,10:44,CUST-1327,Female,26-35,Miami,Clothing & Apparel,Formal Shirt,2,41.45,17.57,5.0,78.76,35.14,43.62,Cash,Delivered,4
+TXN-10460,2025-10-27,12:00,CUST-1340,Male,18-25,Los Angeles,Groceries & Gourmet,Green Tea Box,1,14.62,8.20,0.0,14.62,8.20,6.42,UPI / Digital Wallet,Delivered,5
+TXN-10741,2025-10-27,17:23,CUST-1219,Female,18-25,Chicago,Groceries & Gourmet,Mixed Nuts Pack,2,20.69,12.04,0.0,41.38,24.08,17.30,Credit Card,Delivered,5
+TXN-11029,2025-10-28,11:26,CUST-1014,Female,26-35,Chicago,Clothing & Apparel,Cotton T-Shirt,1,25.63,8.33,5.0,24.35,8.33,16.02,Credit Card,Returned,5
+TXN-10756,2025-10-28,13:36,CUST-1240,Female,26-35,New York,Beauty & Personal Care,Moisturizer Cream,1,22.71,7.91,0.0,22.71,7.91,14.80,Credit Card,Delivered,5
+TXN-10742,2025-10-28,17:24,CUST-1268,Female,18-25,Austin,Home & Kitchen,Ceramic Dinnerware Set,1,66.41,34.19,10.0,59.77,34.19,25.58,Credit Card,Delivered,5
+TXN-10526,2025-10-28,18:48,CUST-1265,Female,26-35,Seattle,Beauty & Personal Care,Organic Perfume,3,69.11,25.35,0.0,207.33,76.05,131.28,UPI / Digital Wallet,Delivered,5
+TXN-11123,2025-10-28,19:46,CUST-1058,Male,18-25,Houston,Clothing & Apparel,Running Shoes,2,91.16,43.23,0.0,182.32,86.46,95.86,Credit Card,Returned,4
+TXN-10445,2025-10-29,10:34,CUST-1131,Female,36-50,Chicago,Home & Kitchen,Air Fryer,2,108.39,67.69,20.0,173.42,135.38,38.04,Debit Card,Delivered,5
+TXN-11074,2025-10-29,14:23,CUST-1174,Non-Binary,36-50,Los Angeles,Home & Kitchen,Ceramic Dinnerware Set,1,63.90,34.00,5.0,60.70,34.00,26.70,Credit Card,Delivered,5
+TXN-10598,2025-10-29,15:23,CUST-1186,Female,51+,Los Angeles,Clothing & Apparel,Running Shoes,3,87.91,41.71,0.0,263.73,125.13,138.60,Debit Card,Delivered,5
+TXN-10434,2025-10-30,10:53,CUST-1015,Female,26-35,Seattle,Home & Kitchen,Stainless Steel Cookware Set,2,143.47,80.40,5.0,272.59,160.80,111.79,Credit Card,Delivered,5
+TXN-10566,2025-10-30,12:25,CUST-1309,Female,26-35,Houston,Electronics,Gaming Mouse,3,46.27,21.76,0.0,138.81,65.28,73.53,UPI / Digital Wallet,Delivered,4
+TXN-11156,2025-10-30,13:39,CUST-1315,Female,18-25,Seattle,Beauty & Personal Care,Skincare Serum Set,2,45.08,15.53,10.0,81.14,31.06,50.08,UPI / Digital Wallet,Returned,5
+TXN-10398,2025-10-30,20:58,CUST-1114,Female,26-35,New York,Groceries & Gourmet,Organic Olive Oil,5,23.84,14.59,10.0,107.28,72.95,34.33,Debit Card,Delivered,5
+TXN-10574,2025-10-31,12:30,CUST-1049,Female,36-50,Chicago,Books & Stationery,Productivity Planner,1,19.68,7.33,10.0,17.71,7.33,10.38,Credit Card,Cancelled,5
+TXN-10884,2025-10-31,13:26,CUST-1326,Male,51+,New York,Groceries & Gourmet,Premium Dark Chocolate,1,11.73,6.40,0.0,11.73,6.40,5.33,Credit Card,Delivered,5
+TXN-11007,2025-11-01,16:36,CUST-1081,Male,51+,San Francisco,Clothing & Apparel,Formal Shirt,2,39.76,18.12,0.0,79.52,36.24,43.28,Debit Card,Delivered,5
+TXN-10338,2025-11-01,16:41,CUST-1293,Female,26-35,Houston,Books & Stationery,Hardcover Journal,3,16.03,5.98,0.0,48.09,17.94,30.15,UPI / Digital Wallet,Returned,5
+TXN-10634,2025-11-02,12:46,CUST-1288,Female,36-50,Miami,Books & Stationery,Bestseller Fiction Book,4,21.69,11.32,10.0,78.08,45.28,32.80,Cash,Cancelled,4
+TXN-10725,2025-11-03,13:30,CUST-1201,Non-Binary,26-35,Seattle,Home & Kitchen,Air Fryer,3,107.53,69.89,10.0,290.33,209.67,80.66,UPI / Digital Wallet,Delivered,5
+TXN-10567,2025-11-03,13:32,CUST-1018,Female,36-50,Houston,Books & Stationery,Hardcover Journal,2,15.71,6.13,5.0,29.85,12.26,17.59,Credit Card,Delivered,5
+TXN-10912,2025-11-03,14:52,CUST-1046,Female,26-35,Chicago,Beauty & Personal Care,Moisturizer Cream,1,21.41,8.08,5.0,20.34,8.08,12.26,Credit Card,Returned,5
+TXN-10275,2025-11-03,21:40,CUST-1208,Male,18-25,Austin,Electronics,Laptop Stand,4,35.64,16.31,0.0,142.56,65.24,77.32,Debit Card,Delivered,4
+TXN-10641,2025-11-04,13:10,CUST-1266,Male,26-35,New York,Groceries & Gourmet,Mixed Nuts Pack,1,19.59,12.34,5.0,18.61,12.34,6.27,Credit Card,Returned,3
+TXN-10542,2025-11-04,13:40,CUST-1049,Non-Binary,36-50,Miami,Books & Stationery,Productivity Planner,2,20.28,7.71,0.0,40.56,15.42,25.14,Credit Card,Delivered,5
+TXN-10254,2025-11-05,12:46,CUST-1280,Female,26-35,Los Angeles,Clothing & Apparel,Running Shoes,1,89.63,43.22,20.0,71.70,43.22,28.48,UPI / Digital Wallet,Delivered,5
+TXN-11146,2025-11-05,16:28,CUST-1244,Female,26-35,Miami,Books & Stationery,Hardcover Journal,2,15.38,6.07,10.0,27.68,12.14,15.54,Credit Card,Cancelled,4
+TXN-10906,2025-11-05,18:58,CUST-1201,Female,18-25,Houston,Beauty & Personal Care,Organic Perfume,5,70.34,25.67,15.0,298.95,128.35,170.60,Credit Card,Delivered,5
+TXN-10489,2025-11-05,19:07,CUST-1061,Female,26-35,Miami,Electronics,Smart Watch,1,181.03,102.10,0.0,181.03,102.10,78.93,Debit Card,Delivered,4
+TXN-10842,2025-11-06,12:22,CUST-1054,Male,18-25,Austin,Books & Stationery,Bestseller Fiction Book,1,21.94,11.05,5.0,20.84,11.05,9.79,Cash,Delivered,5
+TXN-11037,2025-11-06,18:47,CUST-1329,Male,26-35,Seattle,Books & Stationery,Productivity Planner,1,19.34,7.51,10.0,17.41,7.51,9.90,Credit Card,Delivered,5
+TXN-10561,2025-11-07,12:09,CUST-1151,Female,36-50,Los Angeles,Groceries & Gourmet,Green Tea Box,1,15.34,8.10,0.0,15.34,8.10,7.24,UPI / Digital Wallet,Cancelled,5
+TXN-10494,2025-11-07,13:37,CUST-1274,Female,18-25,Miami,Electronics,Bluetooth Speaker,1,61.74,31.08,0.0,61.74,31.08,30.66,Cash,Delivered,5
+TXN-10685,2025-11-07,17:36,CUST-1242,Female,18-25,Seattle,Books & Stationery,Calligraphy Pen Set,4,27.17,12.86,0.0,108.68,51.44,57.24,UPI / Digital Wallet,Delivered,5
+TXN-10064,2025-11-07,18:53,CUST-1026,Male,51+,Chicago,Home & Kitchen,Coffee Maker,2,85.73,47.57,5.0,162.89,95.14,67.75,UPI / Digital Wallet,Delivered,4
+TXN-10966,2025-11-07,19:10,CUST-1237,Male,36-50,Miami,Books & Stationery,Hardcover Journal,1,16.00,5.90,0.0,16.00,5.90,10.10,Debit Card,Delivered,4
+TXN-11198,2025-11-08,10:10,CUST-1194,Female,26-35,San Francisco,Groceries & Gourmet,Green Tea Box,1,14.66,8.21,0.0,14.66,8.21,6.45,Credit Card,Delivered,4
+TXN-11192,2025-11-08,20:32,CUST-1193,Male,36-50,San Francisco,Groceries & Gourmet,Mixed Nuts Pack,1,20.64,12.22,20.0,16.51,12.22,4.29,Cash,Delivered,5
+TXN-10345,2025-11-09,17:44,CUST-1146,Female,26-35,New York,Groceries & Gourmet,Green Tea Box,1,15.34,7.85,5.0,14.57,7.85,6.72,Credit Card,Returned,4
+TXN-10693,2025-11-09,17:48,CUST-1289,Male,26-35,Los Angeles,Electronics,Smart Watch,2,186.93,107.83,5.0,355.17,215.66,139.51,Credit Card,Delivered,5
+TXN-10390,2025-11-10,14:10,CUST-1324,Female,36-50,San Francisco,Electronics,Bluetooth Speaker,4,57.99,31.05,10.0,208.76,124.20,84.56,Debit Card,Delivered,5
+TXN-11180,2025-11-10,17:48,CUST-1260,Non-Binary,26-35,Houston,Home & Kitchen,Air Fryer,2,106.23,67.18,0.0,212.46,134.36,78.10,UPI / Digital Wallet,Delivered,4
+TXN-10357,2025-11-10,19:34,CUST-1160,Female,26-35,New York,Beauty & Personal Care,Skincare Serum Set,2,43.67,15.97,0.0,87.34,31.94,55.40,UPI / Digital Wallet,Cancelled,5
+TXN-11132,2025-11-11,14:31,CUST-1286,Female,36-50,San Francisco,Beauty & Personal Care,Skincare Serum Set,1,44.38,15.94,10.0,39.94,15.94,24.00,UPI / Digital Wallet,Cancelled,5
+TXN-10087,2025-11-11,16:24,CUST-1047,Female,26-35,Houston,Beauty & Personal Care,Moisturizer Cream,3,22.10,8.14,0.0,66.30,24.42,41.88,Credit Card,Delivered,5
+TXN-10316,2025-11-12,13:02,CUST-1030,Male,26-35,Los Angeles,Books & Stationery,Hardcover Journal,1,16.43,5.85,5.0,15.61,5.85,9.76,Credit Card,Delivered,5
+TXN-10771,2025-11-12,15:54,CUST-1156,Female,36-50,Chicago,Clothing & Apparel,Denim Jacket,2,74.25,31.95,0.0,148.50,63.90,84.60,UPI / Digital Wallet,Delivered,5
+TXN-10028,2025-11-12,16:25,CUST-1090,Female,26-35,Miami,Groceries & Gourmet,Organic Olive Oil,2,23.62,14.74,5.0,44.88,29.48,15.40,Credit Card,Cancelled,4
+TXN-10266,2025-11-12,17:44,CUST-1169,Female,36-50,New York,Groceries & Gourmet,Artisan Coffee Beans,1,18.09,9.92,0.0,18.09,9.92,8.17,UPI / Digital Wallet,Returned,5
+TXN-11005,2025-11-13,11:07,CUST-1116,Female,18-25,Seattle,Books & Stationery,Bestseller Fiction Book,2,21.77,11.17,10.0,39.19,22.34,16.85,Cash,Cancelled,5
+TXN-10454,2025-11-13,15:15,CUST-1121,Non-Binary,26-35,Miami,Home & Kitchen,Ceramic Dinnerware Set,1,65.96,33.91,0.0,65.96,33.91,32.05,Credit Card,Returned,4
+TXN-10702,2025-11-15,14:27,CUST-1175,Male,51+,San Francisco,Books & Stationery,Hardcover Journal,4,16.39,6.02,15.0,55.73,24.08,31.65,UPI / Digital Wallet,Delivered,5
+TXN-10431,2025-11-16,11:04,CUST-1319,Male,36-50,San Francisco,Books & Stationery,Productivity Planner,2,20.47,7.37,0.0,40.94,14.74,26.20,UPI / Digital Wallet,Delivered,4
+TXN-10117,2025-11-16,17:07,CUST-1144,Female,26-35,Chicago,Clothing & Apparel,Denim Jacket,1,74.36,32.57,15.0,63.21,32.57,30.64,UPI / Digital Wallet,Delivered,5
+TXN-10276,2025-11-16,17:16,CUST-1094,Female,18-25,Chicago,Clothing & Apparel,Running Shoes,1,93.04,42.24,0.0,93.04,42.24,50.80,Debit Card,Returned,4
+TXN-10468,2025-11-16,18:21,CUST-1231,Female,18-25,Los Angeles,Clothing & Apparel,Cotton T-Shirt,2,24.37,8.63,15.0,41.43,17.26,24.17,Credit Card,Delivered,5
+TXN-10628,2025-11-16,20:23,CUST-1263,Male,26-35,New York,Electronics,Laptop Stand,3,34.76,15.95,20.0,83.42,47.85,35.57,UPI / Digital Wallet,Delivered,5
+TXN-10304,2025-11-17,12:48,CUST-1217,Female,26-35,Los Angeles,Groceries & Gourmet,Premium Dark Chocolate,3,11.79,6.59,0.0,35.37,19.77,15.60,UPI / Digital Wallet,Cancelled,5
+TXN-10670,2025-11-17,17:57,CUST-1141,Male,26-35,Seattle,Beauty & Personal Care,Moisturizer Cream,1,21.43,8.20,0.0,21.43,8.20,13.23,Credit Card,Delivered,4
+TXN-11048,2025-11-17,18:59,CUST-1252,Female,51+,San Francisco,Beauty & Personal Care,Skincare Serum Set,4,46.74,16.06,0.0,186.96,64.24,122.72,UPI / Digital Wallet,Delivered,5
+TXN-11004,2025-11-18,16:42,CUST-1050,Male,18-25,Houston,Home & Kitchen,Coffee Maker,2,82.77,47.01,10.0,148.99,94.02,54.97,Credit Card,Delivered,5
+TXN-10716,2025-11-19,15:53,CUST-1210,Female,18-25,Los Angeles,Beauty & Personal Care,Hair Dryer,2,51.03,25.30,10.0,91.85,50.60,41.25,UPI / Digital Wallet,Cancelled,5
+TXN-10819,2025-11-20,10:12,CUST-1198,Female,26-35,Miami,Clothing & Apparel,Denim Jacket,2,72.86,31.11,0.0,145.72,62.22,83.50,Debit Card,Delivered,5
+TXN-10100,2025-11-20,12:08,CUST-1246,Male,26-35,Houston,Electronics,Laptop Stand,1,35.77,15.96,0.0,35.77,15.96,19.81,Credit Card,Returned,2
+TXN-10604,2025-11-20,16:23,CUST-1178,Female,18-25,San Francisco,Home & Kitchen,Air Fryer,1,113.93,69.57,0.0,113.93,69.57,44.36,Debit Card,Delivered,5
+TXN-10552,2025-11-20,17:01,CUST-1186,Female,36-50,Chicago,Books & Stationery,Bestseller Fiction Book,2,21.58,10.97,0.0,43.16,21.94,21.22,UPI / Digital Wallet,Returned,5
+TXN-10089,2025-11-20,17:04,CUST-1027,Female,26-35,Chicago,Home & Kitchen,Air Fryer,1,110.51,67.54,15.0,93.93,67.54,26.39,Credit Card,Delivered,5
+TXN-10060,2025-11-20,17:18,CUST-1121,Female,26-35,Austin,Clothing & Apparel,Denim Jacket,2,74.60,31.23,15.0,126.82,62.46,64.36,Credit Card,Delivered,4
+TXN-11092,2025-11-21,11:09,CUST-1025,Female,36-50,Seattle,Electronics,Smartphone,4,632.19,429.24,20.0,2023.01,1716.96,306.05,Credit Card,Delivered,5
+TXN-10309,2025-11-21,14:00,CUST-1121,Male,18-25,Austin,Clothing & Apparel,Running Shoes,1,90.61,41.74,20.0,72.49,41.74,30.75,Debit Card,Delivered,5
+TXN-10849,2025-11-22,16:11,CUST-1097,Male,36-50,Miami,Groceries & Gourmet,Artisan Coffee Beans,2,18.69,9.76,0.0,37.38,19.52,17.86,UPI / Digital Wallet,Delivered,5
+TXN-10538,2025-11-22,18:41,CUST-1025,Male,51+,Seattle,Books & Stationery,Hardcover Journal,1,15.86,5.93,0.0,15.86,5.93,9.93,Credit Card,Delivered,5
+TXN-10787,2025-11-23,12:54,CUST-1132,Female,51+,Seattle,Clothing & Apparel,Hoodie,1,54.13,24.12,10.0,48.72,24.12,24.60,Cash,Delivered,5
+TXN-10032,2025-11-23,13:49,CUST-1127,Female,36-50,San Francisco,Groceries & Gourmet,Mixed Nuts Pack,1,20.20,11.84,0.0,20.20,11.84,8.36,Credit Card,Delivered,5
+TXN-10376,2025-11-23,13:54,CUST-1273,Female,26-35,Los Angeles,Beauty & Personal Care,Moisturizer Cream,1,22.74,8.17,0.0,22.74,8.17,14.57,UPI / Digital Wallet,Delivered,4
+TXN-10512,2025-11-23,15:22,CUST-1065,Female,26-35,New York,Beauty & Personal Care,Organic Perfume,1,71.26,25.91,10.0,64.13,25.91,38.22,UPI / Digital Wallet,Delivered,5
+TXN-10705,2025-11-23,19:13,CUST-1246,Female,26-35,Los Angeles,Beauty & Personal Care,Skincare Serum Set,3,45.29,15.60,5.0,129.08,46.80,82.28,Debit Card,Delivered,4
+TXN-10669,2025-11-24,09:26,CUST-1266,Female,36-50,Seattle,Clothing & Apparel,Cotton T-Shirt,2,24.71,8.26,5.0,46.95,16.52,30.43,Credit Card,Returned,5
+TXN-10836,2025-11-24,12:24,CUST-1255,Male,51+,Miami,Clothing & Apparel,Running Shoes,1,92.56,41.96,0.0,92.56,41.96,50.60,Credit Card,Delivered,5
+TXN-10165,2025-11-24,17:25,CUST-1096,Female,36-50,Houston,Electronics,Laptop Stand,2,35.32,15.71,0.0,70.64,31.42,39.22,Debit Card,Delivered,5
+TXN-10679,2025-11-24,19:19,CUST-1346,Female,18-25,Houston,Books & Stationery,Calligraphy Pen Set,3,28.49,13.34,5.0,81.20,40.02,41.18,UPI / Digital Wallet,Delivered,5
+TXN-11153,2025-11-25,11:20,CUST-1282,Female,36-50,New York,Home & Kitchen,Blender,3,51.47,28.15,10.0,138.97,84.45,54.52,Cash,Cancelled,4
+TXN-10145,2025-11-25,17:29,CUST-1251,Male,36-50,New York,Clothing & Apparel,Running Shoes,1,87.62,42.56,15.0,74.48,42.56,31.92,Credit Card,Delivered,4
+TXN-10832,2025-11-26,20:36,CUST-1303,Male,36-50,Seattle,Electronics,Wireless Headphones,2,124.48,70.87,10.0,224.06,141.74,82.32,Credit Card,Cancelled,4
+TXN-11161,2025-11-27,16:17,CUST-1345,Female,51+,Chicago,Electronics,Gaming Mouse,1,45.77,21.87,0.0,45.77,21.87,23.90,Credit Card,Delivered,5
+TXN-11142,2025-11-27,17:47,CUST-1151,Male,36-50,Chicago,Clothing & Apparel,Formal Shirt,3,38.94,17.67,5.0,110.98,53.01,57.97,Credit Card,Delivered,5
+TXN-10141,2025-11-28,10:28,CUST-1170,Male,18-25,New York,Home & Kitchen,Air Fryer,1,110.31,69.34,0.0,110.31,69.34,40.97,Debit Card,Delivered,5
+TXN-10068,2025-11-28,10:52,CUST-1114,Female,18-25,Austin,Beauty & Personal Care,Hair Dryer,1,50.60,24.43,0.0,50.60,24.43,26.17,UPI / Digital Wallet,Returned,5
+TXN-10223,2025-11-28,12:51,CUST-1068,Female,26-35,San Francisco,Electronics,Smartphone,1,637.12,427.69,20.0,509.70,427.69,82.01,Credit Card,Delivered,5
+TXN-10747,2025-11-28,13:30,CUST-1018,Male,51+,New York,Beauty & Personal Care,Skincare Serum Set,1,46.78,16.20,0.0,46.78,16.20,30.58,Cash,Cancelled,5
+TXN-10473,2025-11-28,14:30,CUST-1138,Female,18-25,Chicago,Electronics,Bluetooth Speaker,1,60.59,32.28,0.0,60.59,32.28,28.31,Credit Card,Delivered,5
+TXN-10991,2025-11-28,16:00,CUST-1131,Non-Binary,18-25,Los Angeles,Electronics,Bluetooth Speaker,2,60.44,32.47,5.0,114.84,64.94,49.90,UPI / Digital Wallet,Delivered,1
+TXN-10545,2025-11-28,18:48,CUST-1213,Male,36-50,Houston,Electronics,Smartphone,1,668.04,415.75,5.0,634.64,415.75,218.89,Credit Card,Returned,5
+TXN-10748,2025-11-28,18:51,CUST-1243,Male,18-25,Chicago,Electronics,Wireless Headphones,2,118.75,72.49,10.0,213.75,144.98,68.77,Credit Card,Delivered,5
+TXN-10783,2025-11-28,22:45,CUST-1311,Female,36-50,New York,Electronics,Bluetooth Speaker,1,59.91,32.43,0.0,59.91,32.43,27.48,UPI / Digital Wallet,Cancelled,5
+TXN-10843,2025-11-29,10:22,CUST-1287,Male,36-50,San Francisco,Beauty & Personal Care,Electric Toothbrush,4,57.91,27.76,0.0,231.64,111.04,120.60,UPI / Digital Wallet,Cancelled,5
+TXN-10789,2025-11-29,12:31,CUST-1062,Male,26-35,Houston,Beauty & Personal Care,Moisturizer Cream,3,22.73,8.20,10.0,61.37,24.60,36.77,Credit Card,Delivered,4
+TXN-10278,2025-11-29,14:26,CUST-1348,Female,36-50,Seattle,Home & Kitchen,Air Fryer,4,111.74,67.71,0.0,446.96,270.84,176.12,Cash,Delivered,5
+TXN-10296,2025-11-29,16:49,CUST-1333,Female,26-35,Los Angeles,Home & Kitchen,Stainless Steel Cookware Set,2,138.04,80.05,0.0,276.08,160.10,115.98,UPI / Digital Wallet,Delivered,4
+TXN-10450,2025-11-29,18:54,CUST-1265,Female,26-35,San Francisco,Groceries & Gourmet,Mixed Nuts Pack,1,20.47,11.87,10.0,18.42,11.87,6.55,Credit Card,Delivered,5
+TXN-10846,2025-11-29,20:46,CUST-1016,Male,26-35,Seattle,Electronics,Smart Watch,2,174.08,107.81,15.0,295.94,215.62,80.32,UPI / Digital Wallet,Delivered,5
+TXN-10692,2025-12-01,09:21,CUST-1135,Male,36-50,Miami,Beauty & Personal Care,Hair Dryer,1,48.80,25.58,0.0,48.80,25.58,23.22,Debit Card,Delivered,5
+TXN-10576,2025-12-01,12:35,CUST-1106,Female,51+,Chicago,Home & Kitchen,Air Fryer,1,106.34,66.47,20.0,85.07,66.47,18.60,Credit Card,Delivered,5
+TXN-10382,2025-12-01,17:59,CUST-1077,Female,51+,New York,Electronics,Laptop Stand,1,34.69,15.67,0.0,34.69,15.67,19.02,UPI / Digital Wallet,Returned,5
+TXN-10613,2025-12-02,11:09,CUST-1077,Male,26-35,Seattle,Beauty & Personal Care,Organic Perfume,1,71.24,26.45,0.0,71.24,26.45,44.79,Credit Card,Delivered,5
+TXN-10697,2025-12-02,19:18,CUST-1309,Female,36-50,Houston,Clothing & Apparel,Hoodie,2,54.55,24.23,0.0,109.10,48.46,60.64,Credit Card,Delivered,5
+TXN-10192,2025-12-03,14:47,CUST-1001,Non-Binary,18-25,New York,Books & Stationery,Calligraphy Pen Set,1,27.11,13.02,0.0,27.11,13.02,14.09,Credit Card,Delivered,4
+TXN-10161,2025-12-03,17:10,CUST-1128,Non-Binary,26-35,Miami,Books & Stationery,Hardcover Journal,2,16.08,6.05,20.0,25.73,12.10,13.63,Credit Card,Delivered,5
+TXN-10541,2025-12-03,18:41,CUST-1034,Non-Binary,18-25,Austin,Groceries & Gourmet,Premium Dark Chocolate,1,11.56,6.65,10.0,10.40,6.65,3.75,UPI / Digital Wallet,Delivered,5
+TXN-10053,2025-12-03,19:29,CUST-1001,Female,26-35,New York,Beauty & Personal Care,Skincare Serum Set,2,43.88,15.87,5.0,83.37,31.74,51.63,Cash,Cancelled,4
+TXN-10029,2025-12-04,10:32,CUST-1087,Female,18-25,Houston,Books & Stationery,Calligraphy Pen Set,1,27.09,13.35,0.0,27.09,13.35,13.74,Cash,Delivered,5
+TXN-10428,2025-12-04,17:07,CUST-1268,Female,51+,Chicago,Clothing & Apparel,Formal Shirt,1,39.68,18.10,15.0,33.73,18.10,15.63,Credit Card,Returned,5
+TXN-10182,2025-12-04,19:13,CUST-1014,Female,18-25,Houston,Groceries & Gourmet,Green Tea Box,1,15.01,8.12,0.0,15.01,8.12,6.89,UPI / Digital Wallet,Delivered,5
+TXN-10363,2025-12-05,10:13,CUST-1331,Female,26-35,Chicago,Clothing & Apparel,Hoodie,1,56.77,24.20,0.0,56.77,24.20,32.57,UPI / Digital Wallet,Cancelled,5
+TXN-10726,2025-12-05,11:44,CUST-1164,Male,18-25,Seattle,Beauty & Personal Care,Electric Toothbrush,3,61.31,27.97,0.0,183.93,83.91,100.02,Credit Card,Delivered,4
+TXN-11147,2025-12-05,12:34,CUST-1263,Male,36-50,Chicago,Books & Stationery,Productivity Planner,1,20.49,7.53,5.0,19.47,7.53,11.94,UPI / Digital Wallet,Delivered,1
+TXN-10374,2025-12-05,14:40,CUST-1122,Female,26-35,Los Angeles,Clothing & Apparel,Cotton T-Shirt,1,25.16,8.67,0.0,25.16,8.67,16.49,UPI / Digital Wallet,Cancelled,4
+TXN-10153,2025-12-05,14:49,CUST-1300,Male,26-35,Chicago,Groceries & Gourmet,Premium Dark Chocolate,1,12.29,6.58,0.0,12.29,6.58,5.71,Credit Card,Delivered,4
+TXN-10662,2025-12-05,16:22,CUST-1244,Female,18-25,Seattle,Home & Kitchen,Air Fryer,1,113.76,66.30,0.0,113.76,66.30,47.46,Credit Card,Delivered,5
+TXN-10016,2025-12-05,17:09,CUST-1285,Female,26-35,Miami,Clothing & Apparel,Running Shoes,2,87.97,40.89,0.0,175.94,81.78,94.16,UPI / Digital Wallet,Delivered,5
+TXN-10821,2025-12-06,11:54,CUST-1234,Female,51+,Chicago,Home & Kitchen,Ceramic Dinnerware Set,1,63.77,34.58,0.0,63.77,34.58,29.19,Debit Card,Delivered,5
+TXN-10370,2025-12-06,20:04,CUST-1323,Female,26-35,Austin,Books & Stationery,Calligraphy Pen Set,1,28.25,13.31,0.0,28.25,13.31,14.94,UPI / Digital Wallet,Returned,5
+TXN-10027,2025-12-07,20:39,CUST-1036,Male,26-35,Seattle,Home & Kitchen,Air Fryer,1,111.93,67.19,0.0,111.93,67.19,44.74,Credit Card,Returned,5
+TXN-11116,2025-12-08,11:53,CUST-1243,Male,26-35,Los Angeles,Clothing & Apparel,Cotton T-Shirt,2,24.76,8.29,0.0,49.52,16.58,32.94,UPI / Digital Wallet,Delivered,4
+TXN-10475,2025-12-08,15:11,CUST-1045,Female,26-35,San Francisco,Clothing & Apparel,Cotton T-Shirt,1,25.21,8.30,20.0,20.17,8.30,11.87,Cash,Delivered,4
+TXN-11089,2025-12-08,15:11,CUST-1191,Female,26-35,New York,Clothing & Apparel,Hoodie,3,54.54,23.37,10.0,147.26,70.11,77.15,Credit Card,Returned,5
+TXN-10612,2025-12-08,17:39,CUST-1077,Male,36-50,San Francisco,Home & Kitchen,Stainless Steel Cookware Set,1,144.20,78.90,0.0,144.20,78.90,65.30,Credit Card,Delivered,4
+TXN-10761,2025-12-09,14:29,CUST-1242,Female,26-35,Chicago,Books & Stationery,Bestseller Fiction Book,1,22.46,10.73,10.0,20.21,10.73,9.48,Credit Card,Returned,5
+TXN-10285,2025-12-09,14:37,CUST-1181,Female,36-50,Miami,Clothing & Apparel,Hoodie,3,52.87,24.29,5.0,150.68,72.87,77.81,Credit Card,Delivered,5
+TXN-10018,2025-12-09,17:15,CUST-1105,Female,26-35,Los Angeles,Home & Kitchen,Blender,1,48.52,28.24,15.0,41.24,28.24,13.00,UPI / Digital Wallet,Delivered,5
+TXN-10052,2025-12-10,11:10,CUST-1165,Female,26-35,New York,Home & Kitchen,Blender,4,50.77,27.64,10.0,182.77,110.56,72.21,Credit Card,Returned,4
+TXN-11117,2025-12-10,14:57,CUST-1308,Male,18-25,Austin,Groceries & Gourmet,Artisan Coffee Beans,2,17.95,10.15,20.0,28.72,20.30,8.42,Credit Card,Delivered,5
+TXN-10259,2025-12-10,16:13,CUST-1108,Male,51+,Seattle,Books & Stationery,Productivity Planner,3,20.54,7.37,15.0,52.38,22.11,30.27,UPI / Digital Wallet,Delivered,5
+TXN-10393,2025-12-10,20:03,CUST-1082,Female,36-50,Austin,Books & Stationery,Calligraphy Pen Set,1,27.52,12.95,10.0,24.77,12.95,11.82,Cash,Delivered,5
+TXN-10774,2025-12-11,14:25,CUST-1088,Female,36-50,Miami,Electronics,Laptop Stand,2,35.99,16.45,5.0,68.38,32.90,35.48,UPI / Digital Wallet,Delivered,5
+TXN-10958,2025-12-11,15:05,CUST-1085,Male,26-35,Austin,Books & Stationery,Productivity Planner,2,20.50,7.43,0.0,41.00,14.86,26.14,UPI / Digital Wallet,Delivered,5
+TXN-10635,2025-12-12,14:33,CUST-1059,Female,36-50,Los Angeles,Books & Stationery,Hardcover Journal,3,16.62,6.16,5.0,47.37,18.48,28.89,Credit Card,Delivered,5
+TXN-10713,2025-12-12,16:08,CUST-1209,Male,26-35,Chicago,Groceries & Gourmet,Premium Dark Chocolate,1,12.28,6.44,0.0,12.28,6.44,5.84,Debit Card,Delivered,4
+TXN-10476,2025-12-13,11:52,CUST-1183,Female,51+,Houston,Groceries & Gourmet,Organic Olive Oil,1,24.59,14.85,0.0,24.59,14.85,9.74,Debit Card,Delivered,4
+TXN-10465,2025-12-13,12:43,CUST-1238,Female,51+,Austin,Books & Stationery,Bestseller Fiction Book,2,22.76,11.02,0.0,45.52,22.04,23.48,UPI / Digital Wallet,Delivered,2
+TXN-10579,2025-12-13,14:44,CUST-1131,Male,26-35,Houston,Clothing & Apparel,Hoodie,1,53.70,24.19,5.0,51.02,24.19,26.83,UPI / Digital Wallet,Delivered,5
+TXN-10224,2025-12-13,15:39,CUST-1155,Male,26-35,Miami,Beauty & Personal Care,Moisturizer Cream,2,21.30,8.01,10.0,38.34,16.02,22.32,Credit Card,Delivered,5
+TXN-11101,2025-12-13,18:22,CUST-1303,Female,36-50,Los Angeles,Home & Kitchen,Stainless Steel Cookware Set,1,139.16,78.43,0.0,139.16,78.43,60.73,UPI / Digital Wallet,Delivered,5
+TXN-10950,2025-12-13,18:35,CUST-1251,Male,26-35,Seattle,Groceries & Gourmet,Mixed Nuts Pack,2,20.62,11.98,5.0,39.18,23.96,15.22,Credit Card,Cancelled,5
+TXN-10910,2025-12-14,14:02,CUST-1204,Male,51+,New York,Beauty & Personal Care,Organic Perfume,5,71.85,25.86,5.0,341.29,129.30,211.99,Debit Card,Delivered,4
+TXN-10674,2025-12-14,17:27,CUST-1128,Male,26-35,Seattle,Beauty & Personal Care,Skincare Serum Set,2,46.41,16.40,0.0,92.82,32.80,60.02,UPI / Digital Wallet,Delivered,5
+TXN-10404,2025-12-14,18:57,CUST-1273,Female,36-50,Los Angeles,Home & Kitchen,Blender,4,50.48,28.50,10.0,181.73,114.00,67.73,Credit Card,Returned,4
+TXN-11057,2025-12-14,19:23,CUST-1202,Male,26-35,Chicago,Electronics,Smart Watch,1,180.56,104.67,0.0,180.56,104.67,75.89,Debit Card,Delivered,5
+TXN-10886,2025-12-14,20:36,CUST-1311,Female,51+,Austin,Home & Kitchen,Stainless Steel Cookware Set,1,139.45,81.16,0.0,139.45,81.16,58.29,Credit Card,Delivered,5
+TXN-10918,2025-12-15,10:16,CUST-1096,Female,26-35,San Francisco,Beauty & Personal Care,Skincare Serum Set,1,44.72,15.86,5.0,42.48,15.86,26.62,Credit Card,Cancelled,5
+TXN-10824,2025-12-15,12:40,CUST-1052,Male,26-35,Seattle,Groceries & Gourmet,Artisan Coffee Beans,1,18.49,10.15,15.0,15.72,10.15,5.57,Cash,Returned,5
+TXN-10122,2025-12-15,17:44,CUST-1347,Male,36-50,San Francisco,Home & Kitchen,Ceramic Dinnerware Set,1,64.92,34.93,0.0,64.92,34.93,29.99,UPI / Digital Wallet,Cancelled,5
+TXN-10474,2025-12-17,13:38,CUST-1301,Male,36-50,Miami,Books & Stationery,Productivity Planner,2,19.41,7.41,20.0,31.06,14.82,16.24,Debit Card,Delivered,5
+TXN-10150,2025-12-17,20:57,CUST-1039,Male,36-50,Houston,Groceries & Gourmet,Green Tea Box,3,15.19,7.85,0.0,45.57,23.55,22.02,UPI / Digital Wallet,Returned,4
+TXN-10250,2025-12-18,13:43,CUST-1149,Male,26-35,Miami,Clothing & Apparel,Cotton T-Shirt,1,25.01,8.60,0.0,25.01,8.60,16.41,Cash,Returned,5
+TXN-10070,2025-12-18,14:57,CUST-1051,Female,18-25,Austin,Books & Stationery,Calligraphy Pen Set,4,27.02,12.83,15.0,91.87,51.32,40.55,UPI / Digital Wallet,Delivered,5
+TXN-10310,2025-12-18,16:59,CUST-1047,Female,26-35,Chicago,Books & Stationery,Hardcover Journal,2,15.44,6.05,10.0,27.79,12.10,15.69,UPI / Digital Wallet,Delivered,4
+TXN-10934,2025-12-19,13:43,CUST-1072,Female,36-50,Chicago,Books & Stationery,Calligraphy Pen Set,1,28.48,13.04,0.0,28.48,13.04,15.44,Credit Card,Delivered,5
+TXN-10172,2025-12-19,13:45,CUST-1302,Male,26-35,New York,Groceries & Gourmet,Mixed Nuts Pack,1,19.47,11.74,0.0,19.47,11.74,7.73,UPI / Digital Wallet,Delivered,5
+TXN-10218,2025-12-20,12:47,CUST-1170,Male,36-50,San Francisco,Beauty & Personal Care,Hair Dryer,3,51.59,24.28,0.0,154.77,72.84,81.93,UPI / Digital Wallet,Delivered,5
+TXN-10349,2025-12-20,13:50,CUST-1104,Female,36-50,Miami,Electronics,Smart Watch,2,177.12,105.31,0.0,354.24,210.62,143.62,UPI / Digital Wallet,Delivered,4
+TXN-10252,2025-12-20,18:13,CUST-1032,Male,26-35,Houston,Groceries & Gourmet,Organic Olive Oil,2,23.73,14.96,5.0,45.09,29.92,15.17,Credit Card,Delivered,5
+TXN-11191,2025-12-20,21:10,CUST-1238,Male,26-35,Miami,Books & Stationery,Hardcover Journal,2,15.85,6.01,10.0,28.53,12.02,16.51,Debit Card,Delivered,5
+TXN-10092,2025-12-21,18:51,CUST-1093,Male,36-50,San Francisco,Clothing & Apparel,Formal Shirt,2,38.54,17.85,20.0,61.66,35.70,25.96,Credit Card,Delivered,5
+TXN-10740,2025-12-22,11:29,CUST-1103,Female,18-25,Houston,Home & Kitchen,Air Fryer,1,106.14,67.87,0.0,106.14,67.87,38.27,Credit Card,Delivered,4
+TXN-10900,2025-12-22,11:52,CUST-1203,Female,36-50,Houston,Electronics,Smartphone,3,647.32,410.30,0.0,1941.96,1230.90,711.06,Credit Card,Delivered,5
+TXN-10407,2025-12-23,15:35,CUST-1341,Female,26-35,San Francisco,Beauty & Personal Care,Organic Perfume,2,68.90,25.43,0.0,137.80,50.86,86.94,Credit Card,Delivered,5
+TXN-10096,2025-12-23,18:48,CUST-1242,Male,36-50,Chicago,Books & Stationery,Productivity Planner,1,19.92,7.28,0.0,19.92,7.28,12.64,UPI / Digital Wallet,Delivered,4
+TXN-10069,2025-12-23,20:26,CUST-1344,Female,26-35,San Francisco,Groceries & Gourmet,Artisan Coffee Beans,3,18.55,10.09,5.0,52.87,30.27,22.60,Credit Card,Delivered,4
+TXN-10470,2025-12-23,21:54,CUST-1009,Female,36-50,Houston,Electronics,Smartphone,1,649.02,411.06,10.0,584.12,411.06,173.06,Credit Card,Returned,5
+TXN-10301,2025-12-24,16:37,CUST-1070,Male,26-35,San Francisco,Groceries & Gourmet,Mixed Nuts Pack,2,20.21,12.10,5.0,38.40,24.20,14.20,Credit Card,Delivered,5
+TXN-10090,2025-12-24,17:08,CUST-1336,Male,26-35,Los Angeles,Groceries & Gourmet,Organic Olive Oil,2,23.63,14.89,10.0,42.53,29.78,12.75,Credit Card,Delivered,5
+TXN-11176,2025-12-24,20:43,CUST-1138,Male,18-25,Miami,Clothing & Apparel,Denim Jacket,1,77.36,32.32,15.0,65.76,32.32,33.44,Credit Card,Returned,4
+TXN-10482,2025-12-25,16:19,CUST-1349,Male,26-35,Chicago,Books & Stationery,Calligraphy Pen Set,1,28.92,12.62,5.0,27.47,12.62,14.85,Credit Card,Cancelled,5
+TXN-10194,2025-12-25,18:20,CUST-1202,Female,18-25,Los Angeles,Home & Kitchen,Blender,1,49.09,27.29,10.0,44.18,27.29,16.89,UPI / Digital Wallet,Returned,5
+TXN-10924,2025-12-25,20:07,CUST-1228,Female,36-50,Austin,Electronics,Smartphone,4,631.24,426.06,5.0,2398.71,1704.24,694.47,Credit Card,Delivered,5
+TXN-10403,2025-12-26,12:47,CUST-1298,Female,26-35,Los Angeles,Clothing & Apparel,Running Shoes,2,88.94,41.41,0.0,177.88,82.82,95.06,UPI / Digital Wallet,Delivered,5
+TXN-10927,2025-12-26,14:23,CUST-1069,Female,36-50,New York,Electronics,Gaming Mouse,2,46.04,21.49,5.0,87.48,42.98,44.50,Credit Card,Delivered,4
+TXN-10002,2025-12-26,16:14,CUST-1333,Female,18-25,Seattle,Beauty & Personal Care,Moisturizer Cream,2,21.61,8.18,0.0,43.22,16.36,26.86,Cash,Delivered,5
+TXN-10033,2025-12-28,12:26,CUST-1079,Male,36-50,New York,Beauty & Personal Care,Hair Dryer,1,50.17,24.87,0.0,50.17,24.87,25.30,Credit Card,Delivered,4
+TXN-10347,2025-12-28,13:38,CUST-1310,Female,26-35,Austin,Home & Kitchen,Stainless Steel Cookware Set,1,140.28,82.38,0.0,140.28,82.38,57.90,UPI / Digital Wallet,Delivered,4
+TXN-10167,2025-12-28,18:58,CUST-1345,Female,18-25,Chicago,Groceries & Gourmet,Green Tea Box,1,14.50,7.82,0.0,14.50,7.82,6.68,Credit Card,Delivered,5
+TXN-10040,2025-12-29,11:11,CUST-1236,Female,18-25,San Francisco,Books & Stationery,Calligraphy Pen Set,2,28.26,13.33,0.0,56.52,26.66,29.86,Cash,Delivered,4
+TXN-10348,2025-12-29,13:12,CUST-1120,Female,26-35,Seattle,Electronics,Wireless Headphones,1,115.43,72.54,10.0,103.89,72.54,31.35,UPI / Digital Wallet,Delivered,5
+TXN-10749,2025-12-30,10:06,CUST-1327,Male,18-25,Miami,Groceries & Gourmet,Premium Dark Chocolate,2,12.46,6.38,0.0,24.92,12.76,12.16,Cash,Delivered,5
+TXN-10459,2025-12-30,16:29,CUST-1183,Female,18-25,San Francisco,Beauty & Personal Care,Skincare Serum Set,1,46.25,16.35,0.0,46.25,16.35,29.90,UPI / Digital Wallet,Delivered,5
+TXN-10659,2025-12-31,10:35,CUST-1152,Female,26-35,Houston,Clothing & Apparel,Cotton T-Shirt,1,25.39,8.28,0.0,25.39,8.28,17.11,UPI / Digital Wallet,Delivered,5
+TXN-10362,2025-12-31,16:31,CUST-1040,Male,18-25,San Francisco,Electronics,Gaming Mouse,1,45.35,21.77,0.0,45.35,21.77,23.58,Credit Card,Returned,5
+TXN-11112,2025-12-31,18:16,CUST-1035,Female,36-50,New York,Clothing & Apparel,Formal Shirt,1,41.11,18.49,0.0,41.11,18.49,22.62,UPI / Digital Wallet,Delivered,5
+TXN-11201,2026-11-02,10:01,CUST-1076,Female,36-50,New York,Books & Stationery,Bestseller Fiction Book,1,22.00,11.00,10.0,19.80,11.00,8.80,UPI / Digital Wallet,Delivered,5

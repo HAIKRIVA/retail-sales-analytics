@@ -46,5 +46,29 @@
     "discount_pct": 5.0,
     "target_revenue": 9000.0,
     "is_active": true
+  },
+  "Furniture": {
+    "display_name": "Furniture",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 12500000.0,
+    "is_active": true
+  },
+  "Office Supplies": {
+    "display_name": "Office Supplies",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 12500000.0,
+    "is_active": true
+  },
+  "Technology": {
+    "display_name": "Technology",
+    "price_markup_pct": 0.0,
+    "cost_markup_pct": 0.0,
+    "discount_pct": 5.0,
+    "target_revenue": 12500000.0,
+    "is_active": true
   }
 }

@@ -18,7 +18,9 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = os.path.dirname(os.path.abspath(__file__))
 app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16 MB max upload
 
-DATA_FILE = os.path.join(app.config['UPLOAD_FOLDER'], "retail_sales_data.csv")
+DEFAULT_DATASET = "retail_sales_5000.csv" if os.path.exists(os.path.join(app.config['UPLOAD_FOLDER'], "retail_sales_5000.csv")) else "retail_sales_data.csv"
+CURRENT_DATASET = DEFAULT_DATASET
+DATA_FILE = os.path.join(app.config['UPLOAD_FOLDER'], CURRENT_DATASET)
 STATIC_DIR = os.path.join(app.config['UPLOAD_FOLDER'], "static")
 STATIC_IMG = os.path.join(STATIC_DIR, "retail_sales_dashboard.png")
 
@@ -28,17 +30,18 @@ os.makedirs(STATIC_DIR, exist_ok=True)
 analyzer = RetailSalesAnalyzer(DATA_FILE)
 
 # Ensure static dashboard image exists
-if not os.path.exists(STATIC_IMG):
-    if os.path.exists("retail_sales_dashboard.png"):
-        shutil.copy("retail_sales_dashboard.png", STATIC_IMG)
-    else:
-        create_dashboard(csv_path=DATA_FILE, output_image=STATIC_IMG, show_plot=False)
+try:
+    create_dashboard(csv_path=DATA_FILE, output_image=STATIC_IMG, show_plot=False)
+    if os.path.exists(STATIC_IMG):
+        shutil.copy(STATIC_IMG, "retail_sales_dashboard.png")
+except Exception as e:
+    print(f"Initial dashboard render note: {e}")
 
 def refresh_dashboard_image():
     """Regenerates the 300 DPI Matplotlib image reflecting current category config."""
     try:
         create_dashboard(csv_path=DATA_FILE, output_image=STATIC_IMG, show_plot=False)
-        if os.path.exists("retail_sales_dashboard.png"):
+        if os.path.exists(STATIC_IMG):
             shutil.copy(STATIC_IMG, "retail_sales_dashboard.png")
     except Exception as e:
         print(f"Error refreshing dashboard image: {e}")
@@ -46,6 +49,39 @@ def refresh_dashboard_image():
 @app.route("/")
 def index():
     return render_template("index.html")
+
+@app.route("/api/datasets", methods=["GET"])
+def get_datasets():
+    datasets = []
+    f5000 = os.path.join(app.config['UPLOAD_FOLDER'], "retail_sales_5000.csv")
+    fdata = os.path.join(app.config['UPLOAD_FOLDER'], "retail_sales_data.csv")
+    if os.path.exists(f5000):
+        datasets.append({
+            "id": "retail_sales_5000.csv",
+            "name": "retail_sales_5000.csv (5,000 Rows - Excel Repo Dataset)",
+            "active": CURRENT_DATASET == "retail_sales_5000.csv"
+        })
+    if os.path.exists(fdata):
+        datasets.append({
+            "id": "retail_sales_data.csv",
+            "name": "retail_sales_data.csv (1,201 Rows - Sample Dataset)",
+            "active": CURRENT_DATASET == "retail_sales_data.csv"
+        })
+    return jsonify({"current": CURRENT_DATASET, "datasets": datasets})
+
+@app.route("/api/dataset/switch", methods=["POST"])
+def switch_dataset():
+    global CURRENT_DATASET, DATA_FILE, analyzer
+    data = request.get_json(silent=True) or {}
+    target = data.get("dataset", "retail_sales_5000.csv")
+    target_path = os.path.join(app.config['UPLOAD_FOLDER'], target)
+    if os.path.exists(target_path):
+        CURRENT_DATASET = target
+        DATA_FILE = target_path
+        analyzer = RetailSalesAnalyzer(DATA_FILE)
+        refresh_dashboard_image()
+        return jsonify({"success": True, "dataset": CURRENT_DATASET, "records": len(analyzer.records)})
+    return jsonify({"success": False, "error": f"Dataset file '{target}' not found"}), 404
 
 @app.route("/api/metrics")
 def get_metrics():

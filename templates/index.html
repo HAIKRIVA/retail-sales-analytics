@@ -733,7 +733,15 @@
     <div class="header-actions">
       <div class="badge">
         <span class="badge-dot"></span>
-        <span id="record-count-badge">Loaded 1,200 Records</span>
+        <span id="record-count-badge">Loaded 5,000 Records</span>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 6px; background: rgba(56, 189, 248, 0.08); padding: 4px 8px; border-radius: 8px; border: 1px solid rgba(56, 189, 248, 0.25);">
+        <i class="fa-solid fa-database" style="color: var(--accent-cyan); font-size: 0.85rem;"></i>
+        <select id="dataset-select" class="filter-select" style="padding: 0.35rem 0.6rem; font-size: 0.78rem; font-weight: 600; border: none; background: transparent; color: var(--text); outline: none; cursor: pointer;" onchange="switchActiveDataset(this.value)">
+          <option value="retail_sales_5000.csv">🏬 retail_sales_5000.csv (Excel Repo - 5,000 Rows)</option>
+          <option value="retail_sales_data.csv">📊 retail_sales_data.csv (Sample Data - 1,201 Rows)</option>
+        </select>
       </div>
 
       <button class="btn btn-config" onclick="switchTab('tab-category-editor', document.getElementById('btn-tab-categories'))">
@@ -1207,7 +1215,85 @@
     Chart.defaults.plugins.tooltip.titleColor = '#F8FAFC';
     Chart.defaults.plugins.tooltip.bodyColor = '#CBD5E1';
 
-    async function fetchData() {
+    let filtersInitialized = false;
+
+    function updateDynamicFilters(categories, cities) {
+      const catSelect = document.getElementById('filter-category');
+      const currentCat = catSelect ? catSelect.value : 'All';
+      if (catSelect && categories && categories.length > 0) {
+        catSelect.innerHTML = '<option value="All">All Categories</option>';
+        categories.forEach(c => {
+          const opt = document.createElement('option');
+          opt.value = c;
+          opt.textContent = c;
+          catSelect.appendChild(opt);
+        });
+        if (categories.includes(currentCat)) {
+          catSelect.value = currentCat;
+        } else {
+          catSelect.value = 'All';
+        }
+      }
+
+      const citySelect = document.getElementById('filter-city');
+      const currentCity = citySelect ? citySelect.value : 'All';
+      if (citySelect && cities && cities.length > 0) {
+        citySelect.innerHTML = '<option value="All">All Regions / States</option>';
+        cities.forEach(c => {
+          const opt = document.createElement('option');
+          opt.value = c;
+          opt.textContent = c;
+          citySelect.appendChild(opt);
+        });
+        if (cities.includes(currentCity)) {
+          citySelect.value = currentCity;
+        } else {
+          citySelect.value = 'All';
+        }
+      }
+    }
+
+    async function loadDatasetList() {
+      try {
+        const res = await fetch('/api/datasets');
+        const data = await res.json();
+        const sel = document.getElementById('dataset-select');
+        if (sel && data.datasets) {
+          sel.innerHTML = '';
+          data.datasets.forEach(d => {
+            const opt = document.createElement('option');
+            opt.value = d.id;
+            opt.textContent = d.name;
+            if (d.active) opt.selected = true;
+            sel.appendChild(opt);
+          });
+        }
+      } catch (err) {
+        console.error("Error loading datasets:", err);
+      }
+    }
+
+    async function switchActiveDataset(datasetFile) {
+      try {
+        const res = await fetch('/api/dataset/switch', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({ dataset: datasetFile })
+        });
+        const data = await res.json();
+        if (data.success) {
+          filtersInitialized = false;
+          await fetchCategoryConfig();
+          await fetchData(true);
+        } else {
+          alert('Failed to switch dataset: ' + (data.error || 'Unknown error'));
+        }
+      } catch (err) {
+        alert('Error switching dataset: ' + err);
+      }
+    }
+
+    async function fetchData(forceUpdateFilters = false) {
       const cat = document.getElementById('filter-category').value;
       const city = document.getElementById('filter-city').value;
       const period = document.getElementById('filter-period').value;
@@ -1220,6 +1306,11 @@
         allTransactions = data.recent_transactions;
         renderTransactions(allTransactions);
         document.getElementById('record-count-badge').innerText = `Active ${data.kpis.total_transactions.toLocaleString()} Records`;
+
+        if (!filtersInitialized || forceUpdateFilters) {
+          updateDynamicFilters(data.categories ? data.categories.categories : [], data.cities ? data.cities.cities : []);
+          filtersInitialized = true;
+        }
       } catch (err) {
         console.error("Error fetching data:", err);
       }
@@ -1811,6 +1902,7 @@
     });
 
     // Initial load
+    loadDatasetList();
     fetchData();
     fetchCategoryConfig();
   </script>

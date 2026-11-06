@@ -50,6 +50,13 @@ An industry-grade Python Mini Project combining **CSV Data Processing**, **Matpl
 ### 5. Publication-Quality Matplotlib Dashboard (300 DPI)
 - Generated via `dashboard.py` using `GridSpec` layout with custom KPI metric cards.
 
+### 6. Excel Dashboard & Presentation Suite
+- Included in [`excel_dashboard_analysis/`](file:///c:/Users/HAIKRIVA%20RB/Downloads/python%20mini%20project/excel_dashboard_analysis):
+  - **Dynamic Excel Workbook (`Retail Sales Dashboard.xlsx`)**: Built with Power Query, Slicers, and Pivot Tables.
+  - **5,000-Row Production Dataset (`retail_sales_5000.csv`)**: Full multi-year sales transaction records across multiple categories and states.
+  - **Presentation Deck (`Retail Sales Dashboard.pptx`) & PDF (`Retail Sales Dashboard.pdf`)**: Complete executive presentation and deck.
+  - **Walkthrough Video (`Retail Sales Dashboard.mp4`)**: Demonstration walkthrough of dashboard capabilities.
+
 ---
 
 ## 🚀 How to Run

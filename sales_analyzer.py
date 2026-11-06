@@ -168,40 +168,78 @@ class RetailSalesAnalyzer:
             self.records.append(effective)
 
     def load_data(self):
-        """Reads CSV file and saves baseline raw records."""
+        """Reads CSV file and saves baseline raw records (supports standard retail CSV and 5000-row format)."""
         self.raw_records = []
         if not os.path.exists(self.csv_filepath):
             return 0
 
         with open(self.csv_filepath, mode="r", encoding="utf-8") as f:
             reader = csv.DictReader(f)
+            fieldnames = [c.strip() for c in (reader.fieldnames or [])]
+            is_5000_format = ("Order Date" in fieldnames or "Customer Name" in fieldnames) and ("Transaction_ID" not in fieldnames)
+
+            idx = 1
             for row in reader:
                 try:
-                    price = float(row.get("Price_Per_Unit", 0.0))
-                    qty = int(row.get("Quantity", 1))
-                    total = float(row.get("Total_Amount", price * qty))
-                    cost_unit = float(row.get("Cost_Per_Unit", price * 0.62))
-                    cost_total = float(row.get("Cost_Total", cost_unit * qty))
-                    net_profit = float(row.get("Net_Profit", total - cost_total))
-                    discount_pct = float(row.get("Discount_Pct", 0.0))
-                    order_status = row.get("Order_Status", "Delivered")
-                    rating = int(row.get("Rating", 5))
-                    time_str = row.get("Time", "12:00")
-                    date_obj = datetime.strptime(row["Date"], "%Y-%m-%d")
+                    if is_5000_format:
+                        date_str = row.get("Order Date", "").strip()
+                        date_obj = datetime.strptime(date_str, "%Y-%m-%d")
+                        customer_name = row.get("Customer Name", "Customer").strip()
+                        state = row.get("State", "Unknown").strip()
+                        category = row.get("Category", "General").strip()
+                        sub_category = row.get("Sub-Category", "").strip()
+                        prod_name = row.get("Product Name", sub_category or "Product").strip()
+                        total = float(row.get("Sales", 0.0))
+                        qty = max(1, int(float(row.get("Quantity", 1))))
+                        net_profit = float(row.get("Profit", 0.0))
+                        cost_total = total - net_profit
+                        price = round(total / qty, 2) if qty > 0 else total
+                        cost_unit = round(cost_total / qty, 2) if qty > 0 else cost_total
+                        discount_pct = 0.0
+                        order_status = "Delivered"
+                        rating = 5
+                        time_str = "12:00"
+                        txn_id = f"ORD-{idx:05d}"
+                        customer_id = customer_name
+                        gender = "All"
+                        age_group = "All"
+                        city = state
+                        payment_method = "Credit Card"
+                        idx += 1
+                    else:
+                        price = float(row.get("Price_Per_Unit", 0.0))
+                        qty = int(row.get("Quantity", 1))
+                        total = float(row.get("Total_Amount", price * qty))
+                        cost_unit = float(row.get("Cost_Per_Unit", price * 0.62))
+                        cost_total = float(row.get("Cost_Total", cost_unit * qty))
+                        net_profit = float(row.get("Net_Profit", total - cost_total))
+                        discount_pct = float(row.get("Discount_Pct", 0.0))
+                        order_status = row.get("Order_Status", "Delivered")
+                        rating = int(row.get("Rating", 5))
+                        time_str = row.get("Time", "12:00")
+                        date_obj = datetime.strptime(row["Date"], "%Y-%m-%d")
+                        txn_id = row["Transaction_ID"]
+                        customer_id = row["Customer_ID"]
+                        gender = row.get("Gender", "Unknown")
+                        age_group = row.get("Age_Group", "Unknown")
+                        city = row.get("City", "Unknown")
+                        category = row["Product_Category"]
+                        prod_name = row["Product_Name"]
+                        payment_method = row.get("Payment_Method", "Unknown")
 
                     record = {
-                        "Transaction_ID": row["Transaction_ID"],
+                        "Transaction_ID": txn_id,
                         "Date": date_obj,
-                        "Date_Str": row["Date"],
+                        "Date_Str": date_obj.strftime("%Y-%m-%d"),
                         "Time": time_str,
                         "Day_Of_Week": date_obj.strftime("%A"),
-                        "Customer_ID": row["Customer_ID"],
-                        "Gender": row.get("Gender", "Unknown"),
-                        "Age_Group": row.get("Age_Group", "Unknown"),
-                        "City": row.get("City", "Unknown"),
-                        "Base_Category": row["Product_Category"],
-                        "Product_Category": row["Product_Category"],
-                        "Product_Name": row["Product_Name"],
+                        "Customer_ID": customer_id,
+                        "Gender": gender,
+                        "Age_Group": age_group,
+                        "City": city,
+                        "Base_Category": category,
+                        "Product_Category": category,
+                        "Product_Name": prod_name,
                         "Quantity": qty,
                         "Base_Price_Per_Unit": price,
                         "Base_Cost_Per_Unit": cost_unit,
@@ -214,7 +252,7 @@ class RetailSalesAnalyzer:
                         "Total_Amount": total,
                         "Cost_Total": cost_total,
                         "Net_Profit": net_profit,
-                        "Payment_Method": row.get("Payment_Method", "Unknown"),
+                        "Payment_Method": payment_method,
                         "Order_Status": order_status,
                         "Rating": rating
                     }

@@ -25,7 +25,8 @@ def print_menu():
     print("  3. Filter Analysis by Category or City")
     print("  4. Export Summary Report to File")
     print("  5. Regenerate Retail Dataset (Custom Record Count)")
-    print("  6. Launch Interactive Web Dashboard (Flask on http://127.0.0.1:5000)")
+    print("  6. Switch Active Dataset (retail_sales_data.csv / retail_sales_5000.csv)")
+    print("  7. Launch Interactive Web Dashboard (Flask on http://127.0.0.1:5000)")
     print("  0. Exit")
     print("-" * 65)
 
@@ -113,6 +114,24 @@ def main():
             input("\nPress Enter to continue...")
 
         elif choice == "6":
+            print("\nAvailable datasets in directory:")
+            csvs = [f for f in os.listdir(".") if f.endswith(".csv")]
+            for idx, f in enumerate(csvs, 1):
+                print(f"  {idx}. {f} {'(CURRENT)' if f == csv_file else ''}")
+            sel = input(f"Select dataset number (1-{len(csvs)}) or enter filename: ").strip()
+            if sel.isdigit() and 1 <= int(sel) <= len(csvs):
+                csv_file = csvs[int(sel) - 1]
+                analyzer = RetailSalesAnalyzer(csv_file)
+                print(f"[SUCCESS] Switched active dataset to: {csv_file} ({len(analyzer.records):,} records)")
+            elif os.path.exists(sel):
+                csv_file = sel
+                analyzer = RetailSalesAnalyzer(csv_file)
+                print(f"[SUCCESS] Switched active dataset to: {csv_file} ({len(analyzer.records):,} records)")
+            else:
+                print("[WARNING] Invalid selection. Keeping current dataset.")
+            input("\nPress Enter to continue...")
+
+        elif choice == "7":
             import subprocess
             import webbrowser
             print("\n[INFO] Launching Flask Web Dashboard...")
